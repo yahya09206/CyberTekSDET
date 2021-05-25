@@ -6,5 +6,9 @@ public class OddOrEven {
 		boolean isOdd = number % 2 > 0;
 		System.out.println(isEven);
 		System.out.println(isOdd);
+
+		number = 300;
+		boolean isEvenlyDivisible = (number % 3 == 0);
+		System.out.println(number + " is evenly divisible by 3: " + isEvenlyDivisible);
 	}
 }
