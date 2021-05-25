@@ -16,5 +16,8 @@ public class ArithmeticOperators {
 		double c = 100.0 / 3;
 		System.out.println("c = " + c);
 
+		System.out.println("-------------------------");
+		
+
 	}
 }
