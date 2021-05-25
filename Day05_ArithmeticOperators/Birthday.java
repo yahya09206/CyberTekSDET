@@ -8,6 +8,6 @@ public class Birthday {
 		System.out.println(name + " was born on " + birthMonth + "/" + birthDay + "/" + birthYear);
 
 		int age = 2021 - birthYear;
-		System.out.println(name + " is " + age);
+		System.out.println(name + " is " + age + " years old.");
 	}
 }
