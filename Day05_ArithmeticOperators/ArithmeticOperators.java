@@ -31,5 +31,10 @@ public class ArithmeticOperators {
 		int result = num2 / num1;
 		System.out.println(result);
 
+		num1 = 9;
+		num2 = 20;
+		result = num2 / num1;
+		System.out.println(result);
+
 	}
 }
