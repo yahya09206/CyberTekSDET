@@ -4,6 +4,6 @@ public class PhoneNumber {
 			areaCode = 703,
 			localNumber = 4512625;
 
-			System.out.println("+ " + countryCode + "(" + areaCode + ") - " + localNumber);
+			System.out.println("+ " + countryCode + "(" + areaCode + ")-" + localNumber);
 	}
 }
