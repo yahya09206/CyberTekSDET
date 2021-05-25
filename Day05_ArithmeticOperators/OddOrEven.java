@@ -8,7 +8,9 @@ public class OddOrEven {
 		System.out.println(isOdd);
 
 		number = 300;
-		boolean isEvenlyDivisible = (number % 3 == 0);
-		System.out.println(number + " is evenly divisible by 3: " + isEvenlyDivisible);
+		boolean isEvenlyDivisibleBy3 = (number % 3 == 0);
+		boolean isEvenlyDivisibleBy5 = (number % 5 == 0);
+		System.out.println(number + " is evenly divisible by 3: " + isEvenlyDivisibleBy3);
+		System.out.println(number + " is evenly divisible by 5: " + isEvenlyDivisibleBy5);
 	}
 }
