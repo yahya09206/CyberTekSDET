@@ -17,7 +17,19 @@ public class ArithmeticOperators {
 		System.out.println("c = " + c);
 
 		System.out.println("-------------------------");
-		
+		int n1 = 100;
+		int n2 = 40;
+
+		//10/4 ==> 2.5
+		//remainder: 10 - (4 * 2) = 2;
+		//numerator - (denominator * integer number of result)
+		System.out.println(n1 % n2);
+
+		//Division Calculator challenge
+		int num1 = 4;
+		int num2 = 20;
+		int result = num2 / num1;
+		System.out.println(result);
 
 	}
 }
