@@ -3,6 +3,8 @@ public class OddOrEven {
 		//check remainder
 		int number = 100;
 		boolean isEven = number  % 2 == 0; //if the remainder of number / 2 is equal to 0
+		boolean isOdd = number % 2 > 0;
 		System.out.println(isEven);
+		System.out.println(isOdd);
 	}
 }
