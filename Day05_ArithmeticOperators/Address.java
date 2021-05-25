@@ -1,7 +1,6 @@
 public class Address {
-
 	public static void main(String[] args){
-		String name = "Conor",
+		String 	name = "Conor",
 				buildingNumber = "123",
 				streetName = "Legacy Circle",
 				city = "Herndon",
