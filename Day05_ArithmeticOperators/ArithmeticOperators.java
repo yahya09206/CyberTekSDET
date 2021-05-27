@@ -6,7 +6,6 @@ public class ArithmeticOperators {
 		System.out.println(25d / 2);
 		//Will cause exception
 		//System.out.println(10 / 0);
-
 		int a = 100 / 3;
 		System.out.println("a = " + a);
 
