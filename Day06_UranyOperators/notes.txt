@@ -1,0 +1,3 @@
+Primitive Castings: Converting one primitive type to another
+	double --> float --> long --> int --> short --> byte
+	larger primitive type cannot be directly assigned to smaller type
