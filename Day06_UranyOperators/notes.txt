@@ -9,3 +9,7 @@ Primitive Castings: Converting one primitive type to another
 		Explicit casting: Casting the larger type to the smaller
 			double a = 3;
 			int b =  (int)a;
+
+Unary Operator:
+	+	Unary Plus Operator		Indicates positive value
+	-  	Unary Minus 			Indicates negative value
