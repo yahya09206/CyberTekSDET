@@ -29,6 +29,14 @@ public class PrimitiveCasting {
 
 		System.out.println("g = " + g);
 
+		System.out.println("----------------");
+		double num1 = 1000.0;
+		int num2 = (int) num1; 
+
+		System.out.println("num2 = " + num2); //1000
+		System.out.println("num1 = " + num1); //1000.0
+
+		System.out.println((int) 100.23456); //100
 
 	}
 }
