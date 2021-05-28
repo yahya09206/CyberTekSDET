@@ -55,6 +55,9 @@ public class ShortHandOperators {
 		salary *= 1.5;
 		System.out.println("Salary = $ " + salary);
 
+		//tax 0.65
+		salary *= 0.65;
+		System.out.println("Salary = " + salary);
 
 
 
