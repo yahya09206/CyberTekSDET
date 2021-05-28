@@ -39,5 +39,37 @@ public class ShortHandOperators {
 		System.out.println("Name = " + name);
 
 		System.out.println("------------------------");
+
+		//withdraw
+		balance -= 300;
+		System.out.println("Balance = " + balance);
+
+		balance -= 1000;
+		System.out.println("Balance = " + balance);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 }
