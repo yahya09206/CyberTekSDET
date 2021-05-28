@@ -49,6 +49,11 @@ public class ShortHandOperators {
 
 		System.out.println("------------------------");
 		//*=
+		double salary = 100000;
+		salary *= 2;
+		System.out.println("Salary = $ " + salary);
+		salary *= 1.5;
+		System.out.println("Salary = $ " + salary);
 
 
 
