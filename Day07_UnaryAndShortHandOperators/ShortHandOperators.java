@@ -59,6 +59,10 @@ public class ShortHandOperators {
 		salary *= 0.65;
 		System.out.println("Salary = " + salary);
 
+		System.out.println("------------------------");
+		// /=
+		int slices = 10;
+
 
 
 
