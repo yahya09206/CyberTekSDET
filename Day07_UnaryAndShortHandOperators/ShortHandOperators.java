@@ -70,6 +70,11 @@ public class ShortHandOperators {
 
 		System.out.println("------------------------");
 		// %=
+		int cents = 105;
+		int quarters = cents / 25;
+		cents %= 25;
+		System.out.println(quarters);
+		System.out.println(cents);
 
 
 
