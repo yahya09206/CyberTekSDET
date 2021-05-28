@@ -1,0 +1,9 @@
+Shorthand: for numbers, re-assigns the variable
+	=: assignment
+		int a = 5;
+			a = 10;
+			sout(a); // 10
+
+
+		+=: addition assignment (can be applicable to String)
+		
