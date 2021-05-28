@@ -22,6 +22,22 @@ public class ShortHandOperators {
 			//balance = balance + 200;
 		balance += 200;
 
-		System.out.println("balance " + balance);
+		System.out.println("Balance " + balance);
+
+		balance += 1000;
+		System.out.println("Balance = " + balance);
+
+		String school = "Cybertek";
+		school += " School";
+		System.out.println("School = " + school);
+
+		String name = "John";
+		String lastName = "Daniel";
+		name += " ";
+		name += lastName;
+
+		System.out.println("Name = " + name);
+
+		System.out.println("------------------------");
 	}
 }
