@@ -61,7 +61,12 @@ public class ShortHandOperators {
 
 		System.out.println("------------------------");
 		// /=
-		int slices = 10;
+		//int slices = 10;
+		double slices = 10; // 10.0
+		//slices /= 5;
+		slices /= 0;
+		System.out.println("Slices = " + slices);
+		//System.out.println(10/0);
 
 
 
