@@ -47,7 +47,8 @@ public class ShortHandOperators {
 		balance -= 1000;
 		System.out.println("Balance = " + balance);
 
-
+		System.out.println("------------------------");
+		//*=
 
 
 
