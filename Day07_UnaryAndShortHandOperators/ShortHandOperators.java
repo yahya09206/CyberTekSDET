@@ -68,6 +68,9 @@ public class ShortHandOperators {
 		System.out.println("Slices = " + slices);
 		//System.out.println(10/0);
 
+		System.out.println("------------------------");
+		// %=
+
 
 
 
