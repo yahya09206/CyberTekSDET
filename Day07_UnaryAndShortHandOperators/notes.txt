@@ -6,4 +6,11 @@ Shorthand: for numbers, re-assigns the variable
 
 
 		+=: addition assignment (can be applicable to String)
-		
+
+	or logic: either, if either one is true, will get true
+		only one condition has to be true
+		False: if both conditions are false
+
+	and logic: both, if both conditions are true, will return true
+		true: if both conditions are true
+		false: if one condition is false
