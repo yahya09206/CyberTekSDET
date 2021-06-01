@@ -5,5 +5,8 @@ public class GradeReport {
 		if(score >= 90 && score <= 100){
 			System.out.println("You made an A.");
 		}
+		if(score >= && score < 90){
+			System.out.println("You made a B.");
+		}
 	}
 }
