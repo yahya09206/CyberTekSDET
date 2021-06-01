@@ -14,7 +14,7 @@ public class GradeReport {
 		if(score >= 60 && score < 70){
 			System.out.println("You made a D.");
 		}
-		if(score > 60){
+		if(score < 60){
 			System.out.println("You are a failure.");
 		}
 	}
