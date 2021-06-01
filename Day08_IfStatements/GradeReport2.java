@@ -6,5 +6,21 @@ public class GradeReport2 {
 		boolean madeC = !madeA && !madeB && >= 70;
 		boolean madeD = !madeA && !madeB && !madeC && >= 60;
 		boolean madeF = !madeA && !madeB && !madeC && !madeD && < 60;
+
+		if(madeA){
+			System.out.println("Excellent, You made an A");
+		}
+		if(madeB){
+			System.out.println("Good job, You made a B");
+		}
+		if(madeC){
+			System.out.println("Good, you made a C");
+		}
+		if(madeD){
+			System.out.println("You made a D");
+		}
+		if(madeF){
+			System.out.println("You are a failure");
+		}
 	}
 }
