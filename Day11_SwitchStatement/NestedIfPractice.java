@@ -25,9 +25,14 @@ public class NestedIfPractice {
 		 if(age >= 0 && age <= 150){
 		 	if(age < 21){
 		 		ageGroup = "Teenager";
+		 	}else if(age >= 21 && age < 55){
+		 		ageGroup = "Adult";
+		 	}else {
+		 		ageGroup = "Senior";
 		 	}
 		 }else{
 		 	ageGroup = "Invalid";
 		 }
+		 System.out.println(ageGroup);
 	}
 }
