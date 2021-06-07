@@ -1,2 +1,24 @@
-Switch Statement
------------------------------
+Switch Statement:
+	Switch-case statement is used to compare the value of a variable with multiple values and execute some statements based on the match
+
+	No curly brackets for case blocks, even in case of more than 1 statements
+
+	All the case block statements are optional including break
+	Blank case is perfectly legal code
+
+	Default block can appear anywhere in the code. It should not be the last one
+
+	'switch', 'case', 'default', 'break'
+
+	Syntax:
+		switch(Data){
+			case 1: 
+				data1;
+				break;
+			case 2: 
+				data2
+				break;
+			case 3: 
+				data3;
+				break;
+		}
