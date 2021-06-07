@@ -12,13 +12,14 @@ Switch Statement:
 
 	Syntax:
 		switch(Data){
-			case 1: 
-				data1;
+			case data1: 
+				statement1;
 				break;
-			case 2: 
-				data2
+			case data2: 
+				statement2;
 				break;
-			case 3: 
-				data3;
+			case data3: 
+				statement3;
 				break;
+			default:
 		}
