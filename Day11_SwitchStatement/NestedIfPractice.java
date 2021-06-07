@@ -16,5 +16,18 @@ public class NestedIfPractice {
 		 }else {
 		 	result = "Invalid Batch";
 		 }
+		 System.out.println("result = " + result);
+		 System.out.println("-------------------------------------");
+
+		 int age = 45;
+		 String ageGroup = "";
+
+		 if(age >= 0 && age <= 150){
+		 	if(age < 21){
+		 		ageGroup = "Teenager";
+		 	}
+		 }else{
+		 	ageGroup = "Invalid";
+		 }
 	}
 }
