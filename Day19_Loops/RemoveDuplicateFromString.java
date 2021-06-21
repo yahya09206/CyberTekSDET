@@ -1,7 +1,7 @@
 public class RemoveDuplicateFromString {
 	public static void main(String[] args){
 
-		String word = "ababababab";
+		String word = "abcdabc";
 		String result = ""; // one 'ab' at end;
 
 		//get every character in string
@@ -11,6 +11,5 @@ public class RemoveDuplicateFromString {
 			}
 		}
 		System.out.println("result = " + result);
-
 	}
 }
