@@ -6,7 +6,8 @@ public class StringReverse {
 		String reverseName = "";
 
 		for(int i = name.length() - 1; i >= 0; i--){
-			System.out.println(name.charAt(i));
+			reverseName += name.charAt(i);
 		}
+		System.out.println(reverseName);
 	}
 }
