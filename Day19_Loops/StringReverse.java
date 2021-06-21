@@ -1,7 +1,9 @@
+import java.util.*;
 public class StringReverse {
 	public static void main(String[] args){
 
-		String name = "Yahya";
+		//String name = "Yahya";
+		String name = new Scanner(System.in).nextLine();
 		//index        01234
 		String reverseName = "";
 
