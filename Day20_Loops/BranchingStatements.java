@@ -21,5 +21,12 @@ public class BranchingStatements {
 				System.out.print(i + " ");
 		}
 
+		String vowels = "dtx";
+		for(char i = 'A'; i <= 'Z'; i++){
+			if(i == 'D' || i == 'T' | i == 'X'){
+				continue;
+			}
+			System.out.print(i + " ");
+		}
 	}
 }
