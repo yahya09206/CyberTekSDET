@@ -11,5 +11,15 @@ public class BranchingStatements {
 			}
 				System.out.print(i + " ");
 		}
+
+		System.out.println("-----------------");
+
+		for(int i = 0; i <= 100; i++){
+			if(i % 3 != 0 && i % 5 != 0){
+				continue;
+			}
+				System.out.print(i + " ");
+		}
+
 	}
 }
