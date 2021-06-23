@@ -12,7 +12,11 @@ public class SalaryCalculator {
         System.out.print("How many weeks do you work in a year? ");
         int weeks = scan.nextInt();
 
-        
+        double salary = hourlyRate * hours * weeks;
+
+        System.out.println("You are making $" + hourlyRate + "/hr");
+        System.out.println("You work " + hours + "/week");
+        System.out.println("Your salary is $" + salary);
 
     }
 }
