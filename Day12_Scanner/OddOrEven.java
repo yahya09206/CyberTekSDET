@@ -7,6 +7,7 @@ public class OddOrEven {
         int number = scan.nextInt();
 
         System.out.println((number % 2 != 0)? "Odd": "Even");
+        System.out.println((number > 0)? "Positive": (number < 0)? "Negative": "Zero");
     }
 
 
