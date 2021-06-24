@@ -7,5 +7,14 @@ public class CentsToDollars {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter Cents: ");
 		int cents = scan.nextInt();
+		int dollars = cents / 100;
+		int remainder = cents % 100;
+
+		if(remainder == 0){
+			//Print out converted money
+			System.out.println(cents + " cents = " + dollars + " dollars");
+		}else {
+			System.out.println(cents + " cents = " + dollars + " dollars and " + remainder + " cents");
+		}
 	}
 }
