@@ -7,5 +7,7 @@ public class NextLineMethod {
 		 String jobTitle = scan.nextLine(); 
 
 		 System.out.println("Job Title: " + jobTitle);
+
+		 
 	}
 }
