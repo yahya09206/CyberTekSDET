@@ -10,11 +10,15 @@ public class CentsToDollars {
 		int dollars = cents / 100;
 		int remainder = cents % 100;
 
-		if(remainder == 0){
+		if(cents >= 0) {
+			if(remainder == 0){
 			//Print out converted money
-			System.out.println(cents + " cents = " + dollars + " dollars");
-		}else {
-			System.out.println(cents + " cents = " + dollars + " dollars and " + remainder + " cents");
+				System.out.println(cents + " cents = " + dollars + " dollars");
+			}else {
+				System.out.println(cents + " cents = " + dollars + " dollars and " + remainder + " cents");
+			}else {
+				System.out.println("Invalid amount");
+			}
 		}
 	}
 }
