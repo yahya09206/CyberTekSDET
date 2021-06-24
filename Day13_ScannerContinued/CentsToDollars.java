@@ -5,5 +5,7 @@ public class CentsToDollars {
 
 		//Import scanner class
 		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter Cents: ");
+		int cents = scan.nextInt();
 	}
 }
