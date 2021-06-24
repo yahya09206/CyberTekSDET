@@ -12,5 +12,12 @@ public class NextMethod {
 		String fullName = firstName + " " + lastName;
 
 		System.out.println("Full Name = " + fullName);
+
+		System.out.println("Enter your address ")
+		String address = scan.next();
+
+		System.out.println("Address = " + address);
+
+
 	}
 }
