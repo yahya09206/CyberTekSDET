@@ -6,8 +6,8 @@ public class ShippingInfo {
 		System.out.print("What is your building number? ");
 		int builderNumber = scan.nextInt();	
 
-		scan.nextLine();
-		
+		scan.nextLine();//only if nextline is placed after other method of scanner
+
 		System.out.print("What is your street address? ");
 		String address = scan.nextLine();
 
@@ -20,7 +20,7 @@ public class ShippingInfo {
 		System.out.print("What is your zip code? ");
 		String zipCode = scan.next();
 
-		scan.nextLine();
+		scan.nextLine(); //clear scanner
 		System.out.print("What is your name? ");
 		String fullName = scan.nextLine();
 
