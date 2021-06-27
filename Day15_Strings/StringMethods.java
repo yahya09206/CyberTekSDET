@@ -26,7 +26,5 @@ public class StringMethods {
 		String fullName = firstName + " " + lastName;
 		String fullName2 = firstName.concat(" ").concat(lastName);
 		System.out.println(fullName2);
-
-
 	}
 }
