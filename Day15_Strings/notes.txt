@@ -13,4 +13,12 @@ What is a String?
 	String pool:
 		-Special memory location
 		-Does not create multiple objects
+	-String is a sequences of characters
+		-Each character in String has a corresponding number called an Index
+			-Index always starts from 0
+	-String is immutable
+		-Cannot modify string once it is created
+	-String Methods:
+		-charAt()
+			-Provide index number: returns the character at the given index
 
