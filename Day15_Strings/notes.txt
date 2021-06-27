@@ -1,3 +1,4 @@
 What is a String?
 	-String is basically an object
 	-Presented in "java.lang"
+	-Any class in "java.lang" will be imported automatically
