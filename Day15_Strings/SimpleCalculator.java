@@ -14,5 +14,20 @@ public class SimpleCalculator {
 		double num2 = scan.nextDouble();
 
 		double result = 0;
+		switch(mathOperator){
+			case '-':
+				result = num1 - num2;
+				break;
+			case '+':
+				result = num1 + num2;
+				break;
+			case '*':
+				result = num1 * num2;
+				break;
+			case '/':
+				result = num1 / num2;
+				break;
+
+		}
 	}
 }
