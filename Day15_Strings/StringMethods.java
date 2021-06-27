@@ -38,5 +38,10 @@ public class StringMethods {
 		String s2 = "JAVA PROGRAMMING LANGUAGE";
 		s2 = s2.toLowerCase();
 		System.out.println(s2);
+
+
+		System.out.println("--------------------");
+		System.out.println("trim() Method");
+		
 	}
 }
