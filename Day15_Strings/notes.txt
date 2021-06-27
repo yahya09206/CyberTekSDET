@@ -8,4 +8,9 @@ What is a String?
 				String name = "Daniel";
 		-2. By using 'new' keyword:
 				String name = new String("Daniel");
+	-Java Heap:
+		-Memory location in java where all the objects will be saved
+	String pool:
+		-Special memory location
+		-Does not create multiple objects
 
