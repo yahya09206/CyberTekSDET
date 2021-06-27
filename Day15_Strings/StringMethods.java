@@ -35,5 +35,8 @@ public class StringMethods {
 
 		System.out.println("--------------------");
 		System.out.println("toLowerCase() Method");
+		String s2 = "JAVA PROGRAMMING LANGUAGE";
+		s2 = s2.toLowerCase();
+		System.out.println(s2);
 	}
 }
