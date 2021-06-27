@@ -8,6 +8,8 @@ public class LongestString {
 
 		if(s1.length() > s2.length()){
 			System.out.println(s1);
+		}else if(s1.length() == s2.length()){
+			System.out.println("Both strings are equal in length");
 		}else {
 			System.out.println(s2);
 		}
