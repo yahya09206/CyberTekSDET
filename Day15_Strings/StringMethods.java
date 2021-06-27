@@ -6,6 +6,8 @@ public class StringMethods {
 		char ch = str.charAt(0);
 		System.out.println("ch = " + ch);
 
+		String word = "Cybertek School";
+		System.out.println(word.charAt(9));
 		System.out.println("--------------------");
 
 
