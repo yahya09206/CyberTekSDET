@@ -14,5 +14,7 @@ public class Reverse {
 			result += word.charAt(1);
 			result += word.charAt(0);
 		}
+
+		System.out.println(result);
 	}
 }
