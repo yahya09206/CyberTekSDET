@@ -46,5 +46,8 @@ public class StringMethods {
 		schoolName = schoolName.trim();
 		System.out.println(schoolName);
 
+		System.out.println("--------------------");
+		System.out.println("replace() Method");
+
 	}
 }
