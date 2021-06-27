@@ -43,6 +43,7 @@ public class StringMethods {
 		System.out.println("--------------------");
 		System.out.println("trim() Method");
 		String schoolName = "    Cybertek School";
+		schoolName = schoolName.trim();
 		System.out.println(schoolName);
 
 	}
