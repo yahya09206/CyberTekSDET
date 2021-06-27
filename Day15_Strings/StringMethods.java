@@ -15,6 +15,9 @@ public class StringMethods {
 		int totalNumberOfChars = sentence.length();
 		System.out.println("totalNumberOfChars = " + totalNumberOfChars);
 
+		String s1 = "Cybertek";
+		System.out.println(s1.charAt(0) + " " + (s1.length()-1));
+
 
 	}
 }
