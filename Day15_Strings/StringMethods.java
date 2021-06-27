@@ -26,5 +26,10 @@ public class StringMethods {
 		String fullName = firstName + " " + lastName;
 		String fullName2 = firstName.concat(" ").concat(lastName);
 		System.out.println(fullName2);
+
+		System.out.println("--------------------");
+		System.out.println("toUpperCase() Method");
+		String s = "cybertek";
+		
 	}
 }
