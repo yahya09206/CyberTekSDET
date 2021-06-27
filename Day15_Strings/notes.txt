@@ -2,3 +2,10 @@ What is a String?
 	-String is basically an object
 	-Presented in "java.lang"
 	-Any class in "java.lang" will be imported automatically
+	-Unlike like scanner object, strings can be created in multiple ways
+	-Object
+		-1. String literals:
+				String name = "Daniel";
+		-2. By using 'new' keyword:
+				String name = new String("Daniel");
+

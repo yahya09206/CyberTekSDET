@@ -6,6 +6,8 @@ public class StringIntro {
 
 		Scanner scan = new Scanner(System.in);
 
-		String str = "CyberTek";
+		String str = "Cybertek";
+		String str2 = new String("Cybertek");
+
 	}
 }
