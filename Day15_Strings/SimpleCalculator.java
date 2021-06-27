@@ -27,7 +27,10 @@ public class SimpleCalculator {
 			case '/':
 				result = num1 / num2;
 				break;
+			default:
+				System.err.println("Invalid operator");
 
 		}
+		System.out.println("result = " + result);
 	}
 }
