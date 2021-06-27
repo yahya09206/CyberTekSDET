@@ -30,6 +30,10 @@ public class StringMethods {
 		System.out.println("--------------------");
 		System.out.println("toUpperCase() Method");
 		String s = "cybertek";
-		
+		s = s.toUpperCase();
+		System.out.println(s);
+
+		System.out.println("--------------------");
+		System.out.println("toLowerCase() Method");
 	}
 }
