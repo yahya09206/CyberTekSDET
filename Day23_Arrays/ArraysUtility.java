@@ -19,5 +19,8 @@ public class ArraysUtility {
 
 		double[] nums2 = new double[5];
 		System.out.println(Arrays.toString(nums2));
+
+		// sort()
+		
 	}
 }
