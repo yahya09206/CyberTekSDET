@@ -20,7 +20,12 @@ public class ArraysUtility {
 		double[] nums2 = new double[5];
 		System.out.println(Arrays.toString(nums2));
 
-		// sort()
-		
+		// sort(): sorts the elements of the array in ascending order
+		String[] students = {"Boburbek", "Aysu", "Abbos", "Sabir"};
+		System.out.println(Arrays.toString(students));
+		Arrays.sort(students);
+		System.out.println(Arrays.toString(students));
+
+
 	}
 }
