@@ -26,6 +26,11 @@ public class ArraysUtility {
 		Arrays.sort(students);
 		System.out.println(Arrays.toString(students));
 
+		int[] numbers = {9,10,4,1,3,-1,0,1,2};
+		System.out.println(Arrays.toString(numbers));
+		Arrays.sort(numbers);
+		System.out.println(Arrays.toString(numbers));
+
 
 	}
 }
