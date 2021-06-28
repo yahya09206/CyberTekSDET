@@ -16,6 +16,7 @@ public class MyClassmates {
 		String[] friends2 = new String[5];
 		System.out.println("Size: " + friends2.length);
 
+		friends2[0] = "Dilem";
 		friends2[1] = "Mohamed";
 		friends2[2] = "Komiljan";
 		friends2[3] = "Esraa";
