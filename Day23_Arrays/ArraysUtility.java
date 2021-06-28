@@ -39,8 +39,20 @@ public class ArraysUtility {
 
 
 		//equals() method
+		int[] num1 = {1,2,3};
+		int[] num2 = {1,2,3};
 
+		int[] num3 = {3,2,1};
+		int[] num4 = {2,3,1};
 
+		Arrays.sort(num3);
+		Arrays.sort(num4);
+		boolean r3 = Arrays.equals(num3, num4);
 
+		boolean r1 = Arrays.equals(num1, num2);
+		boolean r2 = Arrays.equals(num2, num3);
+		System.out.println("r1 = " + r1);
+		System.out.println("r2 = " + r2);
+		System.out.println("r3 = " + r3);
 	}
 }
