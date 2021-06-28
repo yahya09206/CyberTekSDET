@@ -33,6 +33,14 @@ public class ArraysUtility {
 		System.out.println("Minimum numbers: " + numbers[0]);
 		System.out.println("Maximum numbers: " + numbers[numbers.length - 1]);
 
+		char[] chars = {'z', 'b', 'k', 'a', 'c', 'y', 'x'};
+		Arrays.sort(chars);
+		System.out.println(Arrays.toString(chars));
+
+
+		//equals() method
+
+
 
 	}
 }
