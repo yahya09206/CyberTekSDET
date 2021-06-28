@@ -9,5 +9,15 @@ public class ArraysUtility {
 
 		//Formatted array values
 		System.out.println(Arrays.toString(array));
+
+		String[] array2 = new String[5];
+		System.out.println(array2);
+		System.out.println(Arrays.toString(array2));
+
+		int[] nums = new int[5];
+		System.out.println(Arrays.toString(nums));
+
+		double[] nums2 = new double[5];
+		System.out.println(Arrays.toString(nums2));
 	}
 }
