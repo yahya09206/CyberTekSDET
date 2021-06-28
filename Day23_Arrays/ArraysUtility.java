@@ -30,6 +30,8 @@ public class ArraysUtility {
 		System.out.println(Arrays.toString(numbers));
 		Arrays.sort(numbers);
 		System.out.println(Arrays.toString(numbers));
+		System.out.println("Minimum numbers: " + numbers[0]);
+		System.out.println("Maximum numbers: " + numbers[numbers.length - 1]);
 
 
 	}
