@@ -10,6 +10,10 @@ public class StringPractice1 {
 			System.out.println("String is empty!");
 		}else if(word.length() > 3){
 			System.out.println(word.substring(word.length() - 3));
+		}else {
+			System.out.println(word);
 		}
+
+		scan.close();
 	}
 }
