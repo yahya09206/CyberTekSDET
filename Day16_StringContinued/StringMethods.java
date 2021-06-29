@@ -16,9 +16,14 @@ public class StringMethods {
 		String sentence2 = "Java is a cool language";
 		int indexOfFirstA = sentence2.indexOf("a");
 		int indexOfSecondA = sentence2.indexOf("a ");
-		int indexOfThirdA = sentence2.indexOf(" a ");
+		int indexOfThirdA = sentence2.indexOf("an");
+		int indexOfFourthA = sentence2.indexOf("ag");
+		int indexOfFifthA = sentence2.lastIndexOf("a");
+
 		System.out.println(indexOfFirstA);
 		System.out.println(indexOfSecondA);
 		System.out.println(indexOfThirdA);
+		System.out.println(indexOfFourthA);
+		System.out.println(indexOfFifthA);
 	}
 }
