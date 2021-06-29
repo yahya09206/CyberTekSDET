@@ -4,12 +4,12 @@ public class StringPractice1 {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a string: ");
-		String word = scan.next();
+		String word = scan.nextLine();
 
 		//using ternary operator
-		String result = (word.length() == 0)? "String is empty"
-						:(word.length() > 3)? word.substring(word.length() - 3)
-						: word;
+		// String result = (word.length() == 0)? "String is empty"
+		// 				:(word.length() > 3)? word.substring(word.length() - 3)
+		// 				: word;
 
 
 		if(word.length() == 0){
@@ -18,7 +18,9 @@ public class StringPractice1 {
 			System.out.println(word.substring(word.length() - 3));
 		}else {
 			System.out.println(word);
+
 		}
+		// System.out.println(word);
 
 		scan.close();
 	}
