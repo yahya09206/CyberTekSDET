@@ -32,6 +32,13 @@ public class StringMethods {
 		System.out.println("r1 = " + r1);
 
 		System.out.println("-------------------------");
-		// equals() or isEquals() method
+		// equals() or equalsIgnoreCase()
+		String str1 = "Cat";
+		String str2 = new String("Cat");
+		String str3 = new String("Cat");
+		System.out.println(str1 == str2);
+		System.out.println(str1.equals(str2));
+		System.out.println(str2 == str3);
+		System.out.println(str2.equals(str3));
 	}
 }
