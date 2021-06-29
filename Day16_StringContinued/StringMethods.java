@@ -30,5 +30,8 @@ public class StringMethods {
 		String s2 = "Hello";
 		boolean r1 = s2.isEmpty();
 		System.out.println("r1 = " + r1);
+
+		System.out.println("-------------------------");
+		// equals() or isEquals() method
 	}
 }
