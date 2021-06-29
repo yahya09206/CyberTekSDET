@@ -9,5 +9,13 @@ public class StringPractice2 {
 
 		String result = word1.substring(1) + word2.substring(1);
 		System.out.println(result);
+
+		if(word1.lenght() >= 2 && word2.lenght() >= 2){
+			String result = word1.substring(1) + word2.substring(1);
+			System.out.println(result);
+		}else {
+			System.out.println("Too short");
+		}
+		scan.close();
 	}
 }
