@@ -11,5 +11,9 @@ public class StringMethods {
 
 		sentence = sentence.replaceFirst("C#", "Java");
 		System.out.println(sentence);
+
+		System.out.println("-------------------------");
+		String sentence2 = "Java is a cool language";
+		sentence2.indexOf("a");
 	}
 }
