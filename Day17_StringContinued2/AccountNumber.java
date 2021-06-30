@@ -6,8 +6,10 @@ public class AccountNumber {
 		System.out.println("Enter your account number: ");
 		String account = scan.next();
 
-		if(account.length() == ? || account.length() == 10){
-			
+		if(account.length() == 7 || account.length() == 10){
+			if(account.charAt(0) == '2' && account.length() == 7){
+				System.out.println("Valid account");
+			}
 		}
 	}
 }
