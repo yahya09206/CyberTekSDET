@@ -8,6 +8,7 @@ public class Initial {
 		System.out.println("Enter your last name: ");
 		String lastName = scan.next();
 
-		String initial = firstName.charAt(0) + "." + lastName.charAt(0);
+		String initial = firstName.substring(0,1).toUpperCase() + "." + lastName.substring(0,1).toUpperCase();
+
 	}
 }

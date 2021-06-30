@@ -38,5 +38,6 @@ public class AccountNumber {
 			default:
 				System.out.println("INVALID: first character needs to be 2 or 5");
 		}
+		scan.close();
 	}
 }
