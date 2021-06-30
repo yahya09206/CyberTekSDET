@@ -6,6 +6,7 @@ public class Initial2 {
 		System.out.println("Please enter your full name");
 		String fullName = scan.nextLine();
 
-		String firstName = fullName.substring(0, indexOf(""));
+		String firstName = fullName.substring(0, fullName.indexOf(" "));
+		String lastName = fullName.substring(indexOf(" ") + 1);
 	}
 }
