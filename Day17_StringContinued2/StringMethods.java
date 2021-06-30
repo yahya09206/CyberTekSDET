@@ -9,5 +9,14 @@ public class StringMethods {
 		System.out.println(hasJava);
 		System.out.println(hasJava2);
 
+		System.out.println("--------------------------------------");
+		String sentence2 = "Cybertek School is the best";
+		boolean startWithCybertek = sentence2.startsWith("Cybertek");
+		boolean endsWithSchool = sentence2.endsWith("best");
+
+		System.out.println("startWithCybertek = " + startWithCybertek);
+		System.out.println("endsWithCybertek = " + endsWithSchool);
+
+
 	}
 }
