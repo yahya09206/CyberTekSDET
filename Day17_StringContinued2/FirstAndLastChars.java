@@ -7,5 +7,6 @@ public class FirstAndLastChars {
 		String word = scan.next();
 
 		String first = word.substring(0,1);
+		String last = word.substring(word.length() - 1);
 	}
 }
