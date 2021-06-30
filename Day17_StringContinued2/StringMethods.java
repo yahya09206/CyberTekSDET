@@ -3,8 +3,11 @@ public class StringMethods {
 
 		String sentence = "My favorite programming languages are: C#, Java, JavaScript";
 		boolean hasPython = sentence.contains("Python");
-		System.out.println(hasPython);
 		boolean hasJava = sentence.contains("Java");
+		boolean hasJava2 = sentence.toLowerCase().contains("java");
+		System.out.println(hasPython);
 		System.out.println(hasJava);
+		System.out.println(hasJava2);
+
 	}
 }
