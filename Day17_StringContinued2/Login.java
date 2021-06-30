@@ -12,6 +12,6 @@ public class Login {
 		System.out.println("Enter your password: ");
 		String password = scan.next();
 
-		boolean canLogIn = userName.equals(correctUserName) && password.equals(correctPassword);
+		boolean canLogIn = userName.equalsIgnoreCase(correctUserName) && password.equalsIgnoreCase(correctPassword);
 	}
 }
