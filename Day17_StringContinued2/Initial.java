@@ -10,6 +10,7 @@ public class Initial {
 
 		String initial = firstName.substring(0,1).toUpperCase() + "." + lastName.substring(0,1).toUpperCase();
 		System.out.println(initial);
+		scan.close();
 
 	}
 }
