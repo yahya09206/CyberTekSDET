@@ -7,17 +7,17 @@ public class AccountNumber {
 		String account = scan.next();
 		char firstChar = account.charAt(0);
 
-		if(account.length() == 7 || account.length() == 10){
-			if(account.charAt(0) == '2' && account.length() == 7){
-				System.out.println("Valid Account Number");
-			}else if(account.charAt(0) == '5' && account.length() == 10){
-				System.out.println("Valid Account Number");
-			}else {
-				System.out.println("Invalid");
-			}
-		}else {
-			System.out.println("Invalid Account Number")
-		}
+		// if(account.length() == 7 || account.length() == 10){
+		// 	if(account.charAt(0) == '2' && account.length() == 7){
+		// 		System.out.println("Valid Account Number");
+		// 	}else if(account.charAt(0) == '5' && account.length() == 10){
+		// 		System.out.println("Valid Account Number");
+		// 	}else {
+		// 		System.out.println("Invalid");
+		// 	}
+		// }else {
+		// 	System.out.println("Invalid Account Number")
+		// }
 
 		//With Switch Statement
 		switch (firstChar) {
