@@ -5,5 +5,7 @@ public class Initial2 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your full name");
 		String fullName = scan.nextLine();
+
+		String firstName = fullName.substring(0, indexOf(""));
 	}
 }
