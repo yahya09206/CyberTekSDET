@@ -5,6 +5,7 @@ public class AccountNumber {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter your account number: ");
 		String account = scan.next();
+		char firstChar = account.charAt(0);
 
 		if(account.length() == 7 || account.length() == 10){
 			if(account.charAt(0) == '2' && account.length() == 7){
@@ -16,6 +17,16 @@ public class AccountNumber {
 			}
 		}else {
 			System.out.println("Invalid Account Number")
+		}
+
+		//With Switch Statement
+		switch (firstChar) {
+			case '2':
+				if(account.length == 7){
+					System.out.println("Valid Account");
+				}else {
+					System.out.println("INVALID: should be 7 characters long");
+				}
 		}
 	}
 }
