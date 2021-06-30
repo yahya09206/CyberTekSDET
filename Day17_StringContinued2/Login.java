@@ -13,5 +13,11 @@ public class Login {
 		String password = scan.next();
 
 		boolean canLogIn = userName.equalsIgnoreCase(correctUserName) && password.equalsIgnoreCase(correctPassword);
+
+		if (canLogIn) {
+			System.out.println("Logged in successfully!");
+		}else {
+			System.out.println("Invalid username or password");
+		}
 	}
 }
