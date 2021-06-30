@@ -8,5 +8,11 @@ public class FirstAndLastChars {
 
 		String first = word.substring(0,1);
 		String last = word.substring(word.length() - 1);
+
+		if (first.equalsIgnoreCase(last)) {
+			System.out.println("Same");
+		}else {
+			System.out.println("Not Same");
+		}
 	}
 }
