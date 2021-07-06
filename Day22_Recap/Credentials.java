@@ -28,6 +28,9 @@ public class Credentials {
 					System.out.println("Logged In");
 					break;
 				}
+				if(i == 3){
+					System.out.println("Your account is locked");
+				}
 			}
 		}
 		System.out.println("Hello CyberTek");
