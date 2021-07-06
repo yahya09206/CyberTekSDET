@@ -7,7 +7,9 @@ public class WhileLoopPractice {
 		// if statement only does once
 		while(sentence.contains("Java")){
 			countJava++;
-			sentence = sentence.replaceFirst(" ");
+			sentence = sentence.replaceFirst("Java", " "); 
 		}
+
+		System.out.println("countJava = " + countJava);
 	}
 }
