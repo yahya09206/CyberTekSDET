@@ -22,6 +22,12 @@ public class Credentials {
 				u = scan.next();
 				System.out.println("Enter your password:");
 				p = scan.next();
+
+				//if correct
+				if(u.equals(correctUsername) && p.equals(correctPassword)){
+					System.out.println("Logged In");
+					break;
+				}
 			}
 		}
 	}
