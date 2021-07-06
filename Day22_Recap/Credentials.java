@@ -9,5 +9,8 @@ public class Credentials {
 		System.out.println("Enter your username: ");
 		String u = scan.next();
 
+		System.out.println("Enter your password: ");
+		String p = scan.next();
+
 	}
 }
