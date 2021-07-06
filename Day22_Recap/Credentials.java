@@ -15,12 +15,14 @@ public class Credentials {
 		if(u.equals(correctUsername) && p.equals(correctPassword)){
 			System.out.println("Logged In");
 		}else {
-			System.out.println("username or password is incorrect, please re-enter");
-			System.out.println("Enter your username:");
-			u = scan.next();
-			System.out.println("Enter your password:");
-			p = scan.next();
-		}
 
+			for(int i = 1; i <= 3; i++){
+				System.out.println("username or password is incorrect, please re-enter");
+				System.out.println("Enter your username:");
+				u = scan.next();
+				System.out.println("Enter your password:");
+				p = scan.next();
+			}
+		}
 	}
 }
