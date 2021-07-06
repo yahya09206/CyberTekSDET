@@ -30,6 +30,7 @@ public class Credentials {
 				}
 				if(i == 3){
 					System.out.println("Your account is locked");
+					System.exit(0);
 				}
 			}
 		}
