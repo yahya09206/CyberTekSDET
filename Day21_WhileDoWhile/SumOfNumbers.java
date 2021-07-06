@@ -8,7 +8,12 @@ public class SumOfNumbers {
 			System.out.println("Enter a number: ");
 			int num = scan.nextInt();
 
-			
+			if(n < 0){
+				break; //exits loop
+			}
+
+			sum += n;
 		}
+		System.out.println("Sum = " sum);
 	}
 }
