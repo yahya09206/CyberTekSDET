@@ -20,6 +20,16 @@ public class DoWhileLoopPractice {
 		Scanner scan = new Scanner(System.in);
 		String username = "JohnJames";
 		String password = "John123";
+		String u = "";
+		String p = "";
+
+		do{
+			System.out.println("Enter your username:");
+			u = scan.next();
+
+			System.out.println("Enter your password:");
+			p = scan.next();
+		}
 
 	}
 }
