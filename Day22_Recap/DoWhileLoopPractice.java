@@ -2,13 +2,17 @@ public class DoWhileLoopPractice {
 	public static void main(String[] args){
 
 		int i = 0;
-		int sum = 0;
+		int sumOfEven = 0;
+		int sumOfOdd = 0;
 		do {
 			if(i % 2 == 0){
-				sum += i;
+				sumOfEven += i;
+			}else {
+				sumOfOdd += i;
 			}
-			System.out.println(i);
 			i++;
 		}while(i <= 10);
+		System.out.println("sumOfEven = " + sumOfEven);
+		System.out.println("sumOfOdd = " + sumOfOdd);
 	}
 }
