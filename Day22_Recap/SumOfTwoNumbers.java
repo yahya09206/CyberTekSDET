@@ -24,10 +24,12 @@ public class SumOfTwoNumbers {
 			// 	System.out.println("Do you want to continue?");
 			// 	answer = scan.next().toLowerCase();
 			// }
-			while((answer.equals("yes") || answer.equals("no"))){
+			while(!(answer.equals("yes") || answer.equals("no"))){
 				System.out.println("Do you want to continue?");
 				answer = scan.next().toLowerCase();
 			}
 		}while(answer.equalsIgnoreCase("yes"));
+		System.out.println("Thank you for using our calculator");
+		scan.close();
 	}
 }
