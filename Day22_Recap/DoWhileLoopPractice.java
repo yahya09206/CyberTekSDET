@@ -22,6 +22,7 @@ public class DoWhileLoopPractice {
 		String password = "John123";
 		String u = "";
 		String p = "";
+		int attempts = 0;
 
 		do{
 			System.out.println("Enter your username:");
@@ -29,6 +30,12 @@ public class DoWhileLoopPractice {
 
 			System.out.println("Enter your password:");
 			p = scan.next();
+			attempts++;
+
+			if(attempts == 3){
+				System.out.println("Your account is locked");
+				System.exit(0);
+			}
 		}while(!(u.equals(username) && p.equals(password)));
 
 		System.out.println("Logged in");
