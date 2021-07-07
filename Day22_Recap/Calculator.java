@@ -14,6 +14,11 @@ public class Calculator {
 			num2 = scan.nextInt();
 
 			System.out.println("Enter a math operator:");
+			operator = scan.next().charAt(0);
+
+			if(operator == '-'){
+				System.out.println("Subtraction: " + (num1 - num2));
+			}
 		}
 	}
 }
