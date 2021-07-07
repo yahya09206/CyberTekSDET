@@ -4,7 +4,7 @@ public class SumOfTwoNumbers {
 		Scanner scan = new Scanner(System.in);
 		String answer = "";
 
-		while(answer.equals("yes")){
+		do{
 
 			System.out.println("Enter two numbers: ");
 			int n1 = scan.nextInt();
@@ -13,6 +13,6 @@ public class SumOfTwoNumbers {
 			System.out.pritnln("Addition: " + (n1 + n2));
 			System.out.println("Do you want to continue?");
 			String answer = scan.next();
-		}
+		}while(answer.equals("yes"));
 	}
 }
