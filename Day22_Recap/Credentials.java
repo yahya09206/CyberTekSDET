@@ -35,5 +35,6 @@ public class Credentials {
 			}
 		}
 		System.out.println("Hello CyberTek");
+		scan.close();
 	}
 }
