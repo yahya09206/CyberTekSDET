@@ -14,7 +14,12 @@ public class SumOfTwoNumbers {
 			System.out.println("Do you want to continue?");
 			String answer = scan.next().toLowerCase();
 			//Checking for invalid input and re-prompting
-			if((answer.equals("yest") || answer.equals("no"))){
+			// if((answer.equals("yest") || answer.equals("no"))){
+			// 	System.out.println("Invalid answer, Please re-enter!");
+			// 	System.out.println("Do you want to continue?");
+			// 	answer = scan.next().toLowerCase();
+			// }
+			while((answer.equals("yest") || answer.equals("no"))){
 				System.out.println("Invalid answer, Please re-enter!");
 				System.out.println("Do you want to continue?");
 				answer = scan.next().toLowerCase();
