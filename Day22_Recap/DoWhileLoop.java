@@ -10,6 +10,7 @@ public class DoWhileLoop {
 
 		do{
 			System.out.println("Hello CyberTek");
-		}while(i < 5);
+		}while(i < 5);	
+		
 	}
 }
