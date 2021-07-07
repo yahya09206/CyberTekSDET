@@ -9,7 +9,11 @@ public class Calculator {
 		String answer = "";
 
 		while(!answer.equals("no")){
+			System.out.println("Enter two numbers:");
+			num1 = scan.nextInt();
+			num2 = scan.nextInt();
 
+			System.out.println("Enter a math operator:");
 		}
 	}
 }
