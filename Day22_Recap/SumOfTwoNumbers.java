@@ -13,6 +13,6 @@ public class SumOfTwoNumbers {
 			System.out.pritnln("Addition: " + (n1 + n2));
 			System.out.println("Do you want to continue?");
 			String answer = scan.next();
-		}while(answer.equals("yes"));
+		}while(answer.equalsIgnoreCase("yes"));
 	}
 }
