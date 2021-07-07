@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class DoWhileLoopPractice {
 	public static void main(String[] args){
 
@@ -14,5 +15,11 @@ public class DoWhileLoopPractice {
 		}while(i <= 10);
 		System.out.println("sumOfEven = " + sumOfEven);
 		System.out.println("sumOfOdd = " + sumOfOdd);
+
+		System.out.println("----------------------------------");
+		Scanner scan = new Scanner(System.in);
+		String username = "JohnJames";
+		String password = "John123";
+
 	}
 }
