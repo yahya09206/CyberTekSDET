@@ -30,5 +30,7 @@ public class DoWhileLoopPractice {
 			System.out.println("Enter your password:");
 			p = scan.next();
 		}while(!(u.equals(username) && p.equals(password)));
+
+		System.out.println("Logged in");
 	}
 }
