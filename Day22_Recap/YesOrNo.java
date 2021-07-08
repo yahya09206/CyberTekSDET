@@ -9,7 +9,7 @@ public class YesOrNo {
 			System.out.println("Invalid Entry, please re-enter");
 			answer.scan.next().toLowerCase();
 		}
-		
+
 		if(answer.equals("yes")){
 			System.out.println("Congrats");
 		}
@@ -17,6 +17,8 @@ public class YesOrNo {
 		if(answer.equals("no")){
 			System.out.println("RIP");
 		}
+
+		scan.close();
 
 	}
 }
