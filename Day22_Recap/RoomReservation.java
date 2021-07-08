@@ -10,7 +10,15 @@ public class RoomReservation {
 
 		if(answer.equals("yes")){
 			System.out.println("Which bed type do you want?");
-			String
+			String bedType = scan.nextLine().toLowerCase();
+
+			if(bedType.equals("king bed")){
+				totalPrice += 120;
+			}else if(bedType.equals("queen bed")){
+				totalPrice += 100;
+			}else if(bedType.equals("single bed")){
+				totalPrice += 80;
+			}
 		}
 	}
 }
