@@ -27,8 +27,11 @@ public class Calculator {
 			}else {
 				System.out.println("Invalid Operator");
 			}
+			while(answer.equals("yes") || answer.equals("no")){
+
+			}
 			System.out.println("Do you want to continue?");
-			answer = scan.next();
+			answer = scan.next().toLowerCase();
 		}
 	}
 }
