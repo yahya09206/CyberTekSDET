@@ -27,6 +27,8 @@ public class Calculator {
 			}else {
 				System.out.println("Invalid Operator");
 			}
+			System.out.println("Do you want to continue?");
+			answer = scan.next();
 		}
 	}
 }
