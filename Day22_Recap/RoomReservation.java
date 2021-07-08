@@ -8,7 +8,7 @@ public class RoomReservation {
 		System.out.println("Would you like to reserve a room?");
 		String answer = scan.next().toLowerCase();
 
-		if(answer.equals("yes")){
+		while(answer.equals("yes")){
 			System.out.println("Which bed type do you want?");
 			String bedType = scan.nextLine().toLowerCase();
 
