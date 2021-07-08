@@ -8,6 +8,12 @@ public class RoomReservation {
 		System.out.println("Would you like to reserve a room?");
 		String answer = scan.next().toLowerCase();
 
+		//Make sure first answer is either yes or no
+		while(!(answer.equals("yes") || answer.equals("no"))){
+			System.out.println("Do you want to reserve another room?");
+			answer.scan.nextLine().toLowerCase();
+		}
+
 		while(answer.equals("yes")){
 			System.out.println("Which bed type do you want?");
 			String bedType = scan.nextLine().toLowerCase();
@@ -31,7 +37,6 @@ public class RoomReservation {
 			answer.scan.next().toLowerCase();
 			}
 		}
-
 		System.out.println("Your total price is: " + totalPrice);
 	}
 }
