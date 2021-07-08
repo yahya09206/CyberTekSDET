@@ -18,7 +18,12 @@ public class RoomReservation {
 				totalPrice += 100;
 			}else if(bedType.equals("single bed")){
 				totalPrice += 80;
+			}else {
+				System.out.println("Invalid room is selected");
 			}
+
+			System.out.println("Do you want to reserve another room?");
+			answer = scan.nextLine().toLowerCase();
 		}
 	}
 }
