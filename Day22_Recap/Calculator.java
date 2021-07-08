@@ -18,6 +18,8 @@ public class Calculator {
 
 			if(operator == '-'){
 				System.out.println("Subtraction: " + (num1 - num2));
+			}else if(operator == '+'){
+				System.out.println("Addition: " + (num1 + num2));
 			}
 		}
 	}
