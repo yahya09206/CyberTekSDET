@@ -15,6 +15,6 @@ public class PracticeWithoutMethod {
 		}
 
 		//Step 4
-		System.out.println("");
+		System.out.println("Cybertek");
 	}
 }
