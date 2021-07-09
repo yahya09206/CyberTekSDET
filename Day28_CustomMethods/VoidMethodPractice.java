@@ -6,6 +6,9 @@ public class VoidMethodPractice {
 		printOddNumbers(1, 150);
 		printOddNumbers(50, 85);
 		printOddNumbers(100, 125);
+		printEvenNumbers(1, 150);
+		printEvenNumbers(50, 85);
+		printEvenNumbers(100, 125);
 	}
 
 	public static void printOddNumbers(int from, int to){
@@ -18,6 +21,10 @@ public class VoidMethodPractice {
 	}
 
 	public static void printEvenNumbers(int from, int to){
-		
+		for(int i = from; i <= to; i++){
+			if (i % 2 == 0) {
+				System.out.print(i + " ");
+			}
+		}
 	}
 }
