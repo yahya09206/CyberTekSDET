@@ -16,4 +16,8 @@ public class VoidMethodPractice {
 		}
 		System.out.println();
 	}
+
+	public static void printEvenNumbers(int from, int to){
+		
+	}
 }
