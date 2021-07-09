@@ -4,7 +4,10 @@ public class VoidMethodPractice {
 
 	}
 
-	public static void printOddNumbers(){
-		
+	public static void printOddNumbers(int from, int to){
+
+		for(int i = from; i <= to; i++){
+			
+		}
 	}
 }
