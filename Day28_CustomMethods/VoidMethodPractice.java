@@ -2,6 +2,7 @@ public class VoidMethodPractice {
 	public static void main(String[] args){
 
 		printOddNumbers(1, 150);
+		printOddNumbers(50, 85);
 	}
 
 	public static void printOddNumbers(int from, int to){
