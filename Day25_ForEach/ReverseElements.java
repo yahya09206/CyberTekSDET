@@ -4,6 +4,7 @@ public class ReverseElements {
 
 		String[] array = {"Java", "Python", "C#"};
 
-		String element = 
+		String element = array[0];
+		String reverse = "";
 	}
 }
