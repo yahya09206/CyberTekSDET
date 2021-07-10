@@ -2,9 +2,14 @@ import java.util.Arrays;
 public class Grades {
 	public static void main(String[] args){
 
-		String[] names = {"Anna", "Nancy", "Sarah"};
-		int[] scores = {90, 75, 80};
+		String[] names = {"Anna", "Nancy", "Sarah", "Mike", "Jacob", "Will", "Michelle"};
+		int[] scores = {90, 75, 80, 85, 91, 92, 93};
 		char[] grades = new char[names.length];
+		int countA = 0;
+		int countB = 0;
+		int countC = 0;
+		int countD = 0;
+		int coundF = 0;
 
 		for(int i = 0; i <= grades.length - 1; i++){
 			// // int[] scores = scores[0];
