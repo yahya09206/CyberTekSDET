@@ -4,6 +4,12 @@ public class Merge2Arrays {
 		int[] arr1 = {1,2,3,4},
 				arr2 = {5,6};
 
-		int[] arr3 = new int[arr.length + arr2.length]; //Adding length of both arrays so it can be the same size of the two added together
+		int[] arr3 = new int[arr1.length + arr2.length]; //Adding length of both arrays so it can be the same size of the two added together
+
+		int j = 0; // for the indexes of third array
+		for(int i = 0; i < arr1.length; i++){ //loop thru arr1
+			arr3[j++] = arr1[i];
+		}
+		System.out.println(Arrays.toString(arr3));
 	}
 }
