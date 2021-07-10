@@ -6,17 +6,19 @@ public class Grades {
 		int[] scores = {90, 75, 80};
 		char[] grades = new char[names.length];
 
-		int score = scores[0];
-		if(score >= 90){
-			grades[0] = 'A';
-		}else if(score >= 80){
-			grades[0] = 'B';
-		}else if(score >= 70){
-			grades[0] = 'C';
-		}else if(score >= 60){
-			grades[0] = 'D';
-		}else {
-			grades[0] = 'F';
+		for(int i = 0; i <= grades.length; i++){
+			int score = scores[0];
+			if(score[i] >= 90){
+				grades[i] = 'A';
+			}else if(score >= 80){
+				grades[i] = 'B';
+			}else if(score >= 70){
+				grades[i] = 'C';
+			}else if(score >= 60){
+				grades[i] = 'D';
+			}else {
+				grades[i] = 'F';
+			}
 		}
 	}
 }
