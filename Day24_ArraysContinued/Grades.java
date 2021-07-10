@@ -9,7 +9,7 @@ public class Grades {
 		int countB = 0;
 		int countC = 0;
 		int countD = 0;
-		int coundF = 0;
+		int countF = 0;
 
 		for(int i = 0; i <= grades.length - 1; i++){
 			// int[] scores = scores[0];
@@ -32,6 +32,11 @@ public class Grades {
 		//Using ternary operator
 		// grades[i] = (scores[i] >= 90)? 'A' :(scores[i] >= 80)? 'B' :(scores[i] >= 70)? 'C' :(scores[i] >= 60)? 'D' :'F';
 		System.out.println(names[i] + ": " + scores[i] + ": " + grades[i]);
+		System.out.println("CountA = " + countA);
+		System.out.println("CountB = " + countB);
+		System.out.println("CountC = " + countC);
+		System.out.println("CountD = " + countD);
+		System.out.println("CountF = " + countF);
 		}
 
 	}
