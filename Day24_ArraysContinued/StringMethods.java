@@ -12,6 +12,16 @@ public class StringMethods {
 		for(int i = words.length-1; i >= 0; i--){
 			System.out.print(words[i] + " ");
 		}
+
+		System.out.println();
+		//Return name of email without domain
+		String email = "Cybertek@gmail.com";
+
+	    String[] arrays = email.split("@");
+		System.out.println(Arrays.toString(arrays));
+
+	    String firstName = arrays[0];
+		System.out.println("firstName = " + firstName);
 	}
 }
 /*
