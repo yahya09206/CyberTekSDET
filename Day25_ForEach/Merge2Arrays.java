@@ -8,6 +8,7 @@ public class Merge2Arrays {
 
 		int j = 0; // for the indexes of third array
 		for(int i = 0; i < arr1.length; i++){ //loop thru arr1
+			//assign int i to new element in array 3 = j
 			arr3[j++] = arr1[i];
 		}
 
