@@ -10,6 +10,12 @@ public class Merge2Arrays {
 		for(int i = 0; i < arr1.length; i++){ //loop thru arr1
 			arr3[j++] = arr1[i];
 		}
+
+		for(int i = 0; i < arr2.length; i++){ //loop thru arr2
+			arr3[j++] = arr2[i];
+		}
 		System.out.println(Arrays.toString(arr3));
+
+
 	}
 }
