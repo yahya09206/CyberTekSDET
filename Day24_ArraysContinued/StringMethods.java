@@ -7,6 +7,11 @@ public class StringMethods {
 		String[] words = sentence.split(" ");
 		//Print array in regular order
 		System.out.println(Arrays.toString(words));
+
+		//Loop to split array
+		for(int i = words.length-1; i >= 0; i--){
+			System.out.print(words[i] + " ");
+		}
 	}
 }
 /*
