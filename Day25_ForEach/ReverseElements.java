@@ -12,5 +12,6 @@ public class ReverseElements {
 		}
 
 		array[0] = reverse;
+		System.out.println(Arrays.toString(array));
 	}
 }
