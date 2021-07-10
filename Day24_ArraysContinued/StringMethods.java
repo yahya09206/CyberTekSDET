@@ -22,6 +22,8 @@ public class StringMethods {
 
 	    String firstName = arrays[0];
 		System.out.println("firstName = " + firstName);
+
+		// toCharArray()
 	}
 }
 /*
