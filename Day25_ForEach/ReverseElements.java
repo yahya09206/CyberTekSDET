@@ -10,5 +10,7 @@ public class ReverseElements {
 		for (int i = element.length() - 1; i >= 0; i--) {
 			reverse += element.charAt(i);// gets the characters from the string element
 		}
+
+		array[0] = reverse;
 	}
 }
