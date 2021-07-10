@@ -6,5 +6,9 @@ public class ReverseElements {
 
 		String element = array[0];
 		String reverse = "";
+
+		for (int i = element.length() - 1; i >= 0; i--) {
+			element.charAt(i);
+		}
 	}
 }
