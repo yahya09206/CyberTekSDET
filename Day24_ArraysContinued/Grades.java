@@ -12,20 +12,25 @@ public class Grades {
 		int coundF = 0;
 
 		for(int i = 0; i <= grades.length - 1; i++){
-			// // int[] scores = scores[0];
-			// if(scores[i] >= 90){
-			// 	grades[i] = 'A';
-			// }else if(scores[i] >= 80){
-			// 	grades[i] = 'B';
-			// }else if(scores[i] >= 70){
-			// 	grades[i] = 'C';
-			// }else if(scores[i] >= 60){
-			// 	grades[i] = 'D';
-			// }else {
-			// 	grades[i] = 'F';
-			// }
+			// int[] scores = scores[0];
+			if(scores[i] >= 90){
+				grades[i] = 'A';
+				countA++;
+			}else if(scores[i] >= 80){
+				grades[i] = 'B';
+				countB++;
+			}else if(scores[i] >= 70){
+				grades[i] = 'C';
+				countC++;
+			}else if(scores[i] >= 60){
+				grades[i] = 'D';
+				countD++;
+			}else {
+				grades[i] = 'F';
+				countF++;
+			}
 		//Using ternary operator
-		grades[i] = (scores[i] >= 90)? 'A' :(scores[i] >= 80)? 'B' :(scores[i] >= 70)? 'C' :(scores[i] >= 60)? 'D' :'F';
+		// grades[i] = (scores[i] >= 90)? 'A' :(scores[i] >= 80)? 'B' :(scores[i] >= 70)? 'C' :(scores[i] >= 60)? 'D' :'F';
 		System.out.println(names[i] + ": " + scores[i] + ": " + grades[i]);
 		}
 
