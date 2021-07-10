@@ -7,7 +7,7 @@ public class ClassMates {
 
 		System.out.println(Arrays.toString(classmates));
 
-		for(int i = 0; i <= classmates.length; i++){
+		for(int i = 0; i <= classmates.length - 1; i++){
 			System.out.println(classmates[i].substring(0,3));
 		}
 
