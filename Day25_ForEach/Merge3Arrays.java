@@ -6,7 +6,7 @@ public class Merge3Arrays {
 		int[] arr3 = {7,8,9,12,13,14};
 
 		//Set array to be size of 3 array lengths combined
-		int arr4 = new int[arr1.length + arr2.length + arr3.length];
+		int[] arr4 = new int[arr1.length + arr2.length + arr3.length];
 
 		//variable to keep track of where previous arrays left off
 		int j = 0;
