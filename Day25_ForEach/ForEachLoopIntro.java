@@ -18,5 +18,9 @@ public class ForEachLoopIntro {
 		//Print names
 		String[] names = {"James", "Mike", "Rochelle", "Ashley", "Robyn"};
 
+		for (String name : names) {
+			System.out.println(name);
+		}
+
 	}
 }
