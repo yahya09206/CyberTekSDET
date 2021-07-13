@@ -5,6 +5,7 @@ public class Merge3Arrays {
 		int[] arr2 = {4,5,6};
 		int[] arr3 = {7,8,9,12,13,14};
 
-		
+
+		int arr4 = new int[arr1.length + arr2.length + arr3.length];
 	}
 }
