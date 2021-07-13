@@ -13,5 +13,10 @@ public class ForEachLoopIntro {
 		for (int i : numbers ) {
 			System.out.print(i);
 		}
+
+		System.out.println("----------------------------");
+		//Print names
+		String[] names = {"James", "Mike", "Rochelle", "Ashley", "Robyn"};
+
 	}
 }
