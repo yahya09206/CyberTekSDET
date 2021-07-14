@@ -12,7 +12,16 @@ public class MultiDimensionalArray2 {
 
 		System.out.println("----------------------------------------");
 		//print out every single element using for each
-		
+		//for getting each 2 dimensional arrayb from array variable
+		for (int[][] each2D : arr3D) {
+			//for getting 1 dimensional array from 2d array
+			for (int[] each1D : each2D ) {
+				//for getting each element from each single dimensional array
+				for (int element : each1D ) {
+					
+				}
+			}
+		}
 
 	}
 }
