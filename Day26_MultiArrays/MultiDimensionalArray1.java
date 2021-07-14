@@ -12,9 +12,19 @@ public class MultiDimensionalArray1 {
 		System.out.println("----------------------------------");
 		for(int i = 0; i < arr2D.length; i++){
 			int[] each1DArray = arr2D[i];
+			System.out.println(Arrays.toString(arr2D[i]));
 			for (int j = 0; j < each1DArray.length; j++) {
-				
+				System.out.println(each1DArray[j]);
 			}
+		}
+
+		System.out.println("----------------------------------");
+		for (int[] each1D : arr2D ) {
+			System.out.println(Arrays.toString(each1D));
+			for (int element : each1D) {
+				System.out.print(element + " ");
+			}
+			System.out.println();
 		}
 	}
 }
