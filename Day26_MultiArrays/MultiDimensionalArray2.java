@@ -6,6 +6,13 @@ public class MultiDimensionalArray2 {
 
 		System.out.println(Arrays.deepToString(arr3D));
 		System.out.println(Arrays.deepToString(arr3D[1]));
+		System.out.println(Arrays.toString(arr3D[0][1]));
+		//Print specific element from last index
+		System.out.println(arr3D[1][0][2]);
+
+		System.out.println("----------------------------------------");
+		//print out every single element using for each
+		
 
 	}
 }
