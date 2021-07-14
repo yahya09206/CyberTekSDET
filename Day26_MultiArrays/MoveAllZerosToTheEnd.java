@@ -5,8 +5,11 @@ public class MoveAllZerosToTheEnd {
 		int[] array = {10,0,5,0,1,0};
 		int[] result = new int[array.length];
 
+		int i = 0;
 		for(int each : array){
-			
+			if(each != 0){
+				
+			}
 		}
 		System.out.println(Arrays.toString(result));
 	}
