@@ -8,7 +8,7 @@ public class MoveAllZerosToTheEnd {
 		int i = 0;
 		for(int each : array){
 			if(each != 0){
-				
+				result[i++] = each;
 			}
 		}
 		System.out.println(Arrays.toString(result));
