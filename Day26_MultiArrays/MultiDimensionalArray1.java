@@ -11,7 +11,10 @@ public class MultiDimensionalArray1 {
 
 		System.out.println("----------------------------------");
 		for(int i = 0; i < arr2D.length; i++){
-			
+			int[] each1DArray = arr2D[i];
+			for (int j = 0; j < each1DArray.length; j++) {
+				
+			}
 		}
 	}
 }
