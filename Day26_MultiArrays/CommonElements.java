@@ -15,6 +15,15 @@ public class CommonElements {
 		}
 
 		System.out.println("----------------------------------------");
-		
+		//iterate thru 2nd array
+		for (int i = 0; i < arr2.length; i++) {
+			//iterate thru 1st array
+			for (int j = 0; j < arr1.length; j++) {
+				//check if elements from second array math with elements from first array, then print
+				if (arr2[i] == arr1[j]) {
+					System.out.println(arr2[i]);
+				}
+			}
+		}
 	}
 }
