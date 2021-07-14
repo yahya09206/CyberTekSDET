@@ -15,8 +15,8 @@ public class CommonElements {
 		}
 
 		System.out.println("----------------------------------------");
-		//iterate thru 2nd array
-		for (int i = 0; i < arr2.length; i++) {
+		//reverse iterate thru 2nd array
+		for (int i = arr2.length - 1; i >= 0; i--) {
 			//iterate thru 1st array
 			for (int j = 0; j < arr1.length; j++) {
 				//check if elements from second array math with elements from first array, then print
