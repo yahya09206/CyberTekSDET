@@ -18,8 +18,9 @@ public class MultiDimensionalArray2 {
 			for (int[] each1D : each2D ) {
 				//for getting each element from each single dimensional array
 				for (int element : each1D ) {
-					
+					System.out.print(element + " ");
 				}
+				System.out.println();
 			}
 		}
 
