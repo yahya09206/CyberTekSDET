@@ -24,5 +24,7 @@ public class MultiDimensionalArray2 {
 			}
 		}
 
+		System.out.println("----------------------------------------");
+
 	}
 }
