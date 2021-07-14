@@ -8,5 +8,10 @@ public class MultiDimensionalArray1 {
 		System.out.println(Arrays.toString(arr2D[1]));
 		System.out.println(Arrays.deepToString(arr2D));
 		System.out.println(arr2D[1][1]);
+
+		System.out.println("----------------------------------");
+		for(int i = 0; i < arr2D.length; i++){
+			
+		}
 	}
 }
