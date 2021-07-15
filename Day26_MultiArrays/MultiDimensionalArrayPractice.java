@@ -17,7 +17,16 @@ public class MultiDimensionalArrayPractice {
 		//iterate thru whole array from right to left
 		for (int i = 0; i < arr2D.length; i++) {
 			//iterate thru inner arrays
-			for (int j = 0; j < arr2D[i].length; j++) { //j = each element index
+			for (int j = arr2D[i].length - 1; j >= 0; j--) { //j = each element index
+				System.out.print(arr2D[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+		System.out.println("---------------------------------");
+		for (int i = 0; i < arr2D.length; i++) {
+			//iterate thru inner arrays
+			for (int j = arr2D[i].length - 1; j >= 0; j--) { //j = each element index
 				System.out.print(arr2D[i][j] + " ");
 			}
 			System.out.println();
