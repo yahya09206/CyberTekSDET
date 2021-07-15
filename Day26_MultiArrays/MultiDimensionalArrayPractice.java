@@ -39,7 +39,5 @@ public class MultiDimensionalArrayPractice {
 			}
 			System.out.println();
 		}
-
-
 	}
 }
