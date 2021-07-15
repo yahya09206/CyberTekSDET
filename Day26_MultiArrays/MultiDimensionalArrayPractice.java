@@ -24,7 +24,7 @@ public class MultiDimensionalArrayPractice {
 		}
 
 		System.out.println("---------------------------------");
-		for (int i = 0; i < arr2D.length; i++) {
+		for (int[] each1D: arr2D) {
 			//iterate thru inner arrays
 			for (int j = arr2D[i].length - 1; j >= 0; j--) { //j = each element index
 				System.out.print(arr2D[i][j] + " ");
