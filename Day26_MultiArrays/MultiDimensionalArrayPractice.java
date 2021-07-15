@@ -26,11 +26,14 @@ public class MultiDimensionalArrayPractice {
 		System.out.println("---------------------------------");
 		for (int[] each1D: arr2D) {
 			//iterate thru inner arrays
-			for (int j = arr2D[i].length - 1; j >= 0; j--) { //j = each element index
-				System.out.print(arr2D[i][j] + " ");
+			for (int j = each1D.length - 1; j >= 0; j--) { //j = each element index
+				System.out.print(each1D[j] + " ");
 			}
 			System.out.println();
 		}
+
+		System.out.println("---------------------------------");
+		
 
 	}
 }
