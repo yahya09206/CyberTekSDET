@@ -12,5 +12,7 @@ public class MultiDimensionalArrayPractice {
 			}
 			System.out.println();
 		}
+		System.out.println("---------------------------------");
+		//Reverse starting from first array inside of 2d
 	}
 }
