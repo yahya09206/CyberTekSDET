@@ -14,5 +14,14 @@ public class MultiDimensionalArrayPractice {
 		}
 		System.out.println("---------------------------------");
 		//Reverse starting from first array inside of 2d
+		//iterate thru whole array from right to left
+		for (int i = 0; i < arr2D.length; i++) {
+			//iterate thru inner arrays
+			for (int j = 0; j < arr2D[i].length; j++) { //j = each element index
+				System.out.print(arr2D[i][j] + " ");
+			}
+			System.out.println();
+		}
+
 	}
 }
