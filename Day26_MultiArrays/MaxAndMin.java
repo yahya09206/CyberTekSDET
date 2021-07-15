@@ -11,6 +11,7 @@ public class MaxAndMin {
 
 		for (int[] each1D : numbers ) {//reps each of the 1d array in 2d array
 			for (int element : each1D ) {
+				count++;
 				sum += element;
 				if (element > max) {
 					max = element;
@@ -23,7 +24,7 @@ public class MaxAndMin {
 		System.out.println("max " + max);
 		System.out.println("min " + min);
 		System.out.println("sum " + sum);
-		System.out.println("average " + average);
+		System.out.println("average " + ((double) sum / count));
 		System.out.println("---------------------------------");
 	}
 }
