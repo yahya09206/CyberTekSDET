@@ -4,8 +4,8 @@ public class MaxAndMin {
 
 		int[][] numbers = {{10,20,30}, {40,50,60,70,80}};
 
-		int max = int[0][0];
-		int min = int[0][0];
+		int max = numbers[0][0];
+		int min = numbers[0][0];
 		int sum = 0;
 
 		for (int[] each1D : numbers ) {//reps each of the 1d array in 2d array
@@ -18,10 +18,10 @@ public class MaxAndMin {
 					min = element;
 				}
 			}
-			System.out.println("max " + max);
-			System.out.println("min " + min);
-			System.out.println("sum " + sum);
 		}
+		System.out.println("max " + max);
+		System.out.println("min " + min);
+		System.out.println("sum " + sum);
 		System.out.println("---------------------------------");
 	}
 }
