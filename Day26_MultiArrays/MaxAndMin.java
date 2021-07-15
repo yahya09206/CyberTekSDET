@@ -11,6 +11,9 @@ public class MaxAndMin {
 				if (element > max) {
 					max = element;
 				}
+				if (element < min) {
+					min = element;
+				}
 			}
 		}
 		System.out.println("---------------------------------");
