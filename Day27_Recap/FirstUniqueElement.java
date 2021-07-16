@@ -28,13 +28,13 @@ public class FirstUniqueElement {
 			//iterate thru loop
 			int frequency = 0;
 			for (int elements : nums) { //find frequency of one element
-				if (nums[i] == nums[j]) {
+				if (element == each) {
 					frequency++;	
 				}
 			}
 			//check if frequency = 1
 			if (frequency == 1) {
-				firstUniqueElement = nums[j]; 
+				firstUniqueElement = each; 
 				//exit loop after finding first uniqe element 
 				break;
 			}
