@@ -5,5 +5,10 @@ public class ArraysPractice {
 		int[] array = new int[2];
 		array[0] = 10;
 		array[1] = 20;
+
+		// re init array to hold 4 elements
+		array = new int[4];
+		array[2] = 30;
+		array[3] = 40;
 	}
 }
