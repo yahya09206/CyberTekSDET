@@ -25,5 +25,8 @@ public class Shopping {
 
 		System.out.println("-------------------------------------");
 		//3. print a report of each shopping item
+		for (int i = 0; i < itemIDs.length; i++) {
+			System.out.println(items[i] + " $" + prices[i] + " ID#" + itemIDs[i]);
+		}
 	}
 }
