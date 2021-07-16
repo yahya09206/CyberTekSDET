@@ -25,5 +25,18 @@ public class ArraysUtility {
 
 		System.out.println("------------------------------------");
 		//copyOfRange()
+		int[] data = {10,20,30,40,50,60,70,80,90};
+		int[] someData = Arrays.copyOfRange(data, 2, 6 + 1);
+		System.out.println(Arrays.toString(someData));
+
+		System.out.println("------------------------------------");
+		//print from A-Z
+		char[] characters = new char[26];
+		int j = 0;
+		for (char k = 'A'; k <= 'Z'; k++) {
+			characters[j++] = k;
+		}
+		System.out.println(Arrays.toString(characters));
+		System.out.println(Arrays.copyOfRange(characters, 0, 9+1));
 	}
 }
