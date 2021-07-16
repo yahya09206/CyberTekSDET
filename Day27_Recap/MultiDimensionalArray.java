@@ -19,5 +19,12 @@ public class MultiDimensionalArray {
 			System.out.println(Arrays.toString(eachScrum));
 		}
 
+		System.out.println("-------------------------------------");
+		//
+		for (String[] eachScrum : scrumTeams) {
+			for (String eachMember : eachScrum) {
+				System.out.print(eachMember + " ");
+			}
+		}
 	}
 }
