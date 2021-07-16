@@ -17,5 +17,10 @@ public class ArraysPractice {
 		System.out.println(numbers.length);
 		//Print last element
 		System.out.println(numbers[numbers.length-1]);
+
+		//iterate thru array using for loop
+		for (int i = 0; i < numbers.length; i++) {
+			System.out.print(numbers[i] + " ");
+		}
 	}
 }
