@@ -22,5 +22,8 @@ public class Shopping {
 			}
 		}
 		System.out.print("hasIpad = " + hasIpad);
+
+		System.out.println("-------------------------------------");
+		//3. print a report of each shopping item
 	}
 }
