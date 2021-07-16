@@ -14,6 +14,8 @@ public class ArraysPractice {
 		System.out.println(Arrays.toString(array));
 
 		int[] numbers = {1,2,3,4,5,6,7,8,9,10};
-		System.out.println(numbers.length());
+		System.out.println(numbers.length);
+		//Print last element
+		System.out.println(numbers[numbers.length-1]);
 	}
 }
