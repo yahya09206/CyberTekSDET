@@ -13,5 +13,10 @@ public class Shopping {
 				break;
 			}
 		}
+
+		//2. find out if ipad is contained in item list
+		for (String each : items) {
+			
+		}
 	}
 }
