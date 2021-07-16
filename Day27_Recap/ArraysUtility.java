@@ -22,5 +22,8 @@ public class ArraysUtility {
 			arr3[i++] = each;
 		}
 		System.out.println(Arrays.toString(arr3));
+
+		System.out.println("------------------------------------");
+		//copyOfRange()
 	}
 }
