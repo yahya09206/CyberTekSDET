@@ -13,5 +13,11 @@ public class MultiDimensionalArray {
 		System.out.println(Arrays.toString(scrumTeams[0]));
 		System.out.println(scrumTeams[1][1]);
 
+		System.out.println("-------------------------------------");
+		//print out each individual element from 2d array
+		for (String[] eachScrum : scrumTeams) {
+			System.out.println(Arrays.toString(eachScrum));
+		}
+
 	}
 }
