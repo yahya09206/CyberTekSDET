@@ -11,5 +11,7 @@ public class MultiDimensionalArray {
 		//Print out 2d array using toDeepString
 		System.out.println(Arrays.deepToString(scrumTeams));
 		System.out.println(Arrays.toString(scrumTeams[0]));
+		System.out.println(scrumTeams[1][1]);
+
 	}
 }
