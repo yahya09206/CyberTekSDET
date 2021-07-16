@@ -26,5 +26,7 @@ public class MultiDimensionalArray {
 				System.out.print(eachMember + " ");
 			}
 		}
+
+		
 	}
 }
