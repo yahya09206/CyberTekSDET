@@ -16,10 +16,11 @@ public class Shopping {
 
 		//2. find out if ipad is contained in item list
 		boolean hasIpad = false;
-		for (String each : items) {
+		for (String eachItem : items) {
 			if (eachItem.equals("iPad")) {
 				hasIpad = true;
 			}
 		}
+		System.out.print("hasIpad = " + hasIpad);
 	}
 }
