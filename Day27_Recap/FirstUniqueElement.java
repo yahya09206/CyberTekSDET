@@ -10,14 +10,17 @@ public class FirstUniqueElement {
 			//iterate thru loop
 			int frequency = 0;
 			for (int i = 0; i < nums.length; i++) { //find frequency of one element
-				if (nums[i] == 1) {
+				if (nums[i] == nums[j]) {
 					frequency++;	
 				}
 			}
+			//check if frequency = 1
 			if (frequency == 1) {
-				firstUniqueElement = nums[j];  
+				firstUniqueElement = nums[j]; 
+				//exit loop after finding first uniqe element 
+				break;
 			}
 		}
-		System.out.println(frequency);
+		System.out.println(firstUniqueElement);
 	}
 }
