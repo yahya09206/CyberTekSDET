@@ -5,8 +5,11 @@ public class WarmUpTasks {
 		posNegZero(10);
 		posNegZero(0);
 
-		int[] number = {10,20,0,-30, -5};
-		
+		int[] numbers = {10,20,0,-30, -5};
+
+		for (int number : numbers ) {
+			posNegZero(number);
+		}
 
 	}
 
