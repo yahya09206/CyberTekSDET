@@ -7,9 +7,14 @@ public class ReturnMethodsPractice {
 		System.out.println("---------------------------------");
 		int[] numbers = {10,5,0,-1,20,8,7};
 		int max = numbers[0];
+		int min = numbers[0];
 		for (int each : numbers) {
 			max = max(each, max);
+			min = min(each, min);
 		}
+
+		System.out.println("max = " + max);
+		System.out.println("min = " + min);
 
 	}
 
