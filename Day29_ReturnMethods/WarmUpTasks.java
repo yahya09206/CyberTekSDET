@@ -64,4 +64,9 @@ public class WarmUpTasks {
 	public static void printMaxNumber(int num1, int num2){
 		System.out.println(num1 > num2 ? num1 : num2 + " is maximum number");
 	}
+
+	//method to print out array of integers in descending order
+	public static void sortDesc(int[] arr){
+
+	}
 }
