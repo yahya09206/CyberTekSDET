@@ -31,5 +31,19 @@ public class ReturnMethodsPractice {
 	public static int min(int a, int b){
 		return (a < b)? a : b;
 	}
-	public static int maxNumberFromIntArray()
+	public static int maxNumberFromIntArray(int[] numbers){
+		int max = numbers[0];
+		for (int number : numbers ) {
+			max(max, number);
+		}
+		return max;
+	}
+
+	public static int minNumberFromIntArray(int[] numbers){
+		int min = numbers[0];
+		for (int number : numbers ) {
+			max(min, number);
+		}
+		return min;
+	}
 }
