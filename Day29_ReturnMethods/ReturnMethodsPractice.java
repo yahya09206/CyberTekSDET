@@ -20,6 +20,8 @@ public class ReturnMethodsPractice {
 		int[] nums = {200, 300, 500, 5, -1, 0, -100, 1000, 2000};
 		int maximumNumber = maxNumberFromIntArray(nums);
 		int minimumNumber = minNumberFromIntArray(nums);
+		System.out.println("max number = " + maximumNumber);
+		System.out.println("min number = " + minimumNumber);
 
 	}
 
@@ -39,7 +41,7 @@ public class ReturnMethodsPractice {
 	public static int maxNumberFromIntArray(int[] numbers){
 		int max = numbers[0];
 		for (int number : numbers ) {
-			max(max, number);
+			max = max(max, number);
 		}
 		return max;
 	}
@@ -47,7 +49,7 @@ public class ReturnMethodsPractice {
 	public static int minNumberFromIntArray(int[] numbers){
 		int min = numbers[0];
 		for (int number : numbers ) {
-			max(min, number);
+			min = min(min, number);
 		}
 		return min;
 	}
