@@ -21,6 +21,10 @@ public class WarmUpTasks {
 		System.out.println("------------------------------------------");
 		printMaxNumber(4,5);
 
+		System.out.println("------------------------------------------");
+		int[] array = {10,4,5,63,56,3,1};
+		sortDesc(array);
+
 	}
 
 	//method to check if integer is positive, negative or zero
@@ -67,6 +71,11 @@ public class WarmUpTasks {
 
 	//method to print out array of integers in descending order
 	public static void sortDesc(int[] arr){
-
+		Arrays.sort(arr);
+		int[] result = new int[arr.length];
+		for (int i = arr.length - 1, j = 0; i >= 0; i--, i++) {//reversing array
+			result[j] = arr[i];
+		}
+		System.out.println(Arrays.toString(result));
 	}
 }
