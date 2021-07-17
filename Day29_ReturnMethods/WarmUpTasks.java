@@ -31,5 +31,13 @@ public class WarmUpTasks {
 
 	public static void mergeTwoArray(int[] arr1, int[] arr2){
 		int[] arr3 = new int[arr1.length + arr2.length];
+		int i = 0;
+		for (int each : arr1) {
+			arr3[i++] = each;
+		}
+
+		for (int each : arr2) {
+			arr3[i++] = each;
+		}
 	}
 }
