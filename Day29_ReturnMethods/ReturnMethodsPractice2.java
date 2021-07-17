@@ -2,7 +2,10 @@ import java.util.Arrays;
 public class ReturnMethodsPractice2 {
 	public static void main(String[] args){
 
-		grade(95);
+		//grade(95);
+		System.out.println(grade(100));
+		String r = grade(100);
+		System.out.println("r = " + r);
 
 	}
 
@@ -29,7 +32,7 @@ public class ReturnMethodsPractice2 {
 	//same grade method but with return value
 	public static String grade(int score){
 		String result = "Invalid";
-		if(score >= 0 && score <=){
+		if(score >= 0 && score <= 100){
 			result = (score >= 90) ? "A" : (score >= 80)? "B" :(score >= 70)? "C" : (score >= 60)? "D" : "F";
 		}
 		return result;
