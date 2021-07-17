@@ -3,7 +3,8 @@ public class ReturnMethods {
 	public static void main(String[] args){
 
 		System.out.println(reverse("Java"));
-		isPalindrome("level");
+		boolean isPalindrome = isPalindrome("level");
+		System.out.println(isPalindrome);
 	}
 
 	public static String reverse(String str){
@@ -15,12 +16,15 @@ public class ReturnMethods {
 		return result;
 	}
 
-	public static void isPalindrome(String str){
+	public static boolean isPalindrome(String str){
 		String reversedStr = reverse(str);
-		if (reversedStr.equalsIgnoreCase(str)) {
-			System.out.println(str + " is palindrome");
-		}else {
-			System.out.println(str + " is not palindrome");
-		}
+		// if (reversedStr.equalsIgnoreCase(str)) {
+		// 	System.out.println(str + " is palindrome");
+		// }else {
+		// 	System.out.println(str + " is not palindrome");
+		// }
+		return reversedStr.equalsIgnoreCase(str) ? true : false;
 	}
+
+
 }
