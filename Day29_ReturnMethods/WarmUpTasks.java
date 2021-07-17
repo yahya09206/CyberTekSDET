@@ -16,6 +16,9 @@ public class WarmUpTasks {
 		int[] array1 = {1,2,3,4},
 			  array2 = {5,6,7,8};
 		mergeTwoArray(array1, array2);
+		System.out.println("------------------------------------------");
+
+		formatFullName("CybErTEK", "SCHooL");
 
 	}
 
@@ -50,9 +53,9 @@ public class WarmUpTasks {
 	public static void formatFullName(String firstName, String lastName){
 
 		firstName = firstName.substring(0,1).toUpperCase() + firstName.substring(1).toLowerCase();
-		lastName = lastName.substring(0,1).toUpperCase() + lastName.substrinlasttoLowerCase();
+		lastName = lastName.substring(0,1).toUpperCase() + lastName.substring(1).toLowerCase();
 
-		String fullName = firstName + lastName;
+		String fullName = firstName + " " + lastName;
 		System.out.println("fullName = " + fullName);
 
 
