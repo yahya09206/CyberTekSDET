@@ -1,6 +1,12 @@
 public class WarmUpTasks {
 	public static void main(String[] args){
 
+		posNegZero(-10);
+		posNegZero(10);
+		posNegZero(0);
+
+		int[] number = {10,20,0,-30, -5};
+		
 
 	}
 
