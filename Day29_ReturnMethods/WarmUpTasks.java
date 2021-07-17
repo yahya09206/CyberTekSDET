@@ -49,6 +49,10 @@ public class WarmUpTasks {
 	//method to print out full name regardless of case
 	public static void formatFullName(String firstName, String lastName){
 
-		firstName.substring(0,1).toUpperCase() + firstName.substring(1).toLowerCase();
+		firstName = firstName.substring(0,1).toUpperCase() + firstName.substring(1).toLowerCase();
+		lastName = lastName.substring(0,1).toUpperCase() + lastName.substrinlasttoLowerCase();
+		
+
+
 	}
 }
