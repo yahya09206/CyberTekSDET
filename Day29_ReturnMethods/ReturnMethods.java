@@ -15,6 +15,11 @@ public class ReturnMethods {
 	}
 
 	public static void isPalindrome(String str){
-		
+		String reversedStr = reverse(str);
+		if (reversedStr.equals(str)) {
+			System.out.println(str + " is palindrome");
+		}else {
+			System.out.println(str + " is not palindrome");
+		}
 	}
 }
