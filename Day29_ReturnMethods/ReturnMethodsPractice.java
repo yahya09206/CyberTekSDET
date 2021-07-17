@@ -5,6 +5,7 @@ public class ReturnMethodsPractice {
 		int maxNum = max(10, 20);
 		System.out.println(maxNum * 2);
 		System.out.println("---------------------------------");
+		int[] numbers = {10,5,0,-1,20,8,7};
 
 	}
 
@@ -19,6 +20,6 @@ public class ReturnMethodsPractice {
 		return (a > b)? a : b;
 	}
 	public static int min(int a, int b){
-		
+		return (a < b)? a : b;
 	}
 }
