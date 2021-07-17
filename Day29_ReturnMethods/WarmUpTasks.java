@@ -11,6 +11,8 @@ public class WarmUpTasks {
 			posNegZero(number);
 		}
 
+		System.out.println("------------------------------------------");
+
 	}
 
 
@@ -26,4 +28,6 @@ public class WarmUpTasks {
 			System.out.println(number + " is zero");
 		}
 	}
+
+
 }
