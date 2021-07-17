@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class WarmUpTasks {
 	public static void main(String[] args){
 
@@ -12,6 +13,9 @@ public class WarmUpTasks {
 		}
 
 		System.out.println("------------------------------------------");
+		int[] array1 = {1,2,3,4},
+			  array2 = {5,6,7,8};
+		mergeTwoArray(array1, array2);
 
 	}
 
@@ -39,5 +43,7 @@ public class WarmUpTasks {
 		for (int each : arr2) {
 			arr3[i++] = each;
 		}
+		System.out.println(Arrays.toString(arr3));
+
 	}
 }
