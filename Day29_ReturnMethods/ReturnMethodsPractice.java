@@ -6,6 +6,10 @@ public class ReturnMethodsPractice {
 		System.out.println(maxNum * 2);
 		System.out.println("---------------------------------");
 		int[] numbers = {10,5,0,-1,20,8,7};
+		int max = numbers[0];
+		for (int each : numbers) {
+			max = max(each, max);
+		}
 
 	}
 
