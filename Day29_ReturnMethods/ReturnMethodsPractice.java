@@ -16,6 +16,11 @@ public class ReturnMethodsPractice {
 		System.out.println("max = " + max);
 		System.out.println("min = " + min);
 
+		System.out.println("----------------------------");
+		int[] nums = {200, 300, 500, 5, -1, 0, -100, 1000, 2000};
+		int maximumNumber = maxNumberFromIntArray(nums);
+		int minimumNumber = minNumberFromIntArray(nums);
+
 	}
 
 	public static int max(int a, int b){
