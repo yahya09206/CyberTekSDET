@@ -19,7 +19,6 @@ public class WarmUpTasks {
 
 	}
 
-
 	//method to check if integer is positive, negative or zero
 	public static void posNegZero(int number){
 
@@ -33,6 +32,7 @@ public class WarmUpTasks {
 		}
 	}
 
+	//method to merge any two arrays
 	public static void mergeTwoArray(int[] arr1, int[] arr2){
 		int[] arr3 = new int[arr1.length + arr2.length];
 		int i = 0;
@@ -44,6 +44,11 @@ public class WarmUpTasks {
 			arr3[i++] = each;
 		}
 		System.out.println(Arrays.toString(arr3));
+	}
 
+	//method to print out full name regardless of case
+	public static void formatFullName(String firstName, String lastName){
+
+		
 	}
 }
