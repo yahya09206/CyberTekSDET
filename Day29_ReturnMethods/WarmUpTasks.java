@@ -73,7 +73,7 @@ public class WarmUpTasks {
 	public static void sortDesc(int[] arr){
 		Arrays.sort(arr);
 		int[] result = new int[arr.length];
-		for (int i = arr.length - 1, j = 0; i >= 0; i--, i++) {//reversing array
+		for (int i = arr.length - 1, j = 0; i >= 0; i--, j++) {//reversing array
 			result[j] = arr[i];
 		}
 		System.out.println(Arrays.toString(result));
