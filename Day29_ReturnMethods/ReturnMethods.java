@@ -13,4 +13,8 @@ public class ReturnMethods {
 		//System.out.println(result);
 		return result;
 	}
+
+	public static void isPalindrome(String str){
+		
+	}
 }
