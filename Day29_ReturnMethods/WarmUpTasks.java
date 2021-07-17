@@ -17,8 +17,9 @@ public class WarmUpTasks {
 			  array2 = {5,6,7,8};
 		mergeTwoArray(array1, array2);
 		System.out.println("------------------------------------------");
-
 		formatFullName("CybErTEK", "SCHooL");
+		System.out.println("------------------------------------------");
+		printMaxNumber(4,5);
 
 	}
 
@@ -57,7 +58,10 @@ public class WarmUpTasks {
 
 		String fullName = firstName + " " + lastName;
 		System.out.println("fullName = " + fullName);
+	}
 
-
+	//method to print out max between two numbers
+	public static void printMaxNumber(int num1, int num2){
+		System.out.println(num1 > num2 ? num1 : num2 + " is maximum number");
 	}
 }
