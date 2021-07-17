@@ -28,6 +28,12 @@ public class ReturnMethodsPractice2 {
 
 	//same grade method but with return value
 	public static String grade(int score){
-		
+		String result = "";
+		if(score >= 0 && score <=){
+			result = (score >= 90) ? "A" : (score >= 80)? "B" :(score >= 70)? "C" : (score >= 60)? "D" : "F";
+		}else {
+			result = "Invalid";
+		}
+		return result;
 	}
 }
