@@ -10,5 +10,17 @@ public class LoopsReview3 {
 		System.out.println(count);
 		System.out.println(sentence);
 
+		System.out.println("---------------------------");
+		for(int i = 0; i <= 5; i++){
+			for(int j = 1; j <= 10; j++){
+			System.out.print(j + " ");	
+			}
+			System.out.println();
+		}
+		System.out.println();
+		System.out.println("---------------------------");
+		//find frequency of 1 character
+		String str = "aabcccd";
+
 	}
 }
