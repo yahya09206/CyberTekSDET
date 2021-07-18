@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class ReturnMethodsPractice3 {
 	public static void main(String[] args){
 
-		String str = "AAABBBBBBCCCCC";
+		String str = "AAABBBBBBCCCCCDDDDDDDEEEEEEEFFFFFFGGGGGG";
 		String[] arr = str.split("");
 		System.out.println(Arrays.toString(arr));
 
