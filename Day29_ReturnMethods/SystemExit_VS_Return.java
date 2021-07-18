@@ -9,6 +9,7 @@ public class SystemExit_VS_Return {
 
 		if(score < 0 || score > 100){
 			System.out.println("Invalid");
+			System.exit(0);
 		}
 		if(score >= 60){
 			System.out.println("Passed");
