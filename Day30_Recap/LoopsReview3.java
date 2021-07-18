@@ -8,6 +8,7 @@ public class LoopsReview3 {
 			count++;
 		}
 		System.out.println(count);
+		System.out.println(sentence);
 
 	}
 }
