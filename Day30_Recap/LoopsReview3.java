@@ -5,6 +5,7 @@ public class LoopsReview3 {
 		int count = 0;
 		while(sentence.contains("Java")){
 			sentence.replaceFirst("Java", "");
+			count++;
 		}
 
 
