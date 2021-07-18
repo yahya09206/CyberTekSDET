@@ -59,5 +59,16 @@ public class LoopsReview {
 			System.out.print(i + "" + j + " ");
 		}
 
+		System.out.println();
+		System.out.println("-----------------------------------");
+		//check if string is palindrome
+		String word = "Python";
+		String reverse = "";
+		for (int i = word.length() - 1; i >= 0; i--) {
+			reverse += word.charAt(i);
+		}
+		boolean isPalindrome = word.equalsIgnoreCase(reverse);
+		System.out.println(isPalindrome);
+
 	}
 }
