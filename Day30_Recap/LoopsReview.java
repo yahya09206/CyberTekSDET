@@ -26,5 +26,8 @@ public class LoopsReview {
 			}
 		}
 		System.out.println();
+		System.out.println("-----------------------------------");
+		String str = "Java";
+		
 	}
 }
