@@ -16,6 +16,7 @@ public class LoopsReview {
 		for(int i = 1; i < 11; i++){
 			System.out.print(i + " ");	
 		}
+		System.out.println();
 
 		System.out.println("-----------------------------------");
 		//print only even numbers from 1-20
@@ -24,5 +25,6 @@ public class LoopsReview {
 				System.out.print(i + " ");
 			}
 		}
+		System.out.println();
 	}
 }
