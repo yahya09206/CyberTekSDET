@@ -28,6 +28,13 @@ public class LoopsReview {
 		System.out.println();
 		System.out.println("-----------------------------------");
 		String str = "Java";
-		
+
+		for (int i = 0; i <= str.length() - 1; i++) {
+			System.out.println(str.charAt(i));
+		}
+		//reverse order
+		for (int i = str.length() - 1; i >= 0; i--) {
+			System.out.println(str.charAt(i));
+		}
 	}
 }
