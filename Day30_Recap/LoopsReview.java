@@ -11,5 +11,10 @@ public class LoopsReview {
 		System.out.println(9);
 		System.out.println(10);
 		System.out.println("-----------------------------------");
+
+		//using for loop
+		for(int i = 1; i < 11; i++){
+			
+		}
 	}
 }
