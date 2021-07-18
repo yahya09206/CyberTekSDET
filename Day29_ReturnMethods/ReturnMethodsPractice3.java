@@ -10,17 +10,20 @@ public class ReturnMethodsPractice3 {
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(arr2));
 
+		String result = removeDuplicates(str);
+		System.out.println(result);
+
 	}
 	public static String removeDuplicates(String str){
 		String result = ""; //"ABC"
 		//split string by spaces
-		for( String each : str.split(" ")){
+		for( String each : str.split("")){
 			//if character isn't not contained
 			if (!result.contains(each)) {
 				//add to result
 				result += each;
 			}
 		}
-		return "";
+		return result;
 	}
 }
