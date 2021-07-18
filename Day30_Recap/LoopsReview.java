@@ -44,5 +44,12 @@ public class LoopsReview {
 		for(int i = 1, ch = 65; i <= 26; i++, ch++){
 			System.out.println(i + " " + (char) + ch);
 		}
+
+		System.out.println();
+		System.out.println("-----------------------------------");
+		//print alphas backwards
+		for(int i = 26, ch = 90; i >= 1; i--, ch--){
+			System.out.println(i + " " + (char) + ch);
+		}
 	}
 }
