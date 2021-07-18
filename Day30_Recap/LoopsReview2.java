@@ -10,7 +10,7 @@ public class LoopsReview2 {
 			System.out.println("Enter a number: ");
 			n = scan.nextInt();
 			System.out.println("Would you like to enter another number?");
-			answer = scan.next();
+			answer = scan.next().toLowerCase();
 			//check for valid answer
 			while(!(answer.equals("yes") || answer.equals("no"))){
 				System.out.println("Would you like to enter another number?");
