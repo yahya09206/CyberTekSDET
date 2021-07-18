@@ -21,16 +21,21 @@ public class LoopsReview3 {
 		System.out.println("---------------------------");
 		//find frequency of 1 character
 		String str = "aabcccd";
-
+		//loop thru whole string
 		for(int j = 0; j <= str.length() - 1; j++){
+			//assign ch to each index @ j
 			char ch = str.charAt(j);
+			//coutner
 			int frequency = 0;
 			for (int i = 0; i <= str.length() - 1; i++) {//index num of str
-				if(str.charAt(i) == ch){//
+				if(str.charAt(i) == ch){//check if index is equal to char from before then add to frequency
 					frequency++;
 				}
 			}
-			System.out.println(frequency);
+			//if only seen once, print out
+			if(frequency == 1){
+				System.out.println(ch);
+			}
 		}
 	}
 }
