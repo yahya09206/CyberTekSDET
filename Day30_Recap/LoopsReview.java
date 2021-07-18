@@ -14,7 +14,7 @@ public class LoopsReview {
 
 		//using for loop
 		for(int i = 1; i < 11; i++){
-			
+			System.out.print(i + " ");	
 		}
 	}
 }
