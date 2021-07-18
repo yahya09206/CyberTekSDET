@@ -42,14 +42,22 @@ public class LoopsReview {
 		System.out.println("-----------------------------------");
 		//creating more than one variable inside of for loop
 		for(int i = 1, ch = 65; i <= 26; i++, ch++){
-			System.out.println(i + " " + (char) + ch);
+			System.out.print(i + " " + (char) + ch);
 		}
 
 		System.out.println();
 		System.out.println("-----------------------------------");
 		//print alphas backwards
 		for(int i = 26, ch = 90; i >= 1; i--, ch--){
-			System.out.println(i + " " + (char) + ch);
+			System.out.print(i + " " + (char) + ch);
 		}
+
+		System.out.println();
+		System.out.println("-----------------------------------");
+		//print upper and lowercase letters
+		for (char i = 'A', j = 'a'; i <= 'Z'; i++, j++) {
+			System.out.print(i + "" + j + " ");
+		}
+
 	}
 }
