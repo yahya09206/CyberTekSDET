@@ -32,6 +32,7 @@ public class LoopsReview3 {
 					frequency++;
 				}
 			}
+			//System.out.println(ch + "-" + frequency);
 			//if only seen once, print out
 			if(frequency == 1){
 				System.out.println(ch);
