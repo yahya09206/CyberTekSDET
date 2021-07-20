@@ -1,4 +1,4 @@
-import java.util.StringUtility;
+import utilities.StringUtility;
 public class MethodsReview {
 	public static void main(String[] args){
 
