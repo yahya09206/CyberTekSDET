@@ -20,5 +20,10 @@ public class ForEachLoop {
 		}
 		System.out.println(max);
 		System.out.println(min);
+
+		System.out.println();
+		System.out.println("-------------------------");
+		System.out.println(Math.sqrt(4));
+		System.out.println(Math.pow(4,2));
 	}
 }
