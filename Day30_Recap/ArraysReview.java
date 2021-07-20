@@ -9,7 +9,13 @@ public class ArraysReview {
 			   item5 = "Papers";
 		//declare array of 10 items
 		String[] items = new String[10];
+		items[3] = "Milk";
+		items[3] = "Paper towels";
+		//items[10] = "Grape";
 
 		System.out.println(Arrays.toString(items));
+
+		int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+		System.out.println(Arrays.toString(numbers));
 	}
 }
