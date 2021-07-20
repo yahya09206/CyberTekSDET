@@ -12,4 +12,10 @@ public class StringUtility {
 		//System.out.println(reverse);
 		return reverse;
 	}
+
+	//method to check for palindrome
+	public static boolean isPalindrome(String str){
+		String reversedStr = reverse(str);
+		return str.equalsIgnoreCase(reversedStr);
+	}
 }
