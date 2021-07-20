@@ -41,6 +41,6 @@ public class ForEachLoop {
 			group3[i++] = name;
 		}
 
-		System.out.println(Arrays.toString(group3));
+		System.out.println(Arrays.toString(group3));	
 	}
 }
