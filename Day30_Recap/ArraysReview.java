@@ -31,5 +31,11 @@ public class ArraysReview {
 			result[j] += nums[i];
 		}
 		System.out.println(Arrays.toString(result));
+
+		System.out.println();
+		System.out.println("----------------------------------");
+		//merge arrays
+		String[] group1 = {"Sophie", "Feruza", "Ekaterina"};
+		String[] group2 = {"Shazia", "Bilguun", "Danka", "Mucahit"};
 	}
 }
