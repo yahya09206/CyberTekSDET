@@ -20,7 +20,16 @@ public class ArraysReview {
 
 		//loop thru array
 		for (int i = 0; i <= numbers.length - 1; i++) {
-			System.out.println(numbers[i]);
+			System.out.print(numbers[i] + " ");
 		}
+		System.out.println();
+		System.out.println("----------------------------------");
+		//reverse array and put into 2nd array
+		int[] nums = {10,20,30,40,50};
+		int[] result = new int[nums.length];
+		for (int i = nums.length - 1, j = 0; i >= 0; i--, j++) {
+			result[j] += nums[i];
+		}
+		System.out.println(Arrays.toString(result));
 	}
 }
