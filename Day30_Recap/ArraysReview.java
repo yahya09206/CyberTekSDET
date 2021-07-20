@@ -53,6 +53,5 @@ public class ArraysReview {
 		}
 
 		System.out.println(Arrays.toString(group3));
-
 	}
 }
