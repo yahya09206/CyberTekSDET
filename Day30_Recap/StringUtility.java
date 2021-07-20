@@ -9,5 +9,6 @@ public class StringUtility {
 			reverse += str.charAt(i);
 		}
 		//System.out.println(reverse);
+		return reverse;
 	}
 }
