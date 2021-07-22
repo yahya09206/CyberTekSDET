@@ -5,10 +5,12 @@ public class WarmUpTasks2 {
 		String word = "java";
 
 		int count = 0;
-
+		sentence = sentence.toLowerCase();
+		word = word.toLowerCase();
 		if (sentence.contains(word)) {
 			sentence = sentence.replace(word, "");
-			count++
+			count++;
 		}
+		System.out.println(count);
 	}
 }
