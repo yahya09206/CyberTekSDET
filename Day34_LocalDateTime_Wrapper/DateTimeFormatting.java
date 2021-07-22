@@ -29,11 +29,14 @@ public class DateTimeFormatting {
 		System.out.println(a.format(DTF));
 
 		System.out.println("-----------------------------------");
-		//Task
+		//Task Tuesday, 01:00 PM, Nov/24/2020
 		LocalDateTime time2 = LocalDateTime.of(2020, 11, 24, 13, 0);
 		DateTimeFormatter LDTF = DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
 		System.out.println(time2);
 		System.out.println(time2.format(LDTF));
 
+	}
+	public static String nameOfTheDay(int year, int month, int day){
+		String result = LocalDate.of(year, month, day).format
 	}
 }
