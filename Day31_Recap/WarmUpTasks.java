@@ -18,7 +18,13 @@ public class WarmUpTasks {
 		System.out.println("-------------------------------------");
 		//find frequency of a b and c
 		String s3 = "AAABBCCCC";
-					removeDuplicates(s3);
+		String result = "";
+		for(char each : removeDuplicates(s3).toCharArray()){
+			int frequency = frequency(s3, each);
+			result += each;
+			result += frequency;
+		}
+		System.out.println(result);
 
 	}
 	//method to remove duplicates
