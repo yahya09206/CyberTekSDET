@@ -9,6 +9,11 @@ public class WarmUpTasks2 {
 		String str = "Racecar";
 		boolean isPalindrome = StringUtility.isPalindrome(str);
 		System.out.println(isPalindrome);
+		String str2 = "CCCCYYYBBBEEEERRRTTEEKK";
+		str2 = StringUtility.removeDuplicates(str2);
+		System.out.println(str2);
+
+
 
 	}
 
