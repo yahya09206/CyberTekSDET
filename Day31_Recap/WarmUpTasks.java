@@ -7,5 +7,8 @@ public class WarmUpTasks {
 	public static String removeDuplicates(String str){
 		//store result into new string
 		String result = "";
+		
+
+		return result;
 	}
 }
