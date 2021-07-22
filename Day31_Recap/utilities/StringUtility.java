@@ -68,4 +68,17 @@ public class StringUtility {
 		}
 	}
 
+	//returns frequency of word in the string
+	public static int frequencyOfWord(String sentence, String word){
+		int count = 0;
+		sentence = sentence.toLowerCase();
+		word = word.toLowerCase();
+		if (sentence.contains(word)) {
+			sentence = sentence.replace(word, "");
+			count++;
+		}
+		//return count
+		return count;
+	}
+
 }

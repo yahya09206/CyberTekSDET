@@ -3,7 +3,7 @@ public class WarmUpTasks2 {
 
 		String sentence = "Java Java JaVA";
 		String word = "java";
-		System.out.println(count);
+		System.out.println(frequencyOfWord(sentence, word));
 	}
 
 	//method to remove instances of specific word
