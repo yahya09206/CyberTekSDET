@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class WarmUpTasks {
 	public static void main(String[] args){
 
-		String str = "MMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
+		String str = "ZMMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
 		System.out.println(removeDuplicates(str));
 		System.out.println("-------------------------------------");
 		System.out.println(isAnagram("heart", "earth"));
@@ -10,18 +10,10 @@ public class WarmUpTasks {
 		int n1 = frequency(str, 'M');
 		System.out.println("n1 = " + n1);
 		System.out.println("-------------------------------------");
-		String unique = "";
-		//loop to find frequency of each word
-
-		for (int i = 0; i <= str.length; i++) {
-			char each = s.charAt(i);
-			int frequency = frequency(str, each);
-			if (frequency == 1) {
-				unique += each;
-			}
-		}
-
-
+		
+		//loop to find unique char
+		String s = "aaaaaaabcccccccccdeeeeef";
+		System.out.println(unique);
 
 	}
 	//method to remove duplicates
@@ -66,5 +58,18 @@ public class WarmUpTasks {
 		}
 
 		return count;
+	}
+
+	//unique characters
+	public static String uniqueCharacters(String s){
+		String unique = "";
+		for (int i = 0; i <= str.length() - 1; i++) {
+			char each = str.charAt(i);
+			int frequency = frequency(str, each);
+			if (frequency == 1) {
+				unique += each;
+			}
+		}
+		return unique;
 	}
 }
