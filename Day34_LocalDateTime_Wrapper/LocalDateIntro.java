@@ -22,5 +22,10 @@ public class LocalDateIntro {
 			System.out.println(names[i] + ", was born on: " + DoB[i]);
 		}
 
+		System.out.println("-------------------------------");
+		//declare dates to find out which person is older
+		LocalDate DoB1 = LocalDate.of(1980, 12, 11);
+		LocalDate DoB2 = LocalDate.of(1980, 12, 25);
+
 	}
 }
