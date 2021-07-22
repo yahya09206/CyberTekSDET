@@ -36,4 +36,9 @@ public class WarmUpTasks {
 		return Arrays.equals(ch1, ch2);
 
 	}
+
+	//method to check frequency of character
+	public static int frequency(String str, char ch){
+		int count = 0;
+	}
 }

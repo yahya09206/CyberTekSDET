@@ -37,8 +37,8 @@ public class StringUtility {
 		return result;
 	}
 
-	
-//method to check if two words are anagrams of each other
+
+	//method to check if two words are anagrams of each other
 	public static boolean isAnagram(String str1, String str2){
 		char[] ch1 = str1.toCharArray();
 		char[] ch2 = str2.toCharArray();	
