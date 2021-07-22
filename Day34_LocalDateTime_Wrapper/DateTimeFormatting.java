@@ -1,3 +1,4 @@
+import java.time.LocalDateTime;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -19,5 +20,12 @@ public class DateTimeFormatting {
 		LocalTime time1 = LocalTime.of(17, 25);
 		System.out.println(time1);
 		System.out.println(time1.format(TF));
+
+		System.out.println("-----------------------------------");
+		//format time and date together
+		DateTimeFormatter DTF = DateTimeFormatter.ofPattern("MMMM/dd/YYYY hh:mm a");
+		LocalDateTime a = LocalDateTime.now();
+		System.out.println(a);
+		System.out.println(a.format(DTF));
 	}
 }
