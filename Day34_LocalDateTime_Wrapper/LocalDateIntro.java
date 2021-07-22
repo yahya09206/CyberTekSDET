@@ -45,5 +45,14 @@ public class LocalDateIntro {
 		boolean r1 = DoB1.isLeapYear();
 		System.out.println(r1);
 
+		boolean r2 = LocalDate.of(2021, 1, 1).isLeapYear();
+		System.out.println(r2);
+
+		System.out.println("-------------------------------");
+		//code to add date
+		LocalDate currentDate = LocalDate.now();
+		System.out.println(currentDate);
+		//method to add days to current date
+		currentDate.plusDays(14);
 	}
 }
