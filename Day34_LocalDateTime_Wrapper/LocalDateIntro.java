@@ -23,15 +23,26 @@ public class LocalDateIntro {
 		}
 
 		System.out.println("-------------------------------");
-		//declare dates to find out which person is older
+	
 		LocalDate DoB1 = LocalDate.of(1980, 12, 11);
 		LocalDate DoB2 = LocalDate.of(1980, 12, 25);
-
+		//check who is older
 		if(DoB1.isBefore(DoB2)){
 			System.out.println("DOB1 is older");
 		}else {
 			System.out.println("DOB2 is older");
 		}
+
+		//check who is younger
+		if (DoB1.isAfter(DoB2)) {
+			System.out.println("DoB1 is younger");
+		}else {
+			System.out.println("DoB2 is younger");
+		}
+
+		System.out.println("-------------------------------");
+		//verify if specific year is leap year
+		
 
 	}
 }
