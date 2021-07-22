@@ -27,5 +27,11 @@ public class LocalDateIntro {
 		LocalDate DoB1 = LocalDate.of(1980, 12, 11);
 		LocalDate DoB2 = LocalDate.of(1980, 12, 25);
 
+		if(DoB1.isBefore(DoB2)){
+			System.out.println("DOB1 is older");
+		}else {
+			System.out.println("DOB2 is older");
+		}
+
 	}
 }
