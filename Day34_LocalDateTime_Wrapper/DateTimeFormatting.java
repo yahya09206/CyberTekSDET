@@ -30,10 +30,10 @@ public class DateTimeFormatting {
 
 		System.out.println("-----------------------------------");
 		//Task
+		LocalDateTime time2 = LocalDateTime.of(2020, 11, 24, 13, 0);
 		DateTimeFormatter LDTF = DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
-		LocalDateTime b = LocalDateTime.now();
-		System.out.println(b);
-		System.out.println(b.format(LDTF));
+		System.out.println(time2);
+		System.out.println(time2.format(LDTF));
 
 	}
 }
