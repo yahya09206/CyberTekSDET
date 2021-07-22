@@ -15,6 +15,11 @@ public class WarmUpTasks {
 		String s = "aaaaaaabcccccccccdeeeeef";
 		System.out.println(unique);
 
+		System.out.println("-------------------------------------");
+		//find frequency of a b and c
+		String s3 = "AAABBCCCC";
+					removeDuplicates(s3);
+
 	}
 	//method to remove duplicates
 	public static String removeDuplicates(String str){
