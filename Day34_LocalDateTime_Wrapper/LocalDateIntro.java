@@ -53,6 +53,16 @@ public class LocalDateIntro {
 		LocalDate currentDate = LocalDate.now();
 		System.out.println(currentDate);
 		//method to add days to current date
-		currentDate.plusDays(14);
+		LocalDate unitAssessment3 = currentDate.plusDays(14);
+		System.out.println(unitAssessment3);
+
+		//method to add months to current date
+		LocalDate unitAssessment4 = currentDate.plusMonths(6);
+		System.out.println(unitAssessment4);
+
+		//method to add weeks to current date
+		LocalDate examDate = currentDate.plusWeeks(5);
+		System.out.println(examDate);
+
 	}
 }
