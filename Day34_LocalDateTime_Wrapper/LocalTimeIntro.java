@@ -5,5 +5,9 @@ public class LocalTimeIntro {
 		//time right now
 		LocalTime now = LocalTime.now();
 		System.out.println(now);
+
+		//timer
+		LocalTime breakTime = now.plusMinutes(15);
+		System.out.println(breakTime);
 	}
 }
