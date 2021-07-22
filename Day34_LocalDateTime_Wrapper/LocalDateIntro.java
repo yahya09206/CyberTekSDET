@@ -13,7 +13,8 @@ public class LocalDateIntro {
 
 		System.out.println("-------------------------------");
 		//create array of strings and store five classmates names
-		
+		String[] names = {"Feruza", "Gulistan", "Nazli", "Ahmad", "Saron"};
+		LocalDate[] DoB = {}
 
 	}
 }
