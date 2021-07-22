@@ -27,5 +27,13 @@ public class DateTimeFormatting {
 		LocalDateTime a = LocalDateTime.now();
 		System.out.println(a);
 		System.out.println(a.format(DTF));
+
+		System.out.println("-----------------------------------");
+		//Task
+		DateTimeFormatter LDTF = DateTimeFormatter.ofPattern("EEEE, hh:mm a, MMM/dd/YYYY");
+		LocalDateTime b = LocalDateTime.now();
+		System.out.println(b);
+		System.out.println(b.format(LDTF));
+
 	}
 }
