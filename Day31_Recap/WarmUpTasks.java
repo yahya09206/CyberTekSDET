@@ -18,12 +18,6 @@ public class WarmUpTasks {
 		System.out.println("-------------------------------------");
 		//find frequency of a b and c
 		String s3 = "AAABBCCCC";
-		String result = "";
-		for(char each : removeDuplicates(s3).toCharArray()){
-			int frequency = frequency(s3, each);
-			result += each;
-			result += frequency;
-		}
 		System.out.println(result);
 
 	}
@@ -82,5 +76,16 @@ public class WarmUpTasks {
 			}
 		}
 		return unique;
+	}
+
+	//frequency of chars
+	public static String frequencyOfChars(String str){
+		String result = "";
+		for(char each : removeDuplicates(s3).toCharArray()){
+			//get frequency of each char
+			int frequency = frequency(s3, each);
+			result += each;
+			result += frequency;
+		}
 	}
 }
