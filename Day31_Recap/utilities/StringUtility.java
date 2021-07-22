@@ -4,6 +4,7 @@ public class StringUtility {
 		reverse("what it do babay");
 	}
 
+	//Reverse string
 	public static String reverse(String str){
 		String reverse = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
@@ -18,4 +19,22 @@ public class StringUtility {
 		String reversedStr = reverse(str);
 		return str.equalsIgnoreCase(reversedStr);
 	}
+
+	//method to remove duplicates
+	public static String removeDuplicates(String str){
+		//store result into new string
+		String result = "";
+
+		//for each loop to change string elements into chars
+		for (char ch : str.toCharArray() ) {
+			//check if index of char is less than 0
+			if (result.indexOf(ch) < 0) {
+				//if char is not contained in result, then concat the char
+				result += ch;
+			}
+		}
+
+		return result;
+	}
+
 }
