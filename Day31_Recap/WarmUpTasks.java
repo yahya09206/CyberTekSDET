@@ -1,8 +1,11 @@
+import java.util.Arrays;
 public class WarmUpTasks {
 	public static void main(String[] args){
 
 			String str = "MMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
 			System.out.println(removeDuplicates(str));
+			System.out.println("-------------------------------------");
+			System.out.println(isAnagram("heart", "earth"));
 
 	}
 	//method to remove duplicates
@@ -30,6 +33,7 @@ public class WarmUpTasks {
 		//sort both arrays
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
+		return Arrays.equals(ch1, ch2);
 
 	}
 }
