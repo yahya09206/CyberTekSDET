@@ -42,7 +42,8 @@ public class LocalDateIntro {
 
 		System.out.println("-------------------------------");
 		//verify if specific year is leap year
-		
+		boolean r1 = DoB1.isLeapYear();
+		System.out.println(r1);
 
 	}
 }
