@@ -57,4 +57,15 @@ public class StringUtility {
 		return unique;
 	}
 
+	//returns the frequency of each character
+	public static String frequencyOfChars(String str){
+		String result = "";
+		for(char each : removeDuplicates(s3).toCharArray()){
+			//get frequency of each char
+			int frequency = frequency(s3, each);
+			result += each;
+			result += frequency;
+		}
+	}
+
 }
