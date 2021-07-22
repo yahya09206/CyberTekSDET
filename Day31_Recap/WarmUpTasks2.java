@@ -3,7 +3,11 @@ public class WarmUpTasks2 {
 
 		String sentence = "Java Java JaVA";
 		String word = "java";
+		System.out.println(count);
+	}
 
+	//method to remove instances of specific word
+	public static int frequencyOfWord(String sentence, String word){
 		int count = 0;
 		sentence = sentence.toLowerCase();
 		word = word.toLowerCase();
@@ -11,6 +15,7 @@ public class WarmUpTasks2 {
 			sentence = sentence.replace(word, "");
 			count++;
 		}
-		System.out.println(count);
+		//return count
+		return count;
 	}
 }
