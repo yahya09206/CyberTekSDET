@@ -11,5 +11,9 @@ public class LocalDateIntro {
 		LocalDate today = LocalDate.now();
 		System.out.println(today);
 
+		System.out.println("-------------------------------");
+		//create array of strings and store five classmates names
+		
+
 	}
 }
