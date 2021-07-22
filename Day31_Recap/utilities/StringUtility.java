@@ -47,7 +47,19 @@ public class StringUtility {
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
 		return Arrays.equals(ch1, ch2);
+	}
 
+	//unique characters
+	public static String uniqueCharacters(String s){
+		String unique = "";
+		for (int i = 0; i <= str.length() - 1; i++) {
+			char each = str.charAt(i);
+			int frequency = frequency(str, each);
+			if (frequency == 1) {
+				unique += each;
+			}
+		}
+		return unique;
 	}
 
 }
