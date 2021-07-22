@@ -1,9 +1,14 @@
+import utilities.isPalindrome;
 public class WarmUpTasks2 {
 	public static void main(String[] args){
 
 		String sentence = "Java Java JaVA";
 		String word = "java";
 		System.out.println(frequencyOfWord(sentence, word));
+		Systme.out.println("----------------------------------");
+		String str = "Racecar";
+		boolean isPalindrome = StringUtility,isPalindrome(str);
+
 	}
 
 	//method to remove instances of specific word
