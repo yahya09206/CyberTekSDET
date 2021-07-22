@@ -2,7 +2,7 @@ public class WarmUpTasks {
 	public static void main(String[] args){
 
 			String str = "MMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
-			removeDuplicates(str);
+			System.out.println(removeDuplicates(str));
 
 	}
 	//method to remove duplicates
