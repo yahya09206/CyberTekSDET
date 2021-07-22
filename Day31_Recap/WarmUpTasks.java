@@ -21,4 +21,7 @@ public class WarmUpTasks {
 
 		return result;
 	}
+
+	//method to check if two words are anagrams of each other
+	public static boolean 
 }
