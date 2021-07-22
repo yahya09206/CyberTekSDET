@@ -4,5 +4,8 @@ public class WarmUpTasks {
 
 	}
 	//method to remove duplicates
-	public static String removeDuplicates(String word,)
+	public static String removeDuplicates(String str){
+		//store result into new string
+		String result = "";
+	}
 }
