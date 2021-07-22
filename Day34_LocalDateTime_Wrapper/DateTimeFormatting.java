@@ -3,7 +3,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 public class DateTimeFormatting {
 	public static void main(String[] args){
-		DateTimeFormatter DF = DateTimeFormatter.ofPattern("MM/dd/YYYY");
+		DateTimeFormatter DF = DateTimeFormatter.ofPattern("MM/dd/YYYY EEEE");
 
 		LocalDate today = LocalDate.now();
 		System.out.println(today);
