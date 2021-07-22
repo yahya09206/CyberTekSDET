@@ -1,4 +1,5 @@
 import utilities.StringUtility;
+
 public class WarmUpTasks2 {
 	public static void main(String[] args){
 
@@ -12,8 +13,6 @@ public class WarmUpTasks2 {
 		String str2 = "CCCCYYYBBBEEEERRRTTEEKK";
 		str2 = StringUtility.removeDuplicates(str2);
 		System.out.println(str2);
-
-
 
 	}
 
