@@ -1,13 +1,14 @@
-import utilities.isPalindrome;
+import utilities.StringUtility;
 public class WarmUpTasks2 {
 	public static void main(String[] args){
 
 		String sentence = "Java Java JaVA";
 		String word = "java";
 		System.out.println(frequencyOfWord(sentence, word));
-		Systme.out.println("----------------------------------");
+		System.out.println("----------------------------------");
 		String str = "Racecar";
-		boolean isPalindrome = StringUtility,isPalindrome(str);
+		boolean isPalindrome = StringUtility.isPalindrome(str);
+		System.out.println(isPalindrome);
 
 	}
 

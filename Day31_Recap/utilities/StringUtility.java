@@ -1,4 +1,5 @@
 package utilities;
+import java.util.Arrays;
 public class StringUtility {
 	public static String reverse(String str){
 		String reverse = "";
@@ -44,8 +45,23 @@ public class StringUtility {
 		return Arrays.equals(ch1, ch2);
 	}
 
+	//method to check frequency of character
+	public static int frequency(String str, char ch){
+		int count = 0;
+
+		//convert string to array
+		for (char each : str.toCharArray()) {
+			//check if string index is equal to character index
+			if(each == ch){
+				count++;
+			}
+		}
+
+		return count;
+	}
+
 	//unique characters
-	public static String uniqueCharacters(String s){
+	public static String uniqueCharacters(String str){
 		String unique = "";
 		for (int i = 0; i <= str.length() - 1; i++) {
 			char each = str.charAt(i);
@@ -60,12 +76,13 @@ public class StringUtility {
 	//returns the frequency of each character
 	public static String frequencyOfChars(String str){
 		String result = "";
-		for(char each : removeDuplicates(s3).toCharArray()){
+		for(char each : removeDuplicates(str).toCharArray()){
 			//get frequency of each char
-			int frequency = frequency(s3, each);
+			int frequency = frequency(str, each);
 			result += each;
 			result += frequency;
 		}
+		return result;
 	}
 
 	//returns frequency of word in the string
