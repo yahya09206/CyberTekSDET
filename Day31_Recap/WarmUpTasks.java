@@ -2,10 +2,26 @@ import java.util.Arrays;
 public class WarmUpTasks {
 	public static void main(String[] args){
 
-			String str = "MMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
-			System.out.println(removeDuplicates(str));
-			System.out.println("-------------------------------------");
-			System.out.println(isAnagram("heart", "earth"));
+		String str = "MMMMMMMMMMFFFFFFFDDDDDDSLSLLLLLDDDDKKKEEEEEE";
+		System.out.println(removeDuplicates(str));
+		System.out.println("-------------------------------------");
+		System.out.println(isAnagram("heart", "earth"));
+		System.out.println("-------------------------------------");
+		int n1 = frequency(str, 'M');
+		System.out.println("n1 = " + n1);
+		System.out.println("-------------------------------------");
+		String unique = "";
+		//loop to find frequency of each word
+
+		for (int i = 0; i <= str.length; i++) {
+			char each = s.charAt(i);
+			int frequency = frequency(str, each);
+			if (frequency == 1) {
+				unique += each;
+			}
+		}
+
+
 
 	}
 	//method to remove duplicates
@@ -40,5 +56,15 @@ public class WarmUpTasks {
 	//method to check frequency of character
 	public static int frequency(String str, char ch){
 		int count = 0;
+
+		//convert string to array
+		for (char each : str.toCharArray()) {
+			//check if string index is equal to character index
+			if(each == ch){
+				count++;
+			}
+		}
+
+		return count;
 	}
 }
