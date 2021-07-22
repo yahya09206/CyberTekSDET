@@ -1,10 +1,5 @@
 package utilities;
 public class StringUtility {
-	public static void main(String[] args){
-		reverse("what it do babay");
-	}
-
-	//Reverse string
 	public static String reverse(String str){
 		String reverse = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
