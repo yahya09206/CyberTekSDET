@@ -8,6 +8,7 @@ public class WarmupTask1 {
 		System.out.println(sum(20, 2));
 		double r4 = sum(10.5, 20.5);
 		System.out.println(r4);
+		sum()
 	}
 	public static int sumOf2Numbers(int a, int b){
 		return a + b;
@@ -35,8 +36,13 @@ public class WarmupTask1 {
 		return a + b + c;
 	}
 
+	public static double sum(double a, double b, double c){
+		return a + b + c;
+	}
+
 	public static int sum(int a, int b, int c, int d){
 		return a + b + c + d;
 	}
+
 
 }
