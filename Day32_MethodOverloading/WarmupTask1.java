@@ -6,6 +6,8 @@ public class WarmupTask1 {
 		int sum3 = sumof4Numbers(1000, 2000, 3000, 4000);
 		System.out.println("--------------------------------------");
 		System.out.println(sum(20, 2));
+		double r4 = sum(10.5, 20.5);
+		System.out.println(r4);
 	}
 	public static int sumOf2Numbers(int a, int b){
 		return a + b;
