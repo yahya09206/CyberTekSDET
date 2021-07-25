@@ -6,6 +6,16 @@ public class WarmupTask1 {
 		String[] students = {"Mohammed", "Aleksandra", "Elmira"};
 		students = reverse(students);
 		System.out.println(Arrays.toString(students));
+		System.out.println("-------------------------------");
+		int[] numbers = {5,6,7,8,9};
+		numbers = reverse(numbers);
+		System.out.println(Arrays.toString(numbers));
+		System.out.println("-------------------------------");
+		char[] chars = {'A', 'B', 'C'};
+		chars = reverse(chars);
+		System.out.println(Arrays.toString(chars));
+
+
 	}
 	//method to reverse array and return int
 	public static int[] reverse(int[] array){
