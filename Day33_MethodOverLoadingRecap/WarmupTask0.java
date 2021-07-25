@@ -2,6 +2,8 @@ import java.util.Arrays;
 public class WarmUpTask0 {
 	public static void main(String[] args){
 
+		int[] numbers {100,200,300,400,500,600};
+		remove(numbers, 3);
 	}
 
 	//method to remove element at given index of the array
