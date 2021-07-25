@@ -6,6 +6,11 @@ public class WarmUpTask0 {
 
 	//method to remove element at given index of the array
 	public static int[] remove(int[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			return array;
+
+		}
 		//new array with size of original length minus 1
 		int[] result = new int[array.length-1];
 		//loop to iterate all indexes
