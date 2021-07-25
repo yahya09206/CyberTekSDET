@@ -12,6 +12,9 @@ public class WarmUpTask2 {
 			result[i++] = each;
 		}
 		result[i] = number;
+		//using copyOf() method
+		// int[] result = Arrays.copyOf(array, array.length + 1);
+		// result[result.length - 1] = number;
 		return result;
 	}
 }
