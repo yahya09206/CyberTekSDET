@@ -14,8 +14,6 @@ public class WarmupTask1 {
 		char[] chars = {'A', 'B', 'C'};
 		chars = reverse(chars);
 		System.out.println(Arrays.toString(chars));
-
-
 	}
 	//method to reverse array and return int
 	public static int[] reverse(int[] array){
