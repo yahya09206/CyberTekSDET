@@ -350,7 +350,7 @@ public class ArraysUtilities {
 		return result;
 	}
 
-	//method to return unique elements from int array
+	//method to return unique elements from double array
 	public static double[] unique(double[] array){
 		double[] result = {};
 
@@ -362,7 +362,7 @@ public class ArraysUtilities {
 		return result;
 	}
 
-	//method to return unique elements from int array
+	//method to return unique elements from string array
 	public static String[] unique(String[] array){
 		String[] result = {};
 
@@ -374,7 +374,7 @@ public class ArraysUtilities {
 		return result;
 	}
 
-	//method to return unique elements from int array
+	//method to return unique elements from char array
 	public static char[] unique(char[] array){
 		char[] result = {};
 
