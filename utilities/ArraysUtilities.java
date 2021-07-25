@@ -293,4 +293,148 @@ public class ArraysUtilities {
 		}
 		return false;
 	}
+
+	//method to find frequency of int inside of array
+	public static int frequency(int[] array, int element){
+		int count = 0;
+		for (int each : array) {
+			if (each == element) {
+				count++;
+			}
+		}
+		return count;
+	}	
+
+	//method to find frequency of int inside of array
+	public static int frequency(double[] array, double element){
+		int count = 0;
+		for (double each : array) {
+			if (each == element) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+	//method to find frequency of int inside of array
+	public static int frequency(String[] array, String element){
+		int count = 0;
+		for (String each : array) {
+			if (each.equals(element)) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+	//method to find frequency of int inside of array
+	public static int frequency(char[] array, char element){
+		int count = 0;
+		for (char each : array) {
+			if (each == element) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+	//method to return unique elements from int array
+	public static int[] unique(int[] array){
+		int[] result = {};
+
+		for (int each : array) {//getting each element
+			if (frequency(array, each) == 1) {//call frequency method to check how many times an eelement shows up
+				result = ArraysUtilities.addElement(result, each);//call addelement method from arrays utilities to add to new array
+			}
+		}
+		return result;
+	}
+
+	//method to return unique elements from double array
+	public static double[] unique(double[] array){
+		double[] result = {};
+
+		for (double each : array) {//getting each element
+			if (frequency(array, each) == 1) {//call frequency method to check how many times an eelement shows up
+				result = ArraysUtilities.addElement(result, each);//call addelement method from arrays utilities to add to new array
+			}
+		}
+		return result;
+	}
+
+	//method to return unique elements from string array
+	public static String[] unique(String[] array){
+		String[] result = {};
+
+		for (String each : array) {//getting each element
+			if (frequency(array, each) == 1) {//call frequency method to check how many times an eelement shows up
+				result = ArraysUtilities.addElement(result, each);//call addelement method from arrays utilities to add to new array
+			}
+		}
+		return result;
+	}
+
+	//method to return unique elements from char array
+	public static char[] unique(char[] array){
+		char[] result = {};
+
+		for (char each : array) {//getting each element
+			if (frequency(array, each) == 1) {//call frequency method to check how many times an eelement shows up
+				result = ArraysUtilities.addElement(result, each);//call addelement method from arrays utilities to add to new array
+			}
+		}
+		return result;
+	}
+
+	//method to remove duplicate ints from array
+	public static int[] removeDup(int[] array){
+		int[] newArr = {};
+
+		for (int each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static double[] removeDup (double[] array){
+	 double[] newArr = {};
+
+		for  (double each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static String[] removeDup(String[] array){
+		String[] newArr = {};
+
+		for (String each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static char[] removeDup(char[] array){
+		char[] newArr = {};
+
+		for (char each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
 }

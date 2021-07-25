@@ -385,4 +385,56 @@ public class ArraysUtilities {
 		}
 		return result;
 	}
+
+	//method to remove duplicate ints from array
+	public static int[] removeDup(int[] array){
+		int[] newArr = {};
+
+		for (int each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static double[] removeDup (double[] array){
+	 double[] newArr = {};
+
+		for  (double each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static String[] removeDup(String[] array){
+		String[] newArr = {};
+
+		for (String each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
+
+	//method to remove duplicate ints from array
+	public static char[] removeDup(char[] array){
+		char[] newArr = {};
+
+		for (char each : array) {
+			//if element is not contained in new array then add element to array
+			if (!ArraysUtilities.contains(newArr, each)) {
+				newArr = ArraysUtilities.addElement(newArr, each);
+			}
+		}
+		return newArr;
+	}
 }
