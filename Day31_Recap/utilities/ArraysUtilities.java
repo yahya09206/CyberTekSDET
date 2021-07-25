@@ -43,4 +43,11 @@ public class ArraysUtility {
 		 result[result.length - 1] = ch;
 		 return result;
 	}
+
+	//method to return max
+	public static int max(int[] array){
+		int max = 0;
+		
+		return max;
+	}
 }
