@@ -92,7 +92,6 @@ public class ArraysUtilities {
 		return arr3;
 	}
 
-
 	public static double[] merge(double[] arr1, double[] arr2){
 		double[] arr3 = new double[arr1.length + arr2.length];
 		int j = 0;
@@ -133,5 +132,85 @@ public class ArraysUtilities {
 			arr3[j++] = each;
 		}
 		return arr3;
+	}
+
+	//method to remove element of int at given index of the array
+	public static int[] remove(int[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		int[] result = new int[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return result;
+	}
+
+	//method to remove element of double at given index of the array
+	public static double[] remove(double[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		double[] result = new double[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return result;
+	}
+
+	//method to remove element of string at given index of the array
+	public static String[] remove(String[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		String[] result = new String[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return result;
+	}
+
+	//method to remove element of string at given index of the array
+	public static char[] remove(char[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		char[] result = new char[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return result;
 	}
 }
