@@ -28,7 +28,10 @@ public class WarmupTask2 {
 		int[] arr1 = {1,2,3,4,5,6,7};
 		arr1 = addElement(arr1, 8);
 		System.out.println(Arrays.toString(arr1));
-		
+
+		double[] arr2 = {1.0,2.0,3.0,4.0,5.0,6.0,7.0};
+		arr2 = addElement(arr2, 8.0);
+		System.out.println(Arrays.toString(arr2));
 
 
 	}
