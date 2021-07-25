@@ -1,3 +1,4 @@
+import utilities.ArraysUtilities;
 import java.util.Arrays;
 public class WarmupTask0 {
 	public static void main(String[] args){
@@ -16,6 +17,9 @@ public class WarmupTask0 {
 		System.out.println(Arrays.toString(students));
 		students = remove(students, 2);
 		System.out.println(Arrays.toString(students));
+		System.out.println("------------------------------------");
+		char[] chars1 = {'A', 'B', 'C', 'D'};
+		char[] chars2 = {'E', 'F', 'G', 'H'};
 
 	}
 
