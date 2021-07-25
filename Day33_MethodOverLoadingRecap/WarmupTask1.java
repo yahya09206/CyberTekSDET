@@ -31,7 +31,7 @@ public class WarmupTask1 {
 		return result;
 	}
 
-	//method to reverse array and return int
+	//method to reverse array and return char
 	public static char[] reverse(char[] array){
 		char[] result = new char[array.length];
 		for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
