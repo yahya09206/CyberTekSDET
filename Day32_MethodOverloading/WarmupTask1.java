@@ -8,7 +8,9 @@ public class WarmupTask1 {
 		System.out.println(sum(20, 2));
 		double r4 = sum(10.5, 20.5);
 		System.out.println(r4);
-		sum()
+		double r5 = sum(2.5, 3.2, 4.8);
+		double r6 = sum(5.5, 10.5, 3.5, 20.5);
+		System.out.println("r6 = " + r6);
 	}
 	public static int sumOf2Numbers(int a, int b){
 		return a + b;
