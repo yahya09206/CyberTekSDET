@@ -13,8 +13,6 @@ public class WarmupTask2 {
 		System.out.println(Arrays.toString(array2));
 		array2 = addDouble(array2, element2);
 		System.out.println(Arrays.toString(array2));
-
-
 	}
 
 	public static int[] addInteger(int[] array, int number){
@@ -40,6 +38,11 @@ public class WarmupTask2 {
 		}
 		result[i] = number;
 		return result;
+	}
+
+	//method to add string to end of array
+	public static String[] addString(String[] array, String str){
+		
 	}
 
 
