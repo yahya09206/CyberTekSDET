@@ -14,6 +14,8 @@ public class WarmupTask0 {
 		String[] students = {"Dilem", "Aysu", "Mucahit", "Tugba", "Fhilipp"};
 		students = remove(students, 3);
 		System.out.println(Arrays.toString(students));
+		students = remove(students, 2);
+		System.out.println(Arrays.toString(students));
 
 	}
 
@@ -57,7 +59,7 @@ public class WarmupTask0 {
 		return result;
 	}
 
-	//method to remove element of double at given index of the array
+	//method to remove element of string at given index of the array
 	public static String[] remove(String[] array, int index){
 		if(index < 0 || index > array.length - 1){//if the given index number is invalid
 			System.err.println("Invalid index");
@@ -66,6 +68,26 @@ public class WarmupTask0 {
 		}
 		//new array with size of original length minus 1
 		String[] result = new String[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return result;
+	}
+
+	//method to remove element of string at given index of the array
+	public static char[] remove(char[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		char[] result = new char[array.length-1];
 		//loop to iterate all indexes
 		for (int i = 0, j = 0; i < array.length; i++) {
 			if (i == index) {//moves all elements of array except the element at given index
