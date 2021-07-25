@@ -24,4 +24,17 @@ public class WarmupTask2 {
 		// result[result.length - 1] = number;
 		return result;
 	}
+
+	//method to add double to end of array
+	public static double[] addDouble(double[] array, double number){
+		int i = 0;
+		double[] result = new double[array.length + 1];
+		for (double each : array ) {
+			result[i++] = each;
+		}
+		result[i] = number;
+		return result;
+	}
+
+
 }
