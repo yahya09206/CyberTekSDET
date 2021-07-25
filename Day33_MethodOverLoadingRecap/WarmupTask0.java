@@ -52,4 +52,23 @@ public class WarmupTask0 {
 		}
 		return result;
 	}
+
+	//method to remove element of double at given index of the array
+	public static String[] remove(String[] array, int index){
+		if(index < 0 || index > array.length - 1){//if the given index number is invalid
+			System.err.println("Invalid index");
+			System.exit(0);
+
+		}
+		//new array with size of original length minus 1
+		String[] result = new String[array.length-1];
+		//loop to iterate all indexes
+		for (int i = 0, j = 0; i < array.length; i++) {
+			if (i == index) {//moves all elements of array except the element at given index
+				continue;
+			}else {
+				result[j++] = array[i];
+			}
+		}
+		return resuString
 }
