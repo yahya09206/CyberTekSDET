@@ -78,5 +78,17 @@ public class ArraysUtility {
 	}
 
 	//merge to arrays of int
-	
+	public static int[] merge(int[] arr1, int[] arr2){
+		String[] arr3 = new String[arr1.length + arr2.length];
+		int j = 0;
+		//one foreach per data structure
+		for(String each : arr1){
+			arr3[j++] = each;
+		}
+
+		for (String each : arr2) {
+			arr3[j++] = each;
+		}
+		return arr3;
+	}
 }
