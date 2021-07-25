@@ -5,7 +5,8 @@ public class WarmUpTask2 {
 
 	}
 
-	public static int addElement(){
-		
+	public static int[] addInteger(int[] array, int number){
+
+		int[] result = new int[array.length + 1];
 	}
 }
