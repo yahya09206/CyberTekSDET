@@ -4,12 +4,16 @@ public class WarmupTask0 {
 
 		int[] numbers = {100,200,300,400,500,600};
 		System.out.println(Arrays.toString(numbers));
-		numbers = remove(numbers, 10);
+		numbers = remove(numbers, 2);
 		System.out.println(Arrays.toString(numbers));
+		System.out.println("------------------------------------");
+		double[] array1 = {6.5,7.5,8.5,9.5};
+		array1 = remove(array1, 2);
+		System.out.println(Arrays.toString(array1));
 
 	}
 
-	//method to remove element at given index of the array
+	//method to remove element of int at given index of the array
 	public static int[] remove(int[] array, int index){
 		if(index < 0 || index > array.length - 1){//if the given index number is invalid
 			System.err.println("Invalid index");
@@ -29,7 +33,7 @@ public class WarmupTask0 {
 		return result;
 	}
 
-	//method to remove element at given index of the array
+	//method to remove element of double at given index of the array
 	public static double[] remove(double[] array, int index){
 		if(index < 0 || index > array.length - 1){//if the given index number is invalid
 			System.err.println("Invalid index");
