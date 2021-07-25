@@ -7,12 +7,18 @@ public class WarmupTask2 {
 		System.out.println(Arrays.toString(array));
 		array = addInteger(array, element);
 		System.out.println(Arrays.toString(array));
-
+		System.out.println("--------------------------------");
 		double[] array2 = {1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0};
 		double element2 = 10.0;
 		System.out.println(Arrays.toString(array2));
 		array2 = addDouble(array2, element2);
 		System.out.println(Arrays.toString(array2));
+		System.out.println("--------------------------------");
+		String[] array3 = {"hit", "lit"};
+		String element3 = "bit";
+		System.out.println(Arrays.toString(array3));
+		array3 = addString(array3, element3);
+		System.out.println(Arrays.toString(array3));
 	}
 
 	public static int[] addInteger(int[] array, int number){
@@ -42,7 +48,13 @@ public class WarmupTask2 {
 
 	//method to add string to end of array
 	public static String[] addString(String[] array, String str){
-		
+		int i = 0;
+		String[] result = new String[array.length + 1];
+		for (String each : array) {
+			result[i++] = each;
+		}
+		result[i] = str;
+		return result;
 	}
 
 
