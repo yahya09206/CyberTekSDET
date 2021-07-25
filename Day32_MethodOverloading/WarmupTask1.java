@@ -40,7 +40,12 @@ public class WarmupTask1 {
 		return a + b + c;
 	}
 
+
 	public static int sum(int a, int b, int c, int d){
+		return a + b + c + d;
+	}
+
+	public static double sum(double a, double b, double c, double d){
 		return a + b + c + d;
 	}
 
