@@ -44,10 +44,20 @@ public class ArraysUtility {
 		 return result;
 	}
 
-	//method to return max
+	//method to return max from array on integer
 	public static int max(int[] array){
 		int max = 0;
-		
+		for (int each : array) {
+			max = Math.max(each, max);
+		}
+		return max;
+	}
+
+	public static double max(double[] array){
+		double max = 0;
+		for (double each : array) {
+			max = Math.max(each, max);
+		}
 		return max;
 	}
 }
