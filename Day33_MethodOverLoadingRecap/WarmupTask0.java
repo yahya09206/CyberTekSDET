@@ -20,6 +20,8 @@ public class WarmupTask0 {
 		System.out.println("------------------------------------");
 		char[] chars1 = {'A', 'B', 'C', 'D'};
 		char[] chars2 = {'E', 'F', 'G', 'H'};
+		char[] chars3 = ArraysUtilities.merge(chars1, chars2);
+		System.out.println(Arrays.toString(chars3));
 
 	}
 
