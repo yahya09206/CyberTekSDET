@@ -5,9 +5,9 @@ public class WarmupTask3 {
 		int[] array = {1,1,1,2,3,3,4,5,5,6};
 		int[] result = {};
 
-		for (int each : array) {
-			if (frequency(array, each) == 1) {
-				result = ArraysUtilities.addElement(result, each);
+		for (int each : array) {//getting each element
+			if (frequency(array, each) == 1) {//call frequency method to check how many times an eelement shows up
+				result = ArraysUtilities.addElement(result, each);//call addelement method from arrays utilities to add to new array
 			}
 		}
 		System.out.println(Arrays.toString(result));
