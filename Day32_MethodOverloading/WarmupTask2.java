@@ -93,4 +93,22 @@ public class WarmupTask2 {
 		result[i] = number;
 		return result;
 	}
+
+	//method to add string to end of array
+	public static String[] addElement(String[] array, String str){
+		int i = 0;
+		String[] result = new String[array.length + 1];
+		for (String each : array) {
+			result[i++] = each;
+		}
+		result[i] = str;
+		return result;
+	}
+
+	//method to add char to array
+	public static char[] addElement(char[] array, char ch){
+		 char[] result = Arrays.copyOf(array, array.length + 1);
+		 result[result.length - 1] = ch;
+		 return result;
+	}
 }
