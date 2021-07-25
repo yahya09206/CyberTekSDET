@@ -1,9 +1,12 @@
 import java.util.Arrays;
-public class WarmUpTask0 {
+public class WarmupTask0 {
 	public static void main(String[] args){
 
-		int[] numbers {100,200,300,400,500,600};
-		remove(numbers, 3);
+		int[] numbers = {100,200,300,400,500,600};
+		System.out.println(Arrays.toString(numbers));
+		numbers = remove(numbers, 10);
+		System.out.println(Arrays.toString(numbers));
+
 	}
 
 	//method to remove element at given index of the array
