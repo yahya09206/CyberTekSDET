@@ -1,6 +1,6 @@
 package utilities;
 import java.util.Arrays;
-public class ArraysUtility {
+public class ArraysUtilities {
 	
 	public static int[] addElement(int[] array, int number){
 		int i = 0;
@@ -70,15 +70,44 @@ public class ArraysUtility {
 	}
 
 	public static double min(double[] array){
-		double max = 0;
+		double min = 0;
 		for (double each : array) {
-			min = Math.max(each, min);
+			min = Math.min(each, min);
 		}
 		return min;
 	}
 
 	//merge to arrays of int
 	public static int[] merge(int[] arr1, int[] arr2){
+		int[] arr3 = new int[arr1.length + arr2.length];
+		int j = 0;
+		//one foreach per data structure
+		for(int each : arr1){
+			arr3[j++] = each;
+		}
+
+		for (int each : arr2) {
+			arr3[j++] = each;
+		}
+		return arr3;
+	}
+
+
+	public static double[] merge(double[] arr1, double[] arr2){
+		double[] arr3 = new double[arr1.length + arr2.length];
+		int j = 0;
+		//one foreach per data structure
+		for(double each : arr1){
+			arr3[j++] = each;
+		}
+
+		for (double each : arr2) {
+			arr3[j++] = each;
+		}
+		return arr3;
+	}
+
+	public static String[] merge(String[] arr1, String[] arr2){
 		String[] arr3 = new String[arr1.length + arr2.length];
 		int j = 0;
 		//one foreach per data structure
@@ -87,6 +116,20 @@ public class ArraysUtility {
 		}
 
 		for (String each : arr2) {
+			arr3[j++] = each;
+		}
+		return arr3;
+	}
+
+	public static char[] merge(char[] arr1, char[] arr2){
+		char[] arr3 = new char[arr1.length + arr2.length];
+		int j = 0;
+		//one foreach per data structure
+		for(char each : arr1){
+			arr3[j++] = each;
+		}
+
+		for (char each : arr2) {
 			arr3[j++] = each;
 		}
 		return arr3;
