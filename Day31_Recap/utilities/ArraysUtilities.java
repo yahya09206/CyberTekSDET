@@ -249,4 +249,48 @@ public class ArraysUtilities {
 		}
 		return result;
 	}
+
+	//check if array contains certain element of an int
+	public static boolean contains(int[] array, int element){
+		boolean result = false;
+		for (int each : array) {
+			if (each == element) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	//check if array contains certain element of a string
+	public static boolean contains(String[] array, String element){
+		boolean result = false;
+		for (String each : array) {
+			if (each.equals(element)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	//check if array contains certain element of a double
+	public static boolean contains(double[] array, double element){
+		boolean result = false;
+		for (double each : array) {
+			if (each == element) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	//check if array contains certain element of a char
+	public static boolean contains(char[] array, char element){
+		boolean result = false;
+		for (char each : array) {
+			if (each == element) {
+				return true;
+			}
+		}
+		return false;
+	}
 }

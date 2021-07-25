@@ -17,7 +17,7 @@ public class WarmupTask2 {
 		return false;
 	}
 
-	//check if array contains certain element of an int
+	//check if array contains certain element of a string
 	public static boolean contains(String[] array, String element){
 		boolean result = false;
 		for (String each : array) {
@@ -28,7 +28,7 @@ public class WarmupTask2 {
 		return false;
 	}
 
-	//check if array contains certain element of an int
+	//check if array contains certain element of a double
 	public static boolean contains(double[] array, double element){
 		boolean result = false;
 		for (double each : array) {
@@ -39,7 +39,7 @@ public class WarmupTask2 {
 		return false;
 	}
 
-	//check if array contains certain element of an int
+	//check if array contains certain element of a char
 	public static boolean contains(char[] array, char element){
 		boolean result = false;
 		for (char each : array) {
