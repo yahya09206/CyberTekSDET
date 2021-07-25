@@ -9,7 +9,9 @@ public class WarmUpTask2 {
 
 		int[] result = new int[array.length + 1];
 		for (int each : array ) {
-			result[i++] += each;
+			result[i++] = each;
 		}
+		result[i] = number;
+		return result;
 	}
 }
