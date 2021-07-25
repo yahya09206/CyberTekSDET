@@ -26,7 +26,7 @@ public class WarmupTask2 {
 
 
 	}
-
+	//method to add integer to end of array
 	public static int[] addInteger(int[] array, int number){
 
 		int i = 0;
@@ -69,6 +69,28 @@ public class WarmupTask2 {
 		 result[result.length - 1] = ch;
 		 return result;
 	}
+	//------------------Method Overloading--------------------------
+	public static int[] addElement(int[] array, int number){
+		int i = 0;
+		int[] result = new int[array.length + 1];
+		for (int each : array ) {
+			result[i++] = each;
+		}
+		result[i] = number;
+		//using copyOf() method
+		// int[] result = Arrays.copyOf(array, array.length + 1);
+		// result[result.length - 1] = number;
+		return result;
+	}
 
-
+	//method to add double to end of array
+	public static double[] addElement(double[] array, double number){
+		int i = 0;
+		double[] result = new double[array.length + 1];
+		for (double each : array ) {
+			result[i++] = each;
+		}
+		result[i] = number;
+		return result;
+	}
 }
