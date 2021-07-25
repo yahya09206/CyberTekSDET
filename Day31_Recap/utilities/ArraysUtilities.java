@@ -205,7 +205,7 @@ public class ArraysUtilities {
 		char[] result = new char[array.length-1];
 		//loop to iterate all indexes
 		for (int i = 0, j = 0; i < array.length; i++) {
-			if (i == index) {//moves all elements of array except the element at given index
+			if (i == index) {//moves all elements of array except the element at given index and skip iteration
 				continue;
 			}else {
 				result[j++] = array[i];
