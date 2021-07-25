@@ -8,6 +8,10 @@ public class WarmupTask3 {
 		int[] array2 = {100,200,100,200,300,400,500,600,600};
 		int[] r1 = unique(array2);
 		System.out.println(Arrays.toString(r1));
+		System.out.println("--------------------------------");
+		String[] items = {"Apple", "Apple", "Orange", "Egg", "Egg", "Cherry"};
+		String[] r2 = unique(items);
+		System.out.println(Arrays.toString(r2));
 	}
 
 	//method to find frequency of int inside of array
