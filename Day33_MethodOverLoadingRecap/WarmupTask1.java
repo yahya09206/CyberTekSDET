@@ -3,6 +3,9 @@ import java.util.Arrays;
 public class WarmupTask1 {
 	public static void main(String[] args){
 
+		String[] students = {"Mohammed", "Aleksandra", "Elmira"};
+		students = reverse(students);
+		System.out.println(Arrays.toString(students));
 	}
 	//method to reverse array and return int
 	public static int[] reverse(int[] array){
