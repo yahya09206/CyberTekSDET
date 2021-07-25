@@ -10,6 +10,10 @@ public class WarmupTask0 {
 		double[] array1 = {6.5,7.5,8.5,9.5};
 		array1 = remove(array1, 2);
 		System.out.println(Arrays.toString(array1));
+		System.out.println("------------------------------------");
+		String[] students = {"Dilem", "Aysu", "Mucahit", "Tugba", "Fhilipp"};
+		students = remove(students, 3);
+		System.out.println(Arrays.toString(students));
 
 	}
 
@@ -70,5 +74,6 @@ public class WarmupTask0 {
 				result[j++] = array[i];
 			}
 		}
-		return resuString
+		return result;
+	}
 }
