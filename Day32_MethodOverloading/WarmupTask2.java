@@ -19,6 +19,12 @@ public class WarmupTask2 {
 		System.out.println(Arrays.toString(array3));
 		array3 = addString(array3, element3);
 		System.out.println(Arrays.toString(array3));
+		System.out.println("--------------------------------");
+		char[] array4 = {'A', 'B'};
+		array4 = addChar(array4, 'C');
+		System.out.println(Arrays.toString(array4));
+
+
 	}
 
 	public static int[] addInteger(int[] array, int number){
@@ -55,6 +61,13 @@ public class WarmupTask2 {
 		}
 		result[i] = str;
 		return result;
+	}
+
+	//method to add char to array
+	public static char[] addChar(char[] array, char ch){
+		 char[] result = Arrays.copyOf(array, array.length + 1);
+		 result[result.length - 1] = ch;
+		 return result;
 	}
 
 
