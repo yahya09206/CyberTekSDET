@@ -60,4 +60,20 @@ public class ArraysUtility {
 		}
 		return max;
 	}
+
+	public static int min(int[] array){
+		int min = 0;
+		for (int each : array) {
+			min = Math.min(each, min);
+		}
+		return min;
+	}
+
+	public static double min(double[] array){
+		double max = 0;
+		for (double each : array) {
+			min = Math.max(each, min);
+		}
+		return min;
+	}
 }
