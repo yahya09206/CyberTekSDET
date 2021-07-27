@@ -35,6 +35,8 @@ public class ArrayListMethods {
 		//list1.remove(Integer.valueOf(30));
 		list1.remove((Integer)30);
 		System.out.println(list1);
+		groceryList.clear();
+		System.out.println(groceryList);
 
 	}
 }
