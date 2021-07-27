@@ -31,8 +31,8 @@ public class ArrayListMethods {
 		list1.add(50);
 
 		//remove specific index
-		Integer a = 30;
-		list1.remove(a);
+		//Integer a = 30;
+		list1.remove(Integer.valueOf(30));
 		System.out.println(list1);
 
 	}
