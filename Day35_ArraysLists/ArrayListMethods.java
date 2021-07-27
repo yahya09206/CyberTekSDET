@@ -13,7 +13,12 @@ public class ArrayListMethods {
 		groceryList.set(0, "Toilet Paper");
 		groceryList.set(3, "Soda");
 		System.out.println(groceryList);
+
+		System.out.println("--------------------------------");
 		//remove element using remove() method
+		groceryList.remove(2);
+		System.out.println(groceryList);
+
 
 
 	}
