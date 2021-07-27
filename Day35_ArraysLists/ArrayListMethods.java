@@ -21,8 +21,19 @@ public class ArrayListMethods {
 		//remove using object
 		groceryList.remove("Water");
 		System.out.println(groceryList);
+		System.out.println("--------------------------------");
+		//new list of integers
+		ArrayList<Integer> list1 = new ArrayList<>();
+		list1.add(10);
+		list1.add(20);
+		list1.add(30);
+		list1.add(40);
+		list1.add(50);
 
-
+		//remove specific index
+		Integer a = 30;
+		list1.remove(a);
+		System.out.println(list1);
 
 	}
 }
