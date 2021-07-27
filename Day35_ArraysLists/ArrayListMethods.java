@@ -37,6 +37,7 @@ public class ArrayListMethods {
 		System.out.println(list1);
 		groceryList.clear();
 		System.out.println(groceryList);
+		boolean hasToiletPaper = groceryList.contains("Toilet Paper");
 
 		System.out.println("--------------------------------");
 		ArrayList<Character> list = new ArrayList<>();
