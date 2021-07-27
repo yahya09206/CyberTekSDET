@@ -40,6 +40,14 @@ public class ArrayListMethods {
 
 		System.out.println("--------------------------------");
 		ArrayList<Character> list = new ArrayList<>();
+		list.add('A');
+		list.add('A');
+		list.add('A');
+		list.add('B');
+		list.add('A');
+		list.add('D');
+		list.add('C');
+		System.out.println(list);
 
 
 	}
