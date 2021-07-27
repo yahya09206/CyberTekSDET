@@ -48,6 +48,19 @@ public class ArrayListMethods {
 		list.add('D');
 		list.add('C');
 		System.out.println(list);
+		list.indexOf('A');
+		list.lastIndexOf('A');
+
+		//new list for unique characters
+		ArrayList<Character> uniqueChars = new ArrayList<>();
+		for (Character each : list) {
+			//check if elements match
+			if (list.indexOf(each) == list.lastIndexOf(each)) {
+				//add to unique chars arraylist
+				uniqueChars.add(each);
+			}
+		}
+		System.out.println("uniqueChars = " + uniqueChars);
 
 
 	}
