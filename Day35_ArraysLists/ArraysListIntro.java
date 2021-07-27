@@ -6,6 +6,11 @@ public class ArraysListIntro {
 		System.out.println(Arrays.toString(nums));
 		//ArrayList declaration
 		ArrayList<Integer> numbers = new ArrayList<>();//size is 0
+		//add to arraylist
+		numbers.add(10);
+		numbers.add(20);
+		numbers.add(30);
+		numbers.add(40);
 		System.out.println(numbers);
 
 	}
