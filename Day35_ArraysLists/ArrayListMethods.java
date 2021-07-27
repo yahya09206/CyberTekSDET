@@ -16,7 +16,10 @@ public class ArrayListMethods {
 
 		System.out.println("--------------------------------");
 		//remove element using remove() method
-		groceryList.remove(2);
+		groceryList.remove(1);
+		System.out.println(groceryList);
+		//remove using object
+		groceryList.remove("Water");
 		System.out.println(groceryList);
 
 
