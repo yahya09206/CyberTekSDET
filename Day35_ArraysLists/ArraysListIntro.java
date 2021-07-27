@@ -7,15 +7,19 @@ public class ArraysListIntro {
 		System.out.println("--------------------------");
 		//ArrayList declaration
 		ArrayList<Integer> numbers = new ArrayList<>();//size is 0
-		//add to arraylist
+		//add to arraylist. List will expand
 		numbers.add(10);
 		numbers.add(20);
 		numbers.add(30);
 		numbers.add(40);
-		numbers.add(2, 50);
+		numbers.add(1, 15);
+		numbers.add(20);
 		System.out.println(numbers);
 		//get index from array list using .get() method
 		System.out.println(numbers.get(2));
+
+		//loop thru array
+		System.out.println(numbers.size());
 
 	}
 }
