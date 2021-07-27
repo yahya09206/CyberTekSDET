@@ -1,7 +1,12 @@
 import java.util.ArrayList;
-public class ArrayListIntro {
+import java.util.Arrays;
+public class ArraysListIntro {
 	public static void main(String[] args){
+		int[] nums = new int[10];//fixed size of 10
+		System.out.println(Arrays.toString(nums));
+		//ArrayList declaration
+		ArrayList<Integer> numbers = new ArrayList<>();//size is 0
+		System.out.println(numbers);
 
-		ArrayList<Integer> numbers = new ArrayList();
 	}
 }
