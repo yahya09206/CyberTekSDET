@@ -20,6 +20,9 @@ public class ArraysListIntro {
 
 		//loop thru array
 		System.out.println(numbers.size());
+		for (int i = 0; i <= numbers.size() - 1;  i++) {
+			System.out.println(numbers.get(i));
+		}
 
 	}
 }
