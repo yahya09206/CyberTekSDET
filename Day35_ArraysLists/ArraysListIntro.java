@@ -12,6 +12,7 @@ public class ArraysListIntro {
 		numbers.add(20);
 		numbers.add(30);
 		numbers.add(40);
+		numbers.add(2, 50);
 		System.out.println(numbers);
 		//get index from array list using .get() method
 		System.out.println(numbers.get(2));
