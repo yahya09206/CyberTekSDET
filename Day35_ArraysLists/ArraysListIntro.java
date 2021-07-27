@@ -24,5 +24,10 @@ public class ArraysListIntro {
 			System.out.println(numbers.get(i));
 		}
 
+		//for each loop to do the same as above
+		for (Integer each : numbers) {
+			System.out.println(each);
+		}
+
 	}
 }
