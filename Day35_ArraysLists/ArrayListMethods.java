@@ -38,5 +38,9 @@ public class ArrayListMethods {
 		groceryList.clear();
 		System.out.println(groceryList);
 
+		System.out.println("--------------------------------");
+		ArrayList<Character> list = new ArrayList<>();
+
+
 	}
 }
