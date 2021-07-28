@@ -65,7 +65,15 @@ public class ArrayListMethods {
 
 		System.out.println("-----------------------------------------");
 		//remove duplicates
-
+		ArrayList<Character> characters = new ArrayList<>();
+		characters.add('A');
+		characters.add('A');
+		characters.add('A');
+		characters.add('B');
+		characters.add('A');
+		characters.add('C');
+		characters.add('C');
+		System.out.println(characters);
 
 	}
 }
