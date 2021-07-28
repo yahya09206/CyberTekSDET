@@ -86,16 +86,21 @@ public class ArrayListMethods {
 		}
 		System.out.println("Result = " + result);
 
+		System.out.println("-----------------------------------------");
+		// Reverse AL and store in new AL
+		ArrayList<Integer> nums = new ArrayList<>();
+		nums.add(100);
+		nums.add(200);
+		nums.add(300);
+		nums.add(400);
 
-
-
-
-
-
-
-
-
-
+		ArrayList<Integer> result2 = new ArrayList<>();
+		//loop thru arraylist backwards
+		for (int i = nums.size() - 1; i >= 0; i--) {
+			//store elements from last to first into new AL
+			result2.add(nums.get(i));
+		}
+		System.out.println("Result = " + result2);
 
 
 
