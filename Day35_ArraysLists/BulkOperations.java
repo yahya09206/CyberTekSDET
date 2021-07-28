@@ -14,5 +14,6 @@ public class BulkOperations {
 		System.out.println("---------------------------------");
 		//removeAll()
 		ArrayList<String> students = new ArrayList();
+		students.addAll("Dilem", "Philipp", "Abbos", "Atila", "Ekaterina");
 	}
 }
