@@ -70,10 +70,38 @@ public class ArrayListMethods {
 		characters.add('A');
 		characters.add('A');
 		characters.add('B');
+		characters.add('B');
 		characters.add('A');
 		characters.add('C');
 		characters.add('C');
 		System.out.println(characters);
+
+		//Store in new AL
+		ArrayList<Character> result = new ArrayList<>();
+		//for each loop to see if elements are already contained
+		for (Character each : characters) {
+			if (!result.contains(each)) {
+				result.add(each);
+			}
+		}
+		System.out.println("Result = " + result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	}
 }
