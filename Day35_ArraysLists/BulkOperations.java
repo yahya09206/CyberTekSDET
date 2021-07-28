@@ -12,8 +12,12 @@ public class BulkOperations {
 		System.out.println(list);
 
 		System.out.println("---------------------------------");
-		//removeAll()
-		ArrayList<String> students = new ArrayList();
-		students.addAll("Dilem", "Philipp", "Abbos", "Atila", "Ekaterina");
+		//removeAll() will find specific elements to remove all instances of
+		ArrayList<String> students = new ArrayList<>();
+		students.addAll(Arrays.asList("Dilem", "Philipp", "Abbos", "Atila", "Ekaterina"));
+		System.out.println(students);
+		students.removeAll(Arrays.asList("Dilem", "Philipp", "Abbos"));
+		System.out.println(students);
+		
 	}
 }
