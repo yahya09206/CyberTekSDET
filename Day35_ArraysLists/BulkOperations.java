@@ -18,6 +18,16 @@ public class BulkOperations {
 		System.out.println(students);
 		students.removeAll(Arrays.asList("Dilem", "Philipp", "Abbos"));
 		System.out.println(students);
-		
+
+		ArrayList<Integer> nums = new ArrayList<>();
+		nums.addAll(Arrays.asList(1,1,1,2,2,2,2,3,3,3,3,3,4,5,6,7,8,9,1,1,1,1,1,1,1));
+		System.out.println(nums);
+		//remove specific num(s)
+		//nums.removeAll(Arrays.asList(1));
+		//remove elements that don't match with specific num
+		nums.retainAll(Arrays.asList(1));
+		System.out.println(nums);
+
+
 	}
 }
