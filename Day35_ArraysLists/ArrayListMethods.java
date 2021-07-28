@@ -102,7 +102,8 @@ public class ArrayListMethods {
 		}
 		System.out.println("Result = " + result2);
 
-
+		System.out.println("-----------------------------------------");
+		//equals method()
 
 
 
