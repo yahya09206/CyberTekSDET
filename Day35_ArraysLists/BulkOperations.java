@@ -35,6 +35,14 @@ public class BulkOperations {
 		employees.retainAll(Arrays.asList("Ahmet", "Andrei"));
 		System.out.println(employees);
 
+		System.out.println("---------------------------------");
+		//containsAll() method
+		ArrayList<String> groceryList = new ArrayList<>();
+		groceryList.addAll(Arrays.asList("Soda", "Milk", "Wine", "Beer", "Eggs", "Bread", "Water", "Apple", "Cherry", "Towels"));
+		boolean r = groceryList.containsAll(Arrays.asList("Soda", "Wine", "Beer", "Coffee"));
+		System.out.println(r);
+
+
 
 	}
 }
