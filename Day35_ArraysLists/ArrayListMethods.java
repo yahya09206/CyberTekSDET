@@ -63,6 +63,9 @@ public class ArrayListMethods {
 		}
 		System.out.println("uniqueChars = " + uniqueChars);
 
+		System.out.println("-----------------------------------------");
+		//remove duplicates
+
 
 	}
 }
