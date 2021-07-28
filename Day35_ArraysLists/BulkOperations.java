@@ -8,6 +8,7 @@ public class BulkOperations {
 		ArrayList<Integer> list = new ArrayList<>();
 		//list.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9));
 		list.addAll(numbers);
+		list.addAll(Arrays.asList(10,11,12,13,14,15));
 		System.out.println(list);
 	}
 }
