@@ -28,6 +28,13 @@ public class BulkOperations {
 		nums.retainAll(Arrays.asList(1));
 		System.out.println(nums);
 
+		System.out.println("---------------------------------");
+		ArrayList<String> employees = new ArrayList<>();
+		employees.addAll(Arrays.asList("Dilem", "Philipp", "Abbos", "Ahmet", "Andrei", "Gabil", "Aliya", "Atila"));
+		System.out.println(employees);
+		employees.retainAll(Arrays.asList("Ahmet", "Andrei"));
+		System.out.println(employees);
+
 
 	}
 }
