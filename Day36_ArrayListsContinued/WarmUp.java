@@ -9,5 +9,8 @@ public class WarmUp {
 		//list.set() to get last element
 		list.set(list.size() - 1, 0);
 		System.out.println(list);
+		System.out.println("-------------------------------------");
+		ArrayList<Integer> list2 = new ArrayList<>(list);
+
 	}
 }
