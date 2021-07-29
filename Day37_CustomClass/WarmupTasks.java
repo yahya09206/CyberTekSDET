@@ -47,7 +47,7 @@ public class WarmupTasks {
 
         ArrayList<String> list2 = new ArrayList<>( Arrays.asList( str.split("") ) );
 
-        for (String each : StringUtility.removeDup(str).split("")) { //each:  A, B, C, D, E
+        for (String each : StringUtility.removeDuplicates(str).split("")) { //each:  A, B, C, D, E
             int frequency = Collections.frequency(list2, each);           //  2  2  2  2  2
             result += each + frequency;
         }
