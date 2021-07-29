@@ -25,8 +25,17 @@ public class WarmUp {
 
 		System.out.println("-------------------------------------");
 		//program to combine two string arrays
-		String[] arr1 = {"A", "B", "C"};
-				 arr2 = {"D", "E", "F", "G"};
-		
+		String[] arr1 = {"A", "B", "C"}, arr2 = {"D", "E", "F", "G"};
+		//ArrayList to store values
+		ArrayList<String> result = new ArrayList<>(Arrays.asList(arr1));
+		result.addAll(Arrays.asList(arr2));
+		//go thru elements one by one
+		// for (String each : arr1) {
+		// 	 result.add(each);
+		// }
+	 // 	for (String each : arr2) {
+		// 	result.add(each);
+		// }
+		System.out.println(result);
 	}
 }
