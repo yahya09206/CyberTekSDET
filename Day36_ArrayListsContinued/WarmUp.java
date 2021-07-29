@@ -33,9 +33,16 @@ public class WarmUp {
 		// for (String each : arr1) {
 		// 	 result.add(each);
 		// }
-	 // 	for (String each : arr2) {
+	 	// 	for (String each : arr2) {
 		// 	result.add(each);
 		// }
 		System.out.println(result);
+		System.out.println("-------------------------------------");
+		int[] numbers = {1,2,3,4,5,6,7};
+		ArrayList<Integer> list4 = new ArrayList<>();
+		//list4.addAll(Arrays.asList(numbers));
+		for (int each : numbers) {
+			list4.add(each);
+		}
 	}
 }
