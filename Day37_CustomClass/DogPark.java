@@ -25,5 +25,8 @@ public class DogPark {
 		System.out.println(dog2.age);
 		System.out.println(dog2.color);
 
+		//Third dog object
+		dog1.bark();
+
 	}
 }
