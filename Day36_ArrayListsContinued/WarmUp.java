@@ -44,5 +44,7 @@ public class WarmUp {
 		for (int each : numbers) {
 			list4.add(each);
 		}
+		System.out.println(list4);
+		System.out.println("-------------------------------------");
 	}
 }
