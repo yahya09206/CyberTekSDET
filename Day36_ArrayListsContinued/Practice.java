@@ -18,5 +18,10 @@ public class Practice {
 		//list2.removeIf(p -> p < 5);
 		list2.removeIf(each -> each % 2 != 0);
 		System.out.println(list2);
+
+		System.out.println("------------------------------");
+		ArrayList<String> names = new ArrayList<>();
+		names.addAll(Arrays.asList("Ahmad", "Merve", "Feruza", "Said", "Komiljan", "Selda", "Fhilipp"));
+		//remove all names that contain 'a';
 	}
 }
