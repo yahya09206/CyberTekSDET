@@ -21,7 +21,9 @@ public class Practice {
 
 		System.out.println("------------------------------");
 		ArrayList<String> names = new ArrayList<>();
-		names.addAll(Arrays.asList("Ahmad", "Merve", "Feruza", "Said", "Komiljan", "Selda", "Fhilipp"));
+		names.addAll(Arrays.asList("Ahmad", "Merve", "Feruza", "Said", "Komiljon", "Selda", "Fhilipp"));
 		//remove all names that contain 'a';
+		names.removeIf(p -> p.toLowerCase().contains("a"));
+		System.out.println(names);
 	}
 }
