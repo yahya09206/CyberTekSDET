@@ -25,5 +25,11 @@ public class Practice {
 		//remove all names that contain 'a';
 		names.removeIf(p -> p.toLowerCase().contains("a"));
 		System.out.println(names);
+
+		System.out.println("------------------------------");
+		//remove all names that are palindromes
+		ArrayList<String> names2 = new ArrayList<>();
+		words.addAll(Arrays.asList("Anna", "Racecar", "Level", "Java", "Python", "Cybertek", "Sabas", "Pop", "Kayak"));
+
 	}
 }
