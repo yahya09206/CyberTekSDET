@@ -14,7 +14,17 @@ public class StringUtility {
 	public static boolean isPalindrome(String str){
 		String reversedStr = reverse(str);
 		return str.equalsIgnoreCase(reversedStr);
+		//long way
+		// for (String each : words) {
+		// 	String reverse = "";
+		// 	for (int i = each.length() - 1; i >= 0; i--) {
+		// 		reverse += each.charAt(i);
+		// 	}
+		// 	boolean isPalindrome = reverse.equalsIgnoreCase(each);
+		// 	words.removeIf(p -> isPalindrome);
+		// }
 	}
+
 
 	//method to remove duplicates
 	public static String removeDuplicates(String str){
