@@ -25,6 +25,8 @@ public class WarmUp {
 
 		System.out.println("-------------------------------------");
 		//program to combine two string arrays
+		String[] arr1 = {"A", "B", "C"};
+				 arr2 = {"D", "E", "F", "G"};
 		
 	}
 }
