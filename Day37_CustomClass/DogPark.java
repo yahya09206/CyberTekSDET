@@ -17,6 +17,13 @@ public class DogPark {
 
 		//Second dog object
 		Dog dog2 = new Dog();
-		
+		dog2.setInfo("mikey", "male", 15, "small", "labradoodle", "white");
+		System.out.println(dog2.name);
+		System.out.println(dog2.gender);
+		System.out.println(dog2.breed);
+		System.out.println(dog2.size);
+		System.out.println(dog2.age);
+		System.out.println(dog2.color);
+
 	}
 }

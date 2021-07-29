@@ -24,6 +24,11 @@ public class Dog {
 	}
 
 	public void setInfo(String dogName, String dogBreed, int dogAge, String dogSize, String dogColor, String dogGender){
-
+		name 	= dogName;
+		breed 	= dogBreed;
+		age 	= dogAge;
+		size 	= dogSize;
+		color 	= dogColor;
+		gender 	= dogGender;
 	}
 }
