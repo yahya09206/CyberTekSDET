@@ -15,5 +15,12 @@ public class WarmUp {
 
 		System.out.println(list2);
 
+		//loop thru list and multiply odd by 2
+		for (int i = 0; i < list2.size(); i++) {
+			if (list2.get(i) % != 0) {
+				
+			}
+		}
+
 	}
 }
