@@ -30,8 +30,9 @@ public class Practice {
 		System.out.println("------------------------------");
 		//remove all names that are palindromes
 		ArrayList<String> names2 = new ArrayList<>();
-		words.addAll(Arrays.asList("Anna", "Racecar", "Level", "Java", "Python", "Cybertek", "Sabas", "Pop", "Kayak"));
-		words.removeIf(p -> StringUtility.isPalindrome(p));
+		names2.addAll(Arrays.asList("Anna", "Racecar", "Level", "Java", "Python", "Cybertek", "Sabas", "Pop", "Kayak"));
+		names2.removeIf(p -> StringUtility.isPalindrome(p));
+		System.out.println(names2);
 
 	}
 }
