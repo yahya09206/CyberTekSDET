@@ -22,5 +22,9 @@ public class WarmUp {
 			}
 		}
 		System.out.println(list2);
+
+		System.out.println("-------------------------------------");
+		//program to combine two string arrays
+		
 	}
 }
