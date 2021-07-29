@@ -1,3 +1,4 @@
+import utilities.StringUtility;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class Practice {
@@ -30,6 +31,7 @@ public class Practice {
 		//remove all names that are palindromes
 		ArrayList<String> names2 = new ArrayList<>();
 		words.addAll(Arrays.asList("Anna", "Racecar", "Level", "Java", "Python", "Cybertek", "Sabas", "Pop", "Kayak"));
+		words.removeIf(p -> StringUtility.isPalindrome(p));
 
 	}
 }
