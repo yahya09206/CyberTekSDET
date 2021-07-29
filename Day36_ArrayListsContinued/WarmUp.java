@@ -10,7 +10,10 @@ public class WarmUp {
 		list.set(list.size() - 1, 0);
 		System.out.println(list);
 		System.out.println("-------------------------------------");
-		ArrayList<Integer> list2 = new ArrayList<>(list);
+		ArrayList<Integer> list2 = new ArrayList<>();
+		list2.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9));
+
+		System.out.println(list2);
 
 	}
 }
