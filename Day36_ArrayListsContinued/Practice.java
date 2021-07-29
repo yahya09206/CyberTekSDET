@@ -5,8 +5,8 @@ public class Practice {
 		ArrayList<Integer> list = new ArrayList<>();
 		list.addAll(Arrays.asList(1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,4,5,5,5,5,6,6,6,7,7,7,8,8));
 		//loop to remove
-		for (inti = 0; i < list.size(); i++) {
-			if (list.get(i) < 5) {
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) % 2) {
 				list.remove(i);
 			}
 		}
