@@ -23,8 +23,7 @@ public class Dog {
 		System.out.println(name + " is playing");
 	}
 
-
-	public static void main(String[] args){
+	public void setInfo(String dogName, String dogBreed, int dogAge, String dogSize, String dogColor, String dogGender){
 
 	}
 }
