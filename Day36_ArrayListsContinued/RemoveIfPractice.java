@@ -20,7 +20,7 @@ public class RemoveIfPractice {
 		gradeOfD.removeIf(p -> !(p >= 60 && p <= 69));
 		System.out.println("gradeOfD = " + gradeOfD);
 
-		ArrayList<Integer> gradeOfF = new ArrayList<>(); // 0 ~ 59
+		ArrayList<Integer> gradeOfF = new ArrayList<>(scores); // 0 ~ 59
 		gradeOfF.removeIf(p -> !(p >= 0 && p <= 59));
 		System.out.println("gradeOfF = " + gradeOfF);
 	}
