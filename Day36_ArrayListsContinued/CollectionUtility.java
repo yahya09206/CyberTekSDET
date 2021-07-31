@@ -22,5 +22,19 @@ public class CollectionUtility {
 		int f = Collections.frequency(list, 20);
 		System.out.println(f);
 
+		System.out.println("------------------------------------");
+		ArrayList<Character> chars = new ArrayList<>();
+		chars.addAll(Arrays.asList('A', 'A', 'B', 'C', 'C', 'C', 'D'));
+
+		//store uniques in new Al
+		ArrayList<Character> uniques = new ArrayList<>();
+		//loop thru and check
+		for (Character each: chars ) {
+			if (Collections.frequency(chars, each) == 1) {
+				uniques.add(each);
+			}
+		}
+		System.out.println(uniques);
+
 	}
 }
