@@ -27,13 +27,16 @@ public class CollectionUtility {
 		chars.addAll(Arrays.asList('A', 'A', 'B', 'C', 'C', 'C', 'D'));
 
 		//store uniques in new Al
-		ArrayList<Character> uniques = new ArrayList<>();
-		//loop thru and check
-		for (Character each: chars ) {
-			if (Collections.frequency(chars, each) == 1) {
-				uniques.add(each);
-			}
-		}
+		// ArrayList<Character> uniques = new ArrayList<>();
+		// //loop thru and check
+		// for (Character each: chars ) {
+		// 	if (Collections.frequency(chars, each) == 1) {
+		// 		uniques.add(each);
+		// 	}
+		// }
+		//Remove elements that are not = 1
+		ArrayList<Character> uniques = new ArrayList<>(chars);
+		uniques.removeIf(p -> Collections.frequency(uniques, p) != 1);
 		System.out.println(uniques);
 
 	}
