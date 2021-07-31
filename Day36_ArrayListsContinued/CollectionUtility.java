@@ -14,5 +14,8 @@ public class CollectionUtility {
 		//swap
 		Collections.swap(list, 0, 2);
 		System.out.println(list);
+
+		Collections.replaceAll(list, 10, 20);
+		System.out.println(list);
 	}
 }
