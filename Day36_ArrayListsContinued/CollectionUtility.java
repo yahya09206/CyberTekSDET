@@ -17,5 +17,10 @@ public class CollectionUtility {
 
 		Collections.replaceAll(list, 10, 20);
 		System.out.println(list);
+
+		//find frequency
+		int f = Collections.frequency(list, 20);
+		System.out.println(f);
+
 	}
 }
