@@ -8,8 +8,11 @@ public class CollectionUtility {
 
 		//sort
 		Collections.sort(list);
+		System.out.println(list);
 		Collections.reverse(list);
-
+		System.out.println(list);
+		//swap
+		Collections.swap(list, 0, 2);
 		System.out.println(list);
 	}
 }
