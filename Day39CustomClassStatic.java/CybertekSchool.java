@@ -100,10 +100,10 @@ public class CybertekSchool {
 			System.out.println("-------------------------------------------------");
 			//displaying name of students who were born between jan 1985 and aug 1995
 			//iterate thru 2D array
-			for (Student[] : groups) {
+			for (Student[] group : groups) {
 				for(Student student: group){
 					if (student.DoB.isAfter(LocalDate.of(1985, 1, 20))) {
-						if (student.DoB.isBefore(1995, 8, 15)) {
+						if (student.DoB.isBefore(LocalDate.of(1995, 8, 15))) {
 							System.out.println(student.name + " : " + student.DoB);
 						}
 					}
