@@ -11,4 +11,8 @@ public class {
 	public double area(){
 		return radius * radius * Math.PI;
 	}
+
+	public double perimeter(){
+		return diameter * Math.PI;
+	}
 }
