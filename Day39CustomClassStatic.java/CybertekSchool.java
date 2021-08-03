@@ -1,4 +1,7 @@
+import java.time.LocalDateTime;
 import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class CybertekSchool {
@@ -79,5 +82,8 @@ public class CybertekSchool {
 				System.out.println("Market group1: " + firstMarketGroup.size());
 				System.out.println("Market group2: " + secondMarketGroup.size());
 				System.out.println("Market group3: " + thirdMarketGroup.size());
+
+				//who is youngest in firstMarketGroup
+				LocalDate min = firstMarketGroup.get(0)
 		}
 }
