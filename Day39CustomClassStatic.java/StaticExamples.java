@@ -21,5 +21,7 @@ public class StaticExamples {
 		System.out.println(student2.programmingLanguage);
 		System.out.println(student3.programmingLanguage);
 		System.out.println(student4.programmingLanguage);
+		System.out.println("-------------------------------------");
+		
 	}
 }
