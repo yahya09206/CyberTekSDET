@@ -58,7 +58,7 @@ public class CybertekSchool {
 
 				ArrayList<Student> firstMarketGroup = new ArrayList<>(); // grade MUST be A
 				ArrayList<Student> secondMarketGroup = new ArrayList<>();// grade MUST be B
-				ArrayList<Student> thirdMarketGroup = new ArrayList<>();// grade MUST be C
+				ArrayList<Student> thirdMarketGroup = new ArrayList<>();
 
 
 				//iterate thru arraylists
@@ -68,6 +68,10 @@ public class CybertekSchool {
 									//condition to check if grade is A
 									if (eachStudent.grade == 'A') {
 										firstMarketGroup.add(eachStudent);
+									}else if(eachStudent.grade == 'B'){
+										secondMarketGroup.add(eachStudent);
+									}else {
+										thirdMarketGroup.add(eachStudent);
 									}
 						 }
 				}
