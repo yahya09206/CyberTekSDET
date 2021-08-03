@@ -15,4 +15,13 @@ public class {
 	public double perimeter(){
 		return diameter * Math.PI;
 	}
+
+	public String toString(){
+		return "Circle{" +
+				"radius= " + radius +
+				", diameter= " + diameter +
+				", area= " + area() +
+				", perimeter= " + perimeter() +
+				"}";
+	}
 }
