@@ -58,6 +58,8 @@ public class CybertekSchool {
 
 				ArrayList<Student> firstMarketGroup = new ArrayList<>(); // grade MUST be A
 				ArrayList<Student> secondMarketGroup = new ArrayList<>();
+				ArrayList<Student> thirdMarketGroup = new ArrayList<>();
+
 
 				//iterate thru arraylists
 				for (Student[] eachGroup : groups) {
