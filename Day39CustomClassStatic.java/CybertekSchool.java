@@ -75,5 +75,7 @@ public class CybertekSchool {
 									}
 						 }
 				}
+				//print size of each new group
+				System.out.println("Market group1: " + firstMarketGroup.size());
 		}
 }
