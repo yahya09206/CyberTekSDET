@@ -4,5 +4,6 @@ public class {
 
 	public void setInfo(double radius){
 		this.radius = radius;
+		diameter = 2 * radius;
 	}
 }
