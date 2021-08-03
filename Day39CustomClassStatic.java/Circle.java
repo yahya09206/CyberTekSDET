@@ -1,4 +1,4 @@
-public class {
+public class Circle {
 	public double radius;
 	public double diameter;
 	// public double PI = 3.14;
