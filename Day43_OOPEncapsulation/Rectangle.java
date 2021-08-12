@@ -32,5 +32,15 @@ public class Rectangle {
 		return 2 * (length + width);
 	}
 
-	
+	//compare two rectangles
+	public boolean equals(Rectangle rectangle){
+		return perimeter() == rectangle.perimeter();
+	}
+
+	public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
+    }
 }
