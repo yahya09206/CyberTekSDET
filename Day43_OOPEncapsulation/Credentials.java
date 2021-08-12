@@ -36,5 +36,6 @@ public class Credentials {
 				r4 = true;
 			}
 		}
+		return r1 && r2 && r3 && r4;
 	}
 }
