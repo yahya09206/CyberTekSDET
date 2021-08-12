@@ -21,6 +21,11 @@ public class Credentials {
 	//check if strong password
 	public static boolean isStrongPassword(String password){
 		boolean r1 = password.length() >= 8 && !password.contains(" ") && !password.contains(",");
+		boolean r2 = false,
+				r3 = false,
+				r4 = false;
+		for (char each : password.toCharArray()) {
+			
+		}
 	}
-
 }
