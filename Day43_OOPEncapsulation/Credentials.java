@@ -11,10 +11,15 @@ public class Credentials {
 	}
 
 	public void setUserName(String username){
+		boolean startsWithLetter = Character.isLetter(username.char(0));
+		if (!startsWithLetter) {
+			return;
+		}
 		this.username = username;
 	}
 
 	public void setPassword(String password){
+		//exit method if pw is not strong enough
 		if (!isStrongPassword(password)) {
 			return;
 		}
