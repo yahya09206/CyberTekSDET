@@ -23,4 +23,8 @@ public class Rectangle {
 		}
 		this.width = width;
 	}
+
+	public double area(){
+		return length * width;
+	}
 }
