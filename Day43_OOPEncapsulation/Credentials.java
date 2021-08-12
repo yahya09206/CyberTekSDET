@@ -49,4 +49,11 @@ public class Credentials {
 		}
 		return r1 && r2 && r3 && r4;
 	}
+
+	public String toString(){
+		return "Credentials{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+	}
 }
