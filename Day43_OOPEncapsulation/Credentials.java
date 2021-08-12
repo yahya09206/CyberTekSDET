@@ -10,4 +10,12 @@ public class Credentials {
 		return password;
 	}
 
+	public void setUserName(){
+		this.username = username;
+	}
+
+	public void setPassword(){
+		this.setPassword = password;
+	}
+
 }
