@@ -15,6 +15,9 @@ public class Credentials {
 		if (!startsWithLetter) {
 			return;
 		}
+		if(username.length() < 5){
+			return;
+		}
 		this.username = username;
 	}
 
