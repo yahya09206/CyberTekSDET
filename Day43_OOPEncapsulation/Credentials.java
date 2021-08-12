@@ -18,4 +18,9 @@ public class Credentials {
 		this.setPassword = password;
 	}
 
+	//check if strong password
+	public static boolean isStrongPassword(String password){
+		
+	}
+
 }
