@@ -25,7 +25,11 @@ public class Credentials {
 				r3 = false,
 				r4 = false;
 		for (char each : password.toCharArray()) {
-			
+			if(Character.isLetter(each)){
+				r2 = true;
+			}else if(Character.isLetterOrDigit(each)){
+				r3 = true;
+			}
 		}
 	}
 }
