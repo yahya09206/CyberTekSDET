@@ -2,6 +2,12 @@ public class Rectangle {
 
 	private double length, width;
 
+	//constructor
+	public Rectangle(double length, double width){
+		setLength(length);
+		setWidth(width);
+	}
+
 	public double getLength(){
 		return length;
 	}
