@@ -15,6 +15,9 @@ public class Credentials {
 	}
 
 	public void setPassword(String password){
+		if (!isStrongPassword(password)) {
+			return;
+		}
 		this.setPassword = password;
 	}
 
