@@ -1,3 +1,4 @@
+//class practice
 public class RectangleObject {
 	public static void main(String[] args){
 
