@@ -9,4 +9,16 @@ public class Person {
 		this.gender = gender;
 		this.age = age;
 	}
+
+	public void eat(String food){
+        System.out.println(name +" is eating "+food);
+    }
+
+    public void drink(String drink){
+        System.out.println(name +" is drinking "+drink);
+    }
+
+    public void sleep(){
+        System.out.println(name+" is sleeping");
+    }
 }
