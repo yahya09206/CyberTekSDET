@@ -11,5 +11,7 @@ class B extends A {
 }
 
 public class ConstructorCallsInInheritance {
-	
+	public static void main(String[] args){
+		new B();
+	}
 }
