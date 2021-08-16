@@ -1,24 +1,24 @@
 public class Person {
 
-	public String name;
-	public final char gender;
-	public int age;
+	public String 		name;
+	public final char 	gender;
+	public int 			age;
 
 	public Person(String name, char gender, int age){
-		this.name = name;
+		this.name 	= name;
 		this.gender = gender;
-		this.age = age;
+		this.age 	= age;
 	}
 
 	public void eat(String food){
-        System.out.println(name +" is eating "+food);
+        System.out.println(name + " is eating " +food);
     }
 
     public void drink(String drink){
-        System.out.println(name +" is drinking "+drink);
+        System.out.println(name + " is drinking " + drink);
     }
 
     public void sleep(){
-        System.out.println(name+" is sleeping");
+        System.out.println(name + " is sleeping");
     }
 }
