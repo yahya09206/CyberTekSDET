@@ -4,5 +4,8 @@ public class Employee extends Person {
 	public String jobTitle;
 	public double salary;
 
-	
+	//Constructor
+	public Employee(String name, char gender, int age, long id, String jobTitle, double salary){
+		
+	}
 }
