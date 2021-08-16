@@ -5,5 +5,8 @@ public class Amazon {
 
 		//new instance of developer
 		Developer developer = new Developer("Selda", 'F', 27, 12, "SDE", 150000);
+
+		//new instance of driver 
+		Driver driver = new Driver("John", 'M', 68, 14, "Truck Driver", 85000);
 	}
 }
