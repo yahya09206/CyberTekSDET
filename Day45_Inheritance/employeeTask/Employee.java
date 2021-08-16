@@ -11,4 +11,23 @@ public class Employee extends Person {
 		this.jobTitle = jobTitle;
 		this.salary =  salary;
 	}
+
+	public void work(){
+        System.out.println(name+" is working");
+    }
+
+    public void attendMeeting(){
+        System.out.println(name+" is in the meeting");
+    }
+
+    public String toString() {
+        return "Employee{" +
+                "id= " + id +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", salary= $" + salary +
+                ", name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", age= " + age +
+                '}';
+    }
 }
