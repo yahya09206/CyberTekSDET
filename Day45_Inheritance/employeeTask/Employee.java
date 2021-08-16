@@ -6,6 +6,9 @@ public class Employee extends Person {
 
 	//Constructor
 	public Employee(String name, char gender, int age, long id, String jobTitle, double salary){
-		
+		super(name, gender, age);
+		this.id = id;
+		this.jobTitle = jobTitle;
+		this.salary =  salary;
 	}
 }
