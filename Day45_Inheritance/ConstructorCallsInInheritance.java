@@ -9,3 +9,7 @@ class B extends A {
 		System.out.println("B");
 	}
 }
+
+public class ConstructorCallsInInheritance {
+	
+}
