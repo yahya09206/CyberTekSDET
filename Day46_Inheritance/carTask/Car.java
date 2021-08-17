@@ -19,4 +19,16 @@ public class Car {
 	public void start(){
 		System.out.println(brand + " " + model + " is starting...");
 	}
+
+	//toString method
+	public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
+    }
 }
