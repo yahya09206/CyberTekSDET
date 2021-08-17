@@ -20,6 +20,10 @@ public class Car {
 		System.out.println(brand + " " + model + " is starting...");
 	}
 
+	public void drive(){
+		System.out.println(brand + " " + model + " is ready to drive");
+	}
+
 	//toString method
 	public String toString() {
         return "Car{" +
