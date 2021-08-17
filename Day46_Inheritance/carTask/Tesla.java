@@ -1,4 +1,4 @@
-public class Tesla {
+public class Tesla extends Car{
 
 	public static boolean isElectric = true;
 

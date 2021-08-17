@@ -1,4 +1,4 @@
-public class BMW {
+public class BMW extends Car{
 
 	public static boolean isLuxuryBrand = true;
 
