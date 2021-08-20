@@ -6,9 +6,9 @@ public class Employee extends Person {
 
 	public Employee(String name, char gender, LocalDate dOB, int employeeId, String jobTitle, double salary){
 		super(name, gender, dOB);
-		this.employeeId = employeeId;
-		this.jobTitle = jobTitle;
-		this.salary = salary;
+		setEmployeeId(employeeId);
+        setJobTitle(jobTitle);
+        setSalary(salary);
 	}
 
 	public int getEmployeeId(){
