@@ -23,4 +23,12 @@ public class Student extends Person{
 	public void setId(){
 		this.id = id;
 	}
+
+	public void study(){
+		System.out.println(getName() + " is studying");
+	}
+
+	public attendClass(){
+		System.out.println(getName() + " is attending class");
+	}
 }
