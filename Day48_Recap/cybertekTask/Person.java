@@ -37,8 +37,12 @@ public class Person {
 			return age;
 		}
 
-		public void setAge(){
-			this.age = age;
+		public LocalDate getdOB(){
+			return dOB;
+		}
+
+		public void eat(String food){
+			System.out.println(name + " is eating " + food);
 		}
 	}
 }
