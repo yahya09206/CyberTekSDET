@@ -26,4 +26,16 @@ public class Employee extends Person {
 	public void setJobTitle(){
 		this.jobTitle = jobTitle;
 	}
+
+	public double getSalary(){
+		return salary;
+	}
+
+	public void setSalary(){
+
+	}
+
+	public void work(){
+		System.out.println(getName() + " is working");
+	}
 }
