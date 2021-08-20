@@ -6,8 +6,8 @@ public class Person {
 	public static void main(String[] args){
 
 		private String name;
-		private char gender;
-		private int age;
-		private LocalDate DoB;
+		private final char gender;
+		private final int age;
+		private final LocalDate dOB;
 	}
 }
