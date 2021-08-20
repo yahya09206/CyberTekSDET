@@ -1,3 +1,7 @@
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 public final class Tester extends Employee{
 
 	public Tester(String name, char gender, LocalDate dOB, int employeeId, String jobTitle, double salary){
@@ -11,7 +15,7 @@ public final class Tester extends Employee{
 
 	@Override
 	public void attendMeeting(){
-		System.out.println(getJobTitle + " " + getName() + " is attending scrum meeting");
+		System.out.println(getJobTitle() + " " + getName() + " is attending scrum meeting");
 	}
 
 	@Override

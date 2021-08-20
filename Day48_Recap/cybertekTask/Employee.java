@@ -1,3 +1,7 @@
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 public class Employee extends Person {
 
 	private int employeeId;
@@ -15,7 +19,7 @@ public class Employee extends Person {
 		return employeeId;
 	}
 
-	public void setEmployeeId(){
+	public void setEmployeeId(int employeeId){
 		this.employeeId = employeeId;
 	}
 
@@ -23,7 +27,7 @@ public class Employee extends Person {
 		return jobTitle;
 	}
 
-	public void setJobTitle(){
+	public void setJobTitle(String jobTitle){
 		this.jobTitle = jobTitle;
 	}
 
@@ -31,8 +35,11 @@ public class Employee extends Person {
 		return salary;
 	}
 
-	public void setSalary(){
-
+	public void setSalary(double salary){
+		 if(salary < 0){
+            return;
+        }
+        this.salary = salary;
 	}
 
 	public void work(){

@@ -1,3 +1,7 @@
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 public class Student extends Person{
 	private String schoolName;
 	private int id;
@@ -12,15 +16,15 @@ public class Student extends Person{
 		return schoolName;
 	}
 
-	public void setSchoolName(){
+	public void setSchoolName(String schoolName){
 		this.schoolName = schoolName;
 	}
 
-	public id getId(){
+	public int getId(){
 		return id;
 	}
 
-	public void setId(){
+	public void setId(int id){
 		this.id = id;
 	}
 
@@ -28,7 +32,7 @@ public class Student extends Person{
 		System.out.println(getName() + " is studying");
 	}
 
-	public attendClass(){
+	public void attendClass(){
 		System.out.println(getName() + " is attending class");
 	}
 
