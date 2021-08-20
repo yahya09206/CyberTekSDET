@@ -52,5 +52,15 @@ public class Person {
 		public void sleep(){
 			System.out.println(name + " is sleeping");
 		}
+
+		@Override
+		public String toString(){
+			//copy from person class
+			return
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", dOB=" + dOB;
+		}
 	}
 }

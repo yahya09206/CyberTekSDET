@@ -45,6 +45,12 @@ public class Employee extends Person {
 
 	@Override
 	public String toString(){
-		
+		//copy tostring from employee class
+		return "Employee{" +
+                super.toString()+
+                "employeeId=" + employeeId +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
 	}
 }
