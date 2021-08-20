@@ -1,6 +1,6 @@
 public class Employee extends Person {
 
+	private int employeeID;
 	private String jobTitle;
-	private String employeeID;
-	private int salary;
+	private double salary;
 }
