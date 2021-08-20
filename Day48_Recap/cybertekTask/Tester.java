@@ -13,4 +13,9 @@ public final class Tester extends Employee{
 	public void attendMeeting(){
 		System.out.println(getJobTitle + " " + getName() + " is attending scrum meeting");
 	}
+
+	@Override
+	public void sleep(){
+		System.out.println(getName() + " sleeps 6-7 hours ");
+	}
 }

@@ -13,9 +13,4 @@ public final class Teacher extends Employee {
 	public void attendMeeting(){
 		System.out.println(getJobTitle() + " " + getName() + " is attending");
 	}
-
-	@Override
-	public void sleep(){
-		System.out.println(getName() + " sleeps 6-7 hours ");
-	}
 }
