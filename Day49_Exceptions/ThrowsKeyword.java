@@ -11,19 +11,19 @@ public class ThrowsKeyword {
 		System.out.println("test Completed");
 	}
 
-	// public static void sleep(double seconds) throws InterruptedException {
-
-	// 	long milliSeconds = long (seconds * 1000);
-	// 	Thread.sleep(milliSeconds);
-	// }
-
-	public static void sleep(double seconds){
+	public static void sleep(double seconds) throws InterruptedException {
 
 		long milliSeconds = long (seconds * 1000);
-		try {
-			Thread.sleep(milliSeconds);
-		}catch (InterruptedException e){
-			e.printStackTrace();
-		}
+		Thread.sleep(milliSeconds);
 	}
+
+	// public static void sleep(double seconds){
+
+	// 	long milliSeconds = long (seconds * 1000);
+	// 	try {
+	// 		Thread.sleep(milliSeconds);
+	// 	}catch (InterruptedException e){
+	// 		e.printStackTrace();
+	// 	}
+	// }
 }
