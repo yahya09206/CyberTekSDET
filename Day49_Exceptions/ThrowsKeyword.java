@@ -3,7 +3,7 @@ public class ThrowsKeyword {
 
 	}
 
-	public static void wait(){
-		
+	public static void sleep(double seconds){
+		long milliSeconds = seconds * 1000;
 	}
 }
