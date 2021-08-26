@@ -20,6 +20,10 @@ public class ThrowsKeyword {
 	public static void sleep(double seconds){
 
 		long milliSeconds = long (seconds * 1000);
-		Thread.sleep(milliSeconds);
+		try {
+			Thread.sleep(milliSeconds);
+		}catch (InterruptedException e){
+			e.printStackTrace();
+		}
 	}
 }
