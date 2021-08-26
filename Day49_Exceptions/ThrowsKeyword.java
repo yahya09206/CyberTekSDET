@@ -4,7 +4,7 @@ public class ThrowsKeyword {
 	}
 
 	public static void sleep(double seconds){
-		long milliSeconds = seconds * 1000;
+		long milliSeconds = long (seconds * 1000);
 		Thread.sleep(milliSeconds);
 	}
 }
