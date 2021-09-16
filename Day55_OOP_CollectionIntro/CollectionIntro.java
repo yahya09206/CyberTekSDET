@@ -6,5 +6,7 @@ public class CollectionsIntro {
 
 		Set<Integer> set;
 
+		Queue<Integer> queue;
+
 	}
 }
