@@ -32,4 +32,7 @@ public class Test {
                 '}';
     }
 
+    public void smokeTesting(){
+    	System.out.println(name + " is smoke testing");
+    }
 }
