@@ -4,6 +4,7 @@ public class PalindromeTask {
 	public static void main(String[] args){
 
 		String word = "Level";
-		System.out.println(reverse(word));
+		//System.out.println(reverse(word));
+		boolean r = reverse(word).equalsIgnoreCase(word);
 	}
 }
