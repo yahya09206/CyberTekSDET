@@ -21,4 +21,14 @@ public class Developer {
 		this.id = id;
 		this.salary = salary;
 	}
+
+	public String toString() {
+        return "Developer{" +
+                "name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", id= " + id +
+                ", salary= $" + salary +
+                '}';
+    }
 }
