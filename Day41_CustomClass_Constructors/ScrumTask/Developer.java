@@ -31,4 +31,8 @@ public class Developer {
                 ", salary= $" + salary +
                 '}';
     }
+
+    public void fixingBugs(){
+    	System.out.println(name + " is crying");
+    }
 }
