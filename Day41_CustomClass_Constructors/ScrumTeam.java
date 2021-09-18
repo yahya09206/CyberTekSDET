@@ -40,7 +40,7 @@ public class ScrumTeam {
     }
 
     public void hireDeveloper(Tester developer){
-    	testers.add(tester);
+    	developers.add(developer);
     }
 
     public void hireDeveloper(Tester[] developers){
@@ -48,6 +48,6 @@ public class ScrumTeam {
     }
 
     public void removeDeveloper(int id){
-    	testers.removeIf(developer -> p.id == id);
+    	developers.removeIf(developer -> p.id == id);
     }
 }
