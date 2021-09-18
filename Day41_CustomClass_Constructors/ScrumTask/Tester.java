@@ -22,4 +22,14 @@ public class Test {
 		this.salary = salary;
 	}
 
+	public String toString() {
+        return "Tester{" +
+                "name= '" + name + '\'' +
+                ", gender= " + gender +
+                ", jobTitle= '" + jobTitle + '\'' +
+                ", id= " + id +
+                ", salary= $" + salary +
+                '}';
+    }
+
 }
