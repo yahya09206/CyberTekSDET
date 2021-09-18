@@ -1,5 +1,7 @@
 //import utilities.Data;
 import static utilities.Data.str3;
+import static utilities.Data.str4;
+import static utilities.Data.method3;
 
 public class ImportStatements {
 	public static void main(String[] args){
@@ -13,6 +15,7 @@ public class ImportStatements {
 
 		System.out.println("-------------------------------");
 
+		System.out.println(str3);
 
 	}
 
