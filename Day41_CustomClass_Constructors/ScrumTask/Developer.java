@@ -8,4 +8,17 @@ public class Developer {
 
 	public static boolean isEmployed;
 	public static boolean hatesTester;
+
+	static {
+		isEmployed = true;
+		hatesTester = true;
+	}
+
+	public Developer(String name, char gender, String jobTitle, int id, double salary){
+		this.name = name;
+		this.gender = gender;
+		this.jobTitle = jobTitle;
+		this.id = id;
+		this.salary = salary;
+	}
 }
