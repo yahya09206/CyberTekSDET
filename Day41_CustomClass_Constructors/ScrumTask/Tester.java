@@ -1,4 +1,4 @@
-public class Test {
+public class Tester {
 
 	public String name;
 	public static char gender;
@@ -14,7 +14,7 @@ public class Test {
 		isEmployed = true;
 	}
 
-	public Test(String name, char gender, String jobTitle, int id, double salary){
+	public Tester(String name, char gender, String jobTitle, int id, double salary){
 		this.name = name;
 		this.gender = gender;
 		this.jobTitle = jobTitle;
