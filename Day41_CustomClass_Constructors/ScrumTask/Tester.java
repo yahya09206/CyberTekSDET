@@ -6,4 +6,20 @@ public class Test {
 	public int id;
 	public static double salary;
 
+	public static boolean isCybertekStudent;
+	public static boolean isEmployed;
+
+	static {
+		isCybertekStudent = true;
+		isEmployed = true;
+	}
+
+	public Test(String name, char gender, String jobTitle, int id, double salary){
+		this.name = name;
+		this.gender = gender;
+		this.jobTitle = jobTitle;
+		this.id = id;
+		this.salary = salary;
+	}
+
 }
