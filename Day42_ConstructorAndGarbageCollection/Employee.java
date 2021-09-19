@@ -22,4 +22,13 @@ public class Employee {
 		this(name, jobTitle, id);
 		this.salary = salary;
 	}
+
+	public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", id=" + id +
+                ", salary=" + salary +
+                '}';
+    }
 }
