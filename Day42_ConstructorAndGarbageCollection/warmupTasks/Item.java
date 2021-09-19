@@ -5,10 +5,12 @@ public class Item {
 	public int quantity;
 
 	public Item(String name, double unitPrice, int quantity){
-
+		this.name = name;
+		this.unitPrice = unitPrice;
+		this.quantity = quantity;
 	}
-	
-	public void calcCost(){
 
+	public double calcCost(){
+		return unitPrice * quantity;
 	}
 }
