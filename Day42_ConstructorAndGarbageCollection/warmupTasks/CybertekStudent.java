@@ -25,4 +25,16 @@ public class CybertekStudent {
 	public void replit(){
 		System.out.println(name + " is working on " + programmingLanguage + " repl.its");
 	}
+
+	public void askForBreak(){
+		System.out.println(name + " is asking for break");
+	}
+
+	 public String toString() {
+        return "CybertekStudent{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }
