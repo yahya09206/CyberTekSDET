@@ -13,4 +13,13 @@ public class Item {
 	public double calcCost(){
 		return unitPrice * quantity;
 	}
+
+	public String toString() {
+        return "Item{" +
+                "name= '" + name + '\'' +
+                ", unitPrice= $" + unitPrice +
+                ", quantity= " + quantity +
+                ", total price= $" + calcCost() +
+                '}';
+    }
 }
