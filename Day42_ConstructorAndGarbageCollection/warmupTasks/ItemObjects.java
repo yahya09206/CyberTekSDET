@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 public class ItemObjects {
 	public static void main(String[] args){
 
@@ -14,7 +16,7 @@ public class ItemObjects {
                 new Item("Pizza Sauce", 1.7, 130),
                 new Item("Salsa Sauce", 1.7, 130)
 		));
-
+		
 		double totalPrice = 0;
 		for (Item eachItem : items) {
 			totalPrice += eachItem.calcCost();
