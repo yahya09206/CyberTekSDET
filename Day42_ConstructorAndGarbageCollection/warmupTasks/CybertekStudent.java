@@ -18,5 +18,11 @@ public class CybertekStudent {
 		programmingLanguage = "Java";
 	}
 
-	
+	public void attendClass(){
+		System.out.println(name + " is attending class at " + schoolName);
+	}
+
+	public void replit(){
+		System.out.println(name + " is working on " + programmingLanguage + " repl.its");
+	}
 }
