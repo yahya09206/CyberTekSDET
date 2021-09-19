@@ -9,7 +9,12 @@ public class Employee {
 	}
 
 	public Employee(String name, String jobTitle){
-		this(name);
+		this(name); // this.name = name;
 		this.jobTitle = jobTitle;
+	}
+
+	public Employee(String name, String jobTitle, int id){
+		this(name, jobTitle);
+		this.id = id;
 	}
 }
