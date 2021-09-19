@@ -16,7 +16,9 @@ public class ItemObjects {
                 new Item("Pizza Sauce", 1.7, 130),
                 new Item("Salsa Sauce", 1.7, 130)
 		));
-		
+		//remove if certain price
+		items.removeIf(item -> item.unitPrice > 3);
+
 		double totalPrice = 0;
 		for (Item eachItem : items) {
 			totalPrice += eachItem.calcCost();
