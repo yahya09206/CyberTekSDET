@@ -11,4 +11,12 @@ public class CybertekStudent {
 		this.age = age;
 		this.gender = gender;
 	}
+
+	static {
+		schoolName = "Cybertek School";
+		fieldOfStudy = "IT";
+		programmingLanguage = "Java";
+	}
+
+	
 }
