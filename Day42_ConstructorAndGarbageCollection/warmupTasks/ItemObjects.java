@@ -15,6 +15,10 @@ public class ItemObjects {
                 new Item("Salsa Sauce", 1.7, 130)
 		));
 
-		
+		double totalPrice = 0;
+		for (Item eachItem : items) {
+			totalPrice += eachItem.calcCost();
+		}
+		System.out.println("totalPrice = " + totalPrice);
 	}
 }
