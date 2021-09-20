@@ -4,14 +4,20 @@ public class BrowserObject {
 		Chrome chrome = new Chrome();
 		chrome.open();
 
+		System.out.println("-------------------------------------");
+
 		Firefox firefox = new Firefox();
 		firefox.open();
 		firefox.close();
 		firefox.backward();
 
+		System.out.println("-------------------------------------");
+
 		Opera opera = new Opera();
 		opera.open();
 		opera.close();
+
+		System.out.println("-------------------------------------");
 
 		Edge edge = new Edge();
         edge.open();
