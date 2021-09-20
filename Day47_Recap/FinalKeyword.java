@@ -1,4 +1,13 @@
 public class FinalKeyword {
+
+	public final void sleep(){
+		System.out.println("Sleep");
+	}
+
+	public void area(){
+		
+	}
+
 	public static void main(String[] args) {
 
 	}
@@ -8,6 +17,6 @@ public class FinalKeyword {
 	}
 
 	final static void main(Double[] args){
-		
+
 	}
 }
