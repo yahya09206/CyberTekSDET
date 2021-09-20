@@ -1,4 +1,4 @@
-public class Iphone extends Phone{
+public final class Iphone extends Phone{
 
 	public Iphone(String model, String size, String color, double price){
 		super("Apple", model, size, color, price);
@@ -23,7 +23,7 @@ public class Iphone extends Phone{
 		System.out.println("Apple iphone is texting to " + phoneNumber);
 	}
 
-	public void faceTime(long phoneNumber){
+	public final void faceTime(long phoneNumber){
 		System.out.println("Apple's iphone is face timing with " + phoneNumber);
 	}
 }
