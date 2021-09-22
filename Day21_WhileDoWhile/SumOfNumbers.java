@@ -23,6 +23,6 @@ public class SumOfNumbers {
 
 			sum += n;
 		}
-		System.out.println("Sum = " sum);
+		System.out.println("Sum = " + sum);
 	}
 }

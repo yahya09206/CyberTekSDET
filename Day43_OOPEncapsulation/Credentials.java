@@ -11,7 +11,7 @@ public class Credentials {
 	}
 
 	public void setUserName(String username){
-		boolean startsWithLetter = Character.isLetter(username.char(0));
+		boolean startsWithLetter = Character.isLetter(username.charAt(0));
 		if (!startsWithLetter) {
 			return;
 		}
@@ -26,7 +26,7 @@ public class Credentials {
 		if (!isStrongPassword(password)) {
 			return;
 		}
-		this.setPassword = password;
+		this.password = password;
 	}
 
 	//check if strong password

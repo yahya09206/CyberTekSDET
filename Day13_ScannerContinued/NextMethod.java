@@ -13,7 +13,7 @@ public class NextMethod {
 
 		System.out.println("Full Name = " + fullName);
 
-		System.out.println("Enter your address ")
+		System.out.println("Enter your address ");
 		String address = scan.next();
 
 		System.out.println("Address = " + address);

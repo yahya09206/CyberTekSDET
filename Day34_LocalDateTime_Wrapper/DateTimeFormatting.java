@@ -37,6 +37,7 @@ public class DateTimeFormatting {
 
 	}
 	public static String nameOfTheDay(int year, int month, int day){
-		String result = LocalDate.of(year, month, day).format
+		String result =  LocalDate.of(year, month,day).format(  DateTimeFormatter.ofPattern("EEEE")  );
+		return result;
 	}
 }

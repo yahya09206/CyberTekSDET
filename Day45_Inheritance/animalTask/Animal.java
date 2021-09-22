@@ -1,3 +1,5 @@
+package animalTask;
+
 public class Animal {
 
     public String name;

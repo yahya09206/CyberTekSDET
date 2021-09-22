@@ -3,9 +3,9 @@ public class GradeReport2 {
 		int score = 95;
 		boolean madeA = score >= 90 && score <= 100;
 		boolean madeB = !madeA && score >= 80;
-		boolean madeC = !madeA && !madeB && >= 70;
-		boolean madeD = !madeA && !madeB && !madeC && >= 60;
-		boolean madeF = !madeA && !madeB && !madeC && !madeD && < 60;
+		boolean madeC = !madeA && !madeB && score>= 70;
+		boolean madeD = !madeA && !madeB && !madeC && score >= 60;
+		boolean madeF = !madeA && !madeB && !madeC && !madeD && score < 60;
 
 		if(madeA){
 			System.out.println("Excellent, You made an A");

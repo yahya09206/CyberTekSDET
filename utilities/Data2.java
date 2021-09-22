@@ -1,3 +1,4 @@
+package utilities;
 public class Data2 {
 
 	public String publicVariable = "public";
