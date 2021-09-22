@@ -30,5 +30,14 @@ public class Rectangle extends Shape{
 		setWidth(w);
 	}
 
+	@Override
+	public double area(){
+		return l * w;
+	}
+
+	@Override
+	public double area(){
+		return (l + w) * 2;
+	}
 
 }
