@@ -1,4 +1,4 @@
-public class Shape {
+public final abstract class Shape {
 
 	private final String name;
 
@@ -9,4 +9,8 @@ public class Shape {
 	public String getName(){
 		return name;
 	}
+
+	public abstract double area();
+
+	public abstract double Perimeter();
 }
