@@ -1,4 +1,4 @@
-public final abstract class Shape {
+public abstract class Shape {
 
 	private final String name;
 

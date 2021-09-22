@@ -17,7 +17,7 @@ public class Rectangle extends Shape{
 		return l;
 	}
 
-	public void setw(double w){
+	public void setW(double w){
 		if (w <= 0) {
 			throw new RuntimeException("Invalid length: " + w);
 		}
@@ -26,8 +26,8 @@ public class Rectangle extends Shape{
 
 	public Rectangle(double l, double w){
 		super("Rectangle");
-		setLength(l);
-		setWidth(w);
+		setL(l);
+		setW(w);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class Rectangle extends Shape{
 	}
 
 	@Override
-	public double area(){
+	public double perimeter(){
 		return (l + w) * 2;
 	}
 
