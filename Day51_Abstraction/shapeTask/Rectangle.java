@@ -25,9 +25,9 @@ public class Rectangle extends Shape{
 	}
 
 	public Rectangle(double l, double w){
-		super(name);
-		this.l = l;
-		this.w = w;
+		super("Rectangle");
+		setLength(l);
+		setWidth(w);
 	}
 
 
