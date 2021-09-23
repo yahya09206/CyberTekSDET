@@ -1,4 +1,4 @@
-package Day48_Recap.cybertekTask;
+package day48_Recap.cybertekTask;
 
 import java.time.LocalDate;
 public class Cybertek {
@@ -17,13 +17,13 @@ public class Cybertek {
 		developer.sleep();
 		System.out.println("-----------------------------------");
 
-		Teacher teacher = new Teacher("Asiya", 'F', LocalDate.of(1996, 8, 19), 18, "Softskill Teacher", 95000);
+		Day48_Recap.cybertekTask.Teacher teacher = new Day48_Recap.cybertekTask.Teacher("Asiya", 'F', LocalDate.of(1996, 8, 19), 18, "Softskill Teacher", 95000);
 		teacher.eat("celery");
 		teacher.drink("coffee");
 		teacher.sleep();
 		System.out.println("-----------------------------------");
 
-		Student student = new Student("Yulia", 'F', LocalDate.of(1996, 7, 19), "Cybertek", 29);
+		Day48_Recap.cybertekTask.Student student = new Day48_Recap.cybertekTask.Student("Yulia", 'F', LocalDate.of(1996, 7, 19), "Cybertek", 29);
 		student.eat("doritos");
 		student.drink("Kombucha");
 		student.sleep();
