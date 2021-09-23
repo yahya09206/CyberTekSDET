@@ -1,3 +1,6 @@
+package BrowserTest;
+
+
 public class BrowserObject {
 	public static void main(String[] args) {
 		
@@ -19,9 +22,6 @@ public class BrowserObject {
 
 		System.out.println("-------------------------------------");
 
-		Edge edge = new Edge();
-        edge.open();
-        edge.close();
 
         System.out.println("-------------------------------------");
 

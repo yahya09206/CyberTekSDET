@@ -1,3 +1,5 @@
+package BrowserTest;
+
 public final class Safari extends Browser {
 
 	@Override

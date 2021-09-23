@@ -1,6 +1,5 @@
-package Day47_Recap;
-import utilities.Data2;
 
+import utilities.Data2;
 public class AccessModifiers_Inheritance extends Data2 {
 
 	public void method(){

@@ -1,3 +1,5 @@
+package BrowserTest;
+
 public class Firefox extends Browser {
 
 	@Override

@@ -1,3 +1,5 @@
+package BrowserTest;
+
 public final class Opera extends Browser {
 
 	@Override

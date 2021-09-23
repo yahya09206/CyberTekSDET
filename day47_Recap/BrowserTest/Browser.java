@@ -1,3 +1,5 @@
+package BrowserTest;
+
 public class Browser {
 
 	public void open(){

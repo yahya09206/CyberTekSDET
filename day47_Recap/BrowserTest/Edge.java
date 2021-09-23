@@ -1,3 +1,5 @@
+package BrowserTest;
+
 public final class Edge extends Browser {
 
 	@Override
