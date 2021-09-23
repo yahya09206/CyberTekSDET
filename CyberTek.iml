@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Day50_ExceptionsCont" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day55_OOP_CollectionIntro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/utilities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day43_OOP_Encapsulation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

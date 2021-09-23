@@ -1,9 +1,12 @@
-public class Toyota extends Car{
+package Day46_Inheritance.carTask;
 
-	//don't need to put inside constructor because it is static
-	boolean static boolean isReliable = true;
+public class Toyota extends Car {
 
-	public Toyota(String model, int year, double price, String color, long miles){
-		super("Toyota", model, year, price, color, miles);
-	}
+    public static boolean isReliable = true ;
+
+    public Toyota( String model, int year, double price, String color, long miles) {
+        super("Toyota", model, year, price, color, miles);
+    }
+
+
 }
