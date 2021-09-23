@@ -35,5 +35,12 @@ public class SetInterfacePractice {
 
         list = new ArrayList<>(new LinkedHashSet<Integer>(list));
         System.out.println(list);
+
+        System.out.println("-------------------------------------------");
+
+        String str = "abcabcabcabc";
+        str = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString().substring(1).replace(",",
+                "").replace("]", "");
+        System.out.println(str);
     }
 }
