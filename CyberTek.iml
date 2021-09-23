@@ -47,7 +47,6 @@
       <sourceFolder url="file://$MODULE_DIR$/day49_Exceptions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/day50_ExceptionsCont" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/day51_Abstraction" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/day52_AbstractionCont" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/day55_OOP_CollectionIntro" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
