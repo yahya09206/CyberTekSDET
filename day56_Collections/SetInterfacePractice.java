@@ -39,8 +39,32 @@ public class SetInterfacePractice {
         System.out.println("-------------------------------------------");
 
         String str = "abcabcabcabc";
-        str = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString().substring(1).replace(",",
-                "").replace("]", "");
+        //str = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString().substring(1).replace(",",
+          //      "").replace("]", "");
+        str = new LinkedHashSet<>(Arrays.asList(str.split(""))).toString();
         System.out.println(str);
+
+        System.out.println("-------------------------------------------");
+
+        Integer[] nums = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};
+
+        // return the fifth element after removing duplicates
+        LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>(Arrays.asList(nums));
+        System.out.println(linkedHashSet);
+        // convert to arraylist to get specific index
+        System.out.println(new ArrayList<>(linkedHashSet).get(4));
+
+        System.out.println("-------------------------------------------");
+        // return first unique element
+
+        String s = "aaabbcdddeeeee";
+        // var to store refult
+        String result = "";
+        // iterate thru linkedhashset(removes duplicates)
+        for (String ch : new LinkedHashSet<>(Arrays.asList(s.split("")))) {
+            // call collections class frequency method and compare and store into result
+            result += ch + Collections.frequency(Arrays.asList(s.split("")), ch);
+        }
+        System.out.println("result = " + result);
     }
 }
