@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package day40_CustomClassStaticCont;
+
 public class Test {
 	public static void main(String[] args){
 

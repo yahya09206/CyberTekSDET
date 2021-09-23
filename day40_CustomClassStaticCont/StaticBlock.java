@@ -1,3 +1,5 @@
+package day40_CustomClassStaticCont;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 public class StaticBlock {

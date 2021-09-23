@@ -1,3 +1,5 @@
+package day40_CustomClassStaticCont;
+
 public class ExecutionOfStaticBlock {
 
 	// will always be first to run, doesn't matter placement
