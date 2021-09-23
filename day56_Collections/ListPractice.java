@@ -23,8 +23,12 @@ public class ListPractice {
         stack.pop();
         System.out.println(stack);
 
+        int a = stack.pop();
+        
         int a2 = stack.pop();
-        System.out.println(stack);
+
+        System.out.println("a = " + a);
+        System.out.println("a2 = " + a2);
 
         for (int i = 0; i < stack.size(); i++){
             stack.pop();
