@@ -1,3 +1,5 @@
+package Day51_Abstraction.shapeTask;
+
 public class ShapeObject {
 	public static void main(String[] args) {
 		

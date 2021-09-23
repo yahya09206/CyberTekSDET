@@ -1,8 +1,7 @@
-import java.time.LocalDateTime;
+package Day48_Recap.cybertekTask;
+
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-public class Student extends Person{
+public class Student extends Person {
 	private String schoolName;
 	private int id;
 

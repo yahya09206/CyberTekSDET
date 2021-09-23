@@ -1,3 +1,5 @@
+package Day51_Abstraction.shapeTask;
+
 public abstract class Shape {
 
 	private final String name;

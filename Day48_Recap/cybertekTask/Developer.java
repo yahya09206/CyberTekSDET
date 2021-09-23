@@ -1,8 +1,7 @@
-import java.time.LocalDateTime;
+package Day48_Recap.cybertekTask;
 import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-public class Developer extends Employee {
+
+public final class Developer extends Employee {
 
 	public Developer(String name, char gender, LocalDate dOB, int employeeId, String jobTitle, double salary){
 		super(name, gender, dOB, employeeId, jobTitle, salary);

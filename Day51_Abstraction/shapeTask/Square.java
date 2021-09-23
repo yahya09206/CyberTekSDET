@@ -1,3 +1,5 @@
+package Day51_Abstraction.shapeTask;
+
 public class Square extends Shape {
 
 	private double s;
