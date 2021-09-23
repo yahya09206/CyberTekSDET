@@ -1,3 +1,4 @@
+package Day50_ExceptionsCont;
 public class Rectangle {
 		
 		private double length, width;

@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class AddressObjects {
 	public static void main(String[] args){
 
-		Address address = new Address();
+		Addresss address = new Addresss();
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter your building number");

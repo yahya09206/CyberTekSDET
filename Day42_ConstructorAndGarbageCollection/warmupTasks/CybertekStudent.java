@@ -1,3 +1,4 @@
+package warmupTasks;
 public class CybertekStudent {
 
 	public String name;

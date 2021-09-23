@@ -1,3 +1,5 @@
+package employeeTask;
+
 public class Tester extends Employee { // Tester Is An Employee, Tester Is A person
 
     public Tester(String name, char gender, int age, long id, String jobTitle, double salary) {

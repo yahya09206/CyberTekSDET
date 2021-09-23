@@ -7,7 +7,7 @@ public class YesOrNo {
 
 		if(!(answer.equals("yes") || answer.equals("no"))){
 			System.out.println("Invalid Entry, please re-enter");
-			answer.scan.next().toLowerCase();
+			answer = scan.next().toLowerCase();
 		}
 
 		if(answer.equals("yes")){

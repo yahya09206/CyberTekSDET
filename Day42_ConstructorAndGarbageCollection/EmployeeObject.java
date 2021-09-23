@@ -1,16 +1,15 @@
 public class EmployeeObject {
 	public static void main(String[] args){
 
-		Employee employee1 = new Employee("Johnny");
+		Employee employee1 = new Employee("Sabir");
+		Employee employee2=new Employee("Zulkhumor", "SDET");
+		Employee employee3=new Employee("Maftuna","QA",1234);
+		Employee employee4 = new Employee("Ahmet","SDET",123456,220001);
+
 		System.out.println(employee1);
-
-		Employee employee2 = new Employee("Johnny", "SDET");
 		System.out.println(employee2);
-
-		Employee employee3 = new Employee("Johnny", "SDET", 2344);
 		System.out.println(employee3);
-
-		Employee employee4 = new Employee("Johnny", "QA", 45332, 220000);
 		System.out.println(employee4);
+
 	}
 }

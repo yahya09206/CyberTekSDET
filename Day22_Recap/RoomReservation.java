@@ -11,7 +11,7 @@ public class RoomReservation {
 		//Make sure first answer is either yes or no
 		while(!(answer.equals("yes") || answer.equals("no"))){
 			System.out.println("Do you want to reserve another room?");
-			answer.scan.nextLine().toLowerCase();
+			answer = scan.nextLine().toLowerCase();
 		}
 
 		while(answer.equals("yes")){
@@ -34,7 +34,7 @@ public class RoomReservation {
 			while(!(answer.equals("yes") || answer.equals("no"))){
 			System.out.println("Invalid Entry, please re-enter");
 			System.out.println("Do you want to reserve another room?");
-			answer.scan.next().toLowerCase();
+			answer = scan.next().toLowerCase();
 			}
 		}
 		System.out.println("Your total price is: " + totalPrice);

@@ -36,13 +36,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Day40_CustomClassStaticCont" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day41_CustomClass_Constructors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day42_ConstructorAndGarbageCollection" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Day43_OOPEncapsulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day45_Inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day47_Recap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day49_Exceptions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day50_ExceptionsCont" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day55_OOP_CollectionIntro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/utilities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day43_OOP_Encapsulation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
