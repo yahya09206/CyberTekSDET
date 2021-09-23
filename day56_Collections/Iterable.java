@@ -23,11 +23,14 @@ public class Iterable {
         // apply Iterable to arraylist
         List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
 
+        // Remove item from any collection type
         Iterator<Integer> it = list2.iterator();
         while (it.hasNext()){
             if (it.next() < 4){
                 it.remove();
             }
         }
+
+        System.out.println("list2 = " + list2);
     }
 }
