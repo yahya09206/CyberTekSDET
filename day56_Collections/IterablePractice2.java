@@ -41,5 +41,12 @@ public class IterablePractice2 {
             }
         }
         System.out.println("set = " + set);
+
+        System.out.println("-------------------------------------------");
+        // using lamba expression to remove
+        Set<Integer> set2 = new HashSet<>();
+        set2.addAll(Arrays.asList(10,9,11,1,2,3,4,5,6,7,12,12,14,15,16,18,17,25,20));
+        set2.removeIf(p -> p < 17);
+        System.out.println("set2 = " + set2);
     }
 }
