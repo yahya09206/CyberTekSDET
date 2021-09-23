@@ -1,4 +1,4 @@
-package Day48_Recap.cybertekTask;
+package day48_Recap.cybertekTask;
 import java.time.LocalDate;
 public class Employee extends Person {
 
