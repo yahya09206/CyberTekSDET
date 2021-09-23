@@ -9,13 +9,13 @@ public class SetInterfacePractice {
                 "Wooden Spoon", "Wooden Spoon", "Wooden Spoon", "Milk", "Eggs", "Coke", "Paper Towels"};
 
         Set<String> items1 = new HashSet<>(Arrays.asList(arr));
-        items1.addAll(null);
+        items1.add(null);
 
         Set<String> items2 = new LinkedHashSet<>(Arrays.asList(arr));
-        items2.addAll(null);
+        items2.add(null);
 
         Set<String> items3 = new TreeSet<>(Arrays.asList(arr));
-        items3.addAll(null);
+        //items3.add(null); // tree set does not accept null
 
         System.out.println("Items1 = " + items1);
         System.out.println("Items2 = " + items2);
