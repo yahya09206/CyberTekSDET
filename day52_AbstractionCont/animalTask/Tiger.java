@@ -1,4 +1,29 @@
 package day52_AbstractionCont.animalTask;
 
-public class Tiger {
+public class Tiger extends Animal implements Swimmable, Wild{
+    @Override
+    public void sleep() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void drink() {
+
+    }
+
+
+    @Override
+    public void swim() {
+
+    }
+
+    @Override
+    public void hunt() {
+
+    }
 }
