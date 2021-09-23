@@ -58,7 +58,7 @@ public class SetInterfacePractice {
         // return first unique element
 
         String s = "aaabbcdddeeeee";
-        // var to store refult
+        // var to store result
         String result = "";
         // iterate thru linkedhashset(removes duplicates)
         for (String ch : new LinkedHashSet<>(Arrays.asList(s.split("")))) {
