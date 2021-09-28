@@ -1,3 +1,5 @@
+package day23_Arrays;
+
 import java.util.Arrays;
 
 public class ArraysUtility {
