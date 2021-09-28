@@ -1,3 +1,5 @@
+package day19_Loops;
+
 import java.util.Scanner;
 
 public class MaximumNumber {
