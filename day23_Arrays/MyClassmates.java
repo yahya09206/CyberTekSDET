@@ -11,6 +11,7 @@ public class MyClassmates {
 			System.out.println(friends[i]);
 		}
 
+		System.out.println("------------------------------------------");
 		// if we don't know what the elements are, but we know how many elements we want to store
 		String[] friends2 = new String[5];
 		System.out.println("Size: " + friends2.length);
