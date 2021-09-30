@@ -17,14 +17,19 @@ public class Grades {
 			int score = scores[i];
 			if (score >= 90){
 				grades[i] = 'A';
+				countA++;
 			}else if(score >= 80){
 				grades[i] = 'B';
+				countB++;
 			}else if (score >= 70){
 				grades[i] = 'C';
+				countC++;
 			}else if (score >= 60){
 				grades[i] = 'D';
+				countD++;
 			}else {
 				grades[i] = 'F';
+				countF++;
 			}
 
 			System.out.println(names[i] + " " + grades[i]);
