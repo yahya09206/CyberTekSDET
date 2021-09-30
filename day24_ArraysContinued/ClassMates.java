@@ -11,6 +11,7 @@ public class ClassMates {
 
 
 		for (int i = 0; i <= classmates.length - 1; i++){
+			// print first 3 letters in each name inside of array
 			System.out.println(classmates[i].substring(0, 3));
 		}
 	}
