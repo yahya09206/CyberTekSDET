@@ -12,17 +12,20 @@ public class Grades {
 		int countD = 0;
 		int countF = 0;
 
-		int score = scores[0];
-		if (score >= 90){
-			grades[0] = 'A';
-		}else if(score >= 80){
-			grades[0] = 'B';
-		}else if (score >= 70){
-			grades[0] = 'C';
-		}else if (score >= 60){
-			grades[0] = 'D';
-		}else {
-			grades[0] = 'F';
+		for (int i = 0; i <= grades.length - 1; i++) {
+
+			int score = scores[i];
+			if (score >= 90){
+				grades[i] = 'A';
+			}else if(score >= 80){
+				grades[i] = 'B';
+			}else if (score >= 70){
+				grades[i] = 'C';
+			}else if (score >= 60){
+				grades[i] = 'D';
+			}else {
+				grades[i] = 'F';
+			}
 		}
 
 	}
