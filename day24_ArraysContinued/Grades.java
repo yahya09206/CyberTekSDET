@@ -32,10 +32,11 @@ public class Grades {
 //				countF++;
 //			}
 			// use ternary operator
-			grades[i] = (scores[i] >= 90)? 'A' : (scores[i] >= 80)? 'B' : (scores[i] >= 70)? 'C' : (scores[i] >= 60)?
+			grades[i] = (scores[i] >= 90)? 'A' : (scores[i] >= 80)? 'B' : (scores[i] >= 70)? 'C' :
+					(scores[i] >= 60)?
 				'D' : 'F';
 
-			System.out.println(names[i] + " " + grades[i]);
+			System.out.println(names[i] + " " + scores[i] + " " + grades[i]);
 		}
 		System.out.println(countA + ", " + countB + ", " + countC + ", " + countD + ", " + countF);
 
