@@ -12,8 +12,17 @@ public class Grades {
 		int countD = 0;
 		int countF = 0;
 
-		if (scores[0] >= 90_){
-
+		int score = scores[0];
+		if (score >= 90){
+			grades[0] = 'A';
+		}else if(score >= 80){
+			grades[0] = 'B';
+		}else if (score >= 70){
+			grades[0] = 'C';
+		}else if (score >= 60){
+			grades[0] = 'D';
+		}else {
+			grades[0] = 'F';
 		}
 
 	}
