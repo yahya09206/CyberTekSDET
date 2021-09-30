@@ -26,6 +26,8 @@ public class Grades {
 			}else {
 				grades[i] = 'F';
 			}
+
+			System.out.println(names[i] + " " + grades[i]);
 		}
 
 	}
