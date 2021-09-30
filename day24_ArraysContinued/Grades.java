@@ -34,6 +34,7 @@ public class Grades {
 
 			System.out.println(names[i] + " " + grades[i]);
 		}
+		System.out.println(countA + ", " + countB + ", " + countC + ", " + countD + ", " + countF);
 
 	}
 }
