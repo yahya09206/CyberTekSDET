@@ -7,7 +7,7 @@ public class Anagram {
 
 		// find if two string are anagrams of each other
 		String word1 = "earth";
-		String word2 = "heart";
+		String word2 = "Java";
 
 		// convert strings to charArrays
 		char[] string1 = word1.toCharArray();
