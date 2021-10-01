@@ -28,7 +28,6 @@ public class StringMethods2 {
 		char[] characters = str.toCharArray();
 		System.out.println(Arrays.toString(characters));
 
-		// find if two string are anagrams of each other
 
 	}
 }
