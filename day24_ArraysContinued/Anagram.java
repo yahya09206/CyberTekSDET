@@ -22,7 +22,7 @@ public class Anagram {
 		System.out.println(Arrays.toString(string1));
 		System.out.println(Arrays.toString(string2));
 
-		if (string1.equals(string2)){
+		if (Arrays.equals(string1, string2)){
 			System.out.println("Anagram");
 		}else {
 			System.out.println("Not anagram");
