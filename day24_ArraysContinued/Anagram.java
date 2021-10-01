@@ -16,8 +16,8 @@ public class Anagram {
 		System.out.println(Arrays.toString(string1));
 		System.out.println(Arrays.toString(string2));
 
-		Arrays.sort(string1);
-		Arrays.sort(string2);
+		Arrays.sort(string1); // change to ascending order
+		Arrays.sort(string2); // change to ascending order
 
 		System.out.println(Arrays.toString(string1));
 		System.out.println(Arrays.toString(string2));
