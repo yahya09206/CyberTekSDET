@@ -1,5 +1,7 @@
 package day24_ArraysContinued;
 
+import java.util.Arrays;
+
 public class ReverseArray {
 	public static void main(String[] args){
 
@@ -7,8 +9,9 @@ public class ReverseArray {
 		int[] reverse = new int[arr.length];
 
 		for (int i = arr.length - 1; i >= 0; i--){
-
+			reverse[i] += arr[i];
 		}
+		System.out.println(Arrays.toString(arr));
 
 	}
 }
