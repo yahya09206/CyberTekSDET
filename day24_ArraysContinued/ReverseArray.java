@@ -8,10 +8,10 @@ public class ReverseArray {
 		int[] arr = {1,2,3,4,5,6};
 		int[] reverse = new int[arr.length];
 
-		for (int i = arr.length - 1; i >= 0; i--){
-			reverse[i] += arr[i];
+		for (int i = arr.length - 1, j = 0; i >= 0; i--, j++){
+			reverse[j] = arr[i];
 		}
-		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(reverse));
 
 	}
 }
