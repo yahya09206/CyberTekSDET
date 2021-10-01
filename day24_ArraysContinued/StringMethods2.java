@@ -3,6 +3,7 @@ package day24_ArraysContinued;
 public class StringMethods2 {
 	public static void main(String[] args){
 
+
 	}
 }
 /*
