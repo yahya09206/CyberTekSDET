@@ -7,7 +7,12 @@ public class Anagram {
 		String word1 = "earth";
 		String word2 = "heart";
 
+		// convert strings to charArrays
 		char[] string1 = word1.toCharArray();
 		char[] string2 = word2.toCharArray();
+
+
+
+
 	}
 }
