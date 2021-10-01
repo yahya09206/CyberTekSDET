@@ -15,6 +15,12 @@ public class StringMethods2 {
 			System.out.print(words[i] + " ");
 		}
 
+		System.out.println("-----------------------------");
+		// split email by @ sign
+		String email = "Cybertek@gmail.com";
+		String firstName = email.split("@")[0];
+		System.out.println("firstName = " + firstName);
+
 	}
 }
 /*
