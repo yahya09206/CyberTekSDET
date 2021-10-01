@@ -18,6 +18,7 @@ public class StringMethods2 {
 		System.out.println("-----------------------------");
 		// split email by @ sign
 		String email = "Cybertek@gmail.com";
+		// get everything before @ sign at index 0
 		String firstName = email.split("@")[0];
 		System.out.println("firstName = " + firstName);
 
