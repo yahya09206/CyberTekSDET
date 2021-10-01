@@ -10,8 +10,8 @@ public class Anagram {
 		String word2 = "Java";
 
 		// convert strings to charArrays
-		char[] string1 = word1.toCharArray();
-		char[] string2 = word2.toCharArray();
+		char[] string1 = word1.toCharArray(); // convert to array so we can use sort method
+		char[] string2 = word2.toCharArray(); // convert to array so we can use sort method
 
 		System.out.println(Arrays.toString(string1));
 		System.out.println(Arrays.toString(string2));
