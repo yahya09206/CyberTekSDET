@@ -23,8 +23,12 @@ public class StringMethods2 {
 		System.out.println("firstName = " + firstName);
 
 		System.out.println("-----------------------------");
-		// toCharArray()
+		// toCharArray() splits characters up in string
+		String str = "ABCDE";
+		char[] characters = str.toCharArray();
+		System.out.println(Arrays.toString(characters));
 
+		// find if two string are anagrams of each other
 
 	}
 }
