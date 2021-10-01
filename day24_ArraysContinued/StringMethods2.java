@@ -22,6 +22,10 @@ public class StringMethods2 {
 		String firstName = email.split("@")[0];
 		System.out.println("firstName = " + firstName);
 
+		System.out.println("-----------------------------");
+		// toCharArray()
+
+
 	}
 }
 /*
