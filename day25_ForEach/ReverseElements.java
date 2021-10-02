@@ -9,7 +9,7 @@ public class ReverseElements {
 		String reverse = ""; // "avaJ
 
 		for (int i = element.length() - 1; i >= 0 ; i--) {
-
+			reverse += element.charAt(i);
 		}
 
 
