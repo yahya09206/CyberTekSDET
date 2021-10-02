@@ -9,11 +9,11 @@ public class ReverseElements {
 
 
 		for (int j = 0; j < array.length; j++) {
-			String element = array[0]; // "Java"
-			String reverse = ""; // "avaJ
+			String element = array[j]; // Element of the array
+			String reverse = ""; // to store the reversed version of the element
 
 			for (int i = element.length() - 1; i >= 0 ; i--) {
-				reverse += element.charAt(i);
+				reverse += element.charAt(i); // gets the characters from the string element
 			}
 			array[j] = reverse; // assigning reversed element to the index of the array
 		}
