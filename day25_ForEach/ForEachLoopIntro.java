@@ -12,5 +12,12 @@ public class ForEachLoopIntro {
 		for (int n : numbers){
 			System.out.println("n = " + n);
 		}
+
+		System.out.println("---------------------------------");
+		String[] classMates = {"Yahya", "Kadir", "Igor", "Gulistan", "Nazli"};
+
+		for (String each : classMates){
+			System.out.println("each = " + each);
+		}
 	}
 }
