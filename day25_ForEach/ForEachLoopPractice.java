@@ -30,10 +30,12 @@ public class ForEachLoopPractice {
 		for (int number : numbers) {
 			if (number % 2 != 0){
 				countOdd++;
-			}
-			if (number % 2 == 0){
+			}else {
 				countEven++;
 			}
+//			if (number % 2 == 0){
+//				countEven++;
+//			}
 		}
 
 		System.out.println("countOdd = " + countOdd);
