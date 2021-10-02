@@ -13,7 +13,7 @@ public class Merge2Arrays {
 		// declare variable to represent index numbers of third array
 		int j = 0;
 		for (int i = 0; i < arr1.length; i++) {
-			// increment j so it can move to next index and store new element
+			// increment j, so it can move to next index and store new element
 			arr3[j++] = arr1[i];
 		}
 
