@@ -12,6 +12,6 @@ public class ReverseElements {
 			reverse += element.charAt(i);
 		}
 
-
+		array[0] = reverse;
 	}
 }
