@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ReverseElements {
 	public static void main(String[] args){
 
-		String[] array = {"Java", "Python", "C#"};
+		String[] array = {"Java", "Python", "C#", "Cybertek", "School", "Selenium", "API"};
 
 
 		for (int j = 0; j < array.length; j++) {
