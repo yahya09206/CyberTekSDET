@@ -1,5 +1,7 @@
 package day25_ForEach;
 
+import java.util.Arrays;
+
 public class ReverseElements {
 	public static void main(String[] args){
 
@@ -12,6 +14,7 @@ public class ReverseElements {
 			reverse += element.charAt(i);
 		}
 
-		array[0] = reverse;
+		array[0] = reverse; // assigning reversed element to the index of the array
+		System.out.println(Arrays.toString(array));
 	}
 }
