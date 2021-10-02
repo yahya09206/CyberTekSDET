@@ -20,7 +20,7 @@ public class Merge3Arrays {
 			arr4[j++] = arr2[i];
 		}
 
-		for (int i = 0; i < arr4.length; i++) {
+		for (int i = 0; i < arr3.length; i++) {
 			arr4[j++] = arr3[i];
 		}
 
