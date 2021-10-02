@@ -25,5 +25,9 @@ public class Merge3Arrays {
 		}
 
 		System.out.println("Arrays.toString(arr4) = " + Arrays.toString(arr4));
+
+		// sort array
+		Arrays.sort(arr4);
+		System.out.println("Arrays.toString(arr4) = " + Arrays.toString(arr4));
 	}
 }
