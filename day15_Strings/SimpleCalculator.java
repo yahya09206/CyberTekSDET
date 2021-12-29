@@ -31,5 +31,6 @@ public class SimpleCalculator {
 			default:
 				System.err.println("Please select proper operator");
 		}
+		System.out.println("Result: " + result);
 	}
 }
