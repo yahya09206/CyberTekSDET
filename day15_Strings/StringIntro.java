@@ -7,6 +7,7 @@ public class StringIntro {
 
 		//Scanner scan = new Scanner(System.in);
 		String str = "Cybertek"; // string literal
+		String str2 = new String("Cybertek"); // new keyword
 
 	}
 }
