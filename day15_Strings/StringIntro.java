@@ -12,11 +12,15 @@ public class StringIntro {
 		System.out.println("--------------------------------------------");
 
 		String s1 = "Cat";
-		String s2 = "Cat";
+		String s2 = "CAt";
 		String s3 = "Cat";
 
 		System.out.println(s1 == s2);
 		System.out.println(s1 == s3);
+
+		System.out.println("--------------------------------------------");
+
+		String s4 = new String("Dog");
 
 	}
 }
