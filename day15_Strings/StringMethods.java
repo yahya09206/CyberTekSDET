@@ -20,5 +20,13 @@ public class StringMethods {
         String sentence = "Hello everyone, how are you all today?";
         int totalNumberOfChars = sentence.length();
         System.out.println("totalNumberOfChars = " + totalNumberOfChars);
+
+        String s1 = "Cybertek";
+
+        int lastIndex = s1.length() - 1;
+        char firstCharacter = s1.charAt(0);
+        char lastCharacter = s1.charAt(lastIndex);
+        System.out.println("firstCharacter = " + firstCharacter);
+        System.out.println("lastCharacter = " + lastCharacter);
     }
 }
