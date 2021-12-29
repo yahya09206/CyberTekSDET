@@ -1,36 +1,7 @@
-import java.util.Scanner;
+package day15_Strings;
+
 public class SimpleCalculator {
 	public static void main(String[] args){
 
-		Scanner scan = new Scanner(System.in);
-
-		System.out.print("Enter first number: ");
-		double num1 = scan.nextDouble();
-
-		System.out.print("Enter a math operator: ");
-		char mathOperator = scan.next().charAt(0);
-
-		System.out.print("Enter your second number: ");
-		double num2 = scan.nextDouble();
-
-		double result = 0;
-		switch(mathOperator){
-			case '-':
-				result = num1 - num2;
-				break;
-			case '+':
-				result = num1 + num2;
-				break;
-			case '*':
-				result = num1 * num2;
-				break;
-			case '/':
-				result = num1 / num2;
-				break;
-			default:
-				System.err.println("Invalid operator");
-
-		}
-		System.out.println("result = " + result);
 	}
 }
