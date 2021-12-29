@@ -11,5 +11,14 @@ public class StringMethods {
         String word = "Cybertek School";
         char ch1 = word.charAt(9);
         System.out.println(ch1);
+
+        String word2 = "Java";
+        char ch3 = word2.charAt(2);
+        System.out.println("ch3 = " + ch3);
+        System.out.println("----------------------------------");
+
+        String sentence = "Hello everyone, how are you all today?";
+        int totalNumberOfChars = sentence.length();
+        System.out.println("totalNumberOfChars = " + totalNumberOfChars);
     }
 }
