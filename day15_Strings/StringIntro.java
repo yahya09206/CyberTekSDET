@@ -15,5 +15,7 @@ public class StringIntro {
 		String s2 = "Cat";
 		String s3 = "Cat";
 
+		System.out.println(s1 == s2);
+
 	}
 }
