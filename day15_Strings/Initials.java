@@ -10,6 +10,7 @@ public class Initials {
 		String firstName = scanner.next();
 		System.out.println("Enter your last name");
 		String lastName = scanner.next();
+		scanner.close();
 
 //		System.out.println(firstName.substring(0,1) + "." + lastName.substring(0,1));
 
