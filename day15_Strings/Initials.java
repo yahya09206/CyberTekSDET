@@ -13,8 +13,10 @@ public class Initials {
 
 //		System.out.println(firstName.substring(0,1) + "." + lastName.substring(0,1));
 
-		firstName.charAt(0);
-		lastName.charAt(0);
+		char f = firstName.charAt(0);
+		char l = lastName.charAt(0);
+
+		System.out.println(f + "." + l);
 
 	}
 }
