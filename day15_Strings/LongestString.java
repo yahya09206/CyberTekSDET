@@ -14,14 +14,16 @@ public class LongestString {
 
 		// program 2
 		System.out.println("Enter two strings");
-		String string1 = scanner.next();
-		String string2 = scanner.next();
+		String string1 = scanner.nextLine();
+		String string2 = scanner.nextLine();
 		if (string1.length() > string2.length()){
 			System.out.println(string1);
+		}else if(string1.length() == string2.length()){
+			System.out.println("Equal");
 		}else {
 			System.out.println(string2);
 		}
-
+		scanner.close();
 		// program 3
 
 	}
