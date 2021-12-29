@@ -24,7 +24,5 @@ public class LongestString {
 			System.out.println(string2);
 		}
 		scanner.close();
-		// program 3
-
 	}
 }
