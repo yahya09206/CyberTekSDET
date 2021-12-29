@@ -7,12 +7,27 @@ public class SimpleCalculator {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter first number: ");
-		int num1 = scanner.nextInt();
+		double num1 = scanner.nextDouble();
+
+		System.out.println("Enter a math operator:");
+		char mathOperator = scanner.next().charAt(0);
+
 		System.out.println("Enter second number: ");
-		int num2 = scanner.nextInt();
+		double num2 = scanner.nextDouble();
 
-		int addition = num1 + num2;
-
-		System.out.println("result: " + addition);
+		double result = 0;
+		switch (mathOperator){
+			case '-':
+				result = num1 - num2;
+				break;
+			case '+':
+				result = num1 + num2;
+				break;
+			case '*':
+				result = num1 * num2;
+				break;
+			case '/':
+				result = num1 / num2;
+		}
 	}
 }
