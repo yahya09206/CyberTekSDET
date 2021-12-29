@@ -28,5 +28,12 @@ public class StringMethods {
         char lastCharacter = s1.charAt(lastIndex);
         System.out.println("firstCharacter = " + firstCharacter);
         System.out.println("lastCharacter = " + lastCharacter);
+
+        System.out.println("----------------------------------");
+        String schoolName = "           Cybertek School      ";
+        schoolName = schoolName.trim(); // "Cybertek School"
+        System.out.println(schoolName);
+
+
     }
 }
