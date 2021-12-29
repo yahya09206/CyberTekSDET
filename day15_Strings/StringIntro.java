@@ -16,6 +16,7 @@ public class StringIntro {
 		String s3 = "Cat";
 
 		System.out.println(s1 == s2);
+		System.out.println(s1 == s3);
 
 	}
 }
