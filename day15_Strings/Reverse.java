@@ -10,16 +10,19 @@ public class Reverse {
 		System.out.println("Enter string");
 		String word = scanner.nextLine();
 
+		String result = "";
 		if (word.length() > 5){
-			System.out.println("Too long!");
+			result = "Too long!";
 		}else if (word.length() < 5){
-			System.out.println("Too short!");
+			result = "Too short!";
 		}else {
-			System.out.print(word.charAt(4));
-			System.out.print(word.charAt(3));
-			System.out.print(word.charAt(2));
-			System.out.print(word.charAt(1));
-			System.out.print(word.charAt(0));
+			result += word.charAt(4);
+			result += word.charAt(3);
+			result += word.charAt(2);
+			result += word.charAt(1);
+			result += word.charAt(0);
 		}
+
+		System.out.println("result = " + result);
 	}
 }
