@@ -21,6 +21,9 @@ public class StringIntro {
 		System.out.println("--------------------------------------------");
 
 		String s4 = new String("Dog");
+		String s5 = new String("Dog");
+
+		System.out.println(s4 == s5);
 
 	}
 }
