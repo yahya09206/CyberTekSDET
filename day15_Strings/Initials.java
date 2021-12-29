@@ -6,3 +6,13 @@ public class Initials {
 
 	}
 }
+
+/*
+Ask user to enter:
+	1. first name
+	2. last name
+
+then print the initials
+	ex: Daniel
+		Jones
+ */
