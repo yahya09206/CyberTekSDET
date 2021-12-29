@@ -11,5 +11,15 @@ public class LongestString {
 		String sentence = scanner.nextLine();
 		char lastChar = sentence.charAt(sentence.length()-1);
 		System.out.println(sentence.charAt(0) + ", " + lastChar);
+
+		// program 2
+		System.out.println("Enter two strings");
+		String string1 = scanner.next();
+		String string2 = scanner.next();
+		if (string1.length() > string2.length()){
+			System.out.println(string1);
+		}else {
+			System.out.println(string2);
+		}
 	}
 }
