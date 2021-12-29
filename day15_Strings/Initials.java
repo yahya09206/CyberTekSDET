@@ -1,7 +1,13 @@
 package day15_Strings;
 
+import java.util.Scanner;
+
 public class Initials {
 	public static void main(String[] args){
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter your first name");
+		System.out.println("Enter your last name");
 
 
 	}
