@@ -11,8 +11,10 @@ public class Initials {
 		System.out.println("Enter your last name");
 		String lastName = scanner.next();
 
-		System.out.println(firstName.substring(0,1) + "." + lastName.substring(0,1));
+//		System.out.println(firstName.substring(0,1) + "." + lastName.substring(0,1));
 
+		firstName.charAt(0);
+		lastName.charAt(0);
 
 	}
 }
