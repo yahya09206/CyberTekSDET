@@ -22,8 +22,12 @@ public class StringIntro {
 
 		String s4 = new String("Dog");
 		String s5 = new String("Dog");
+		String s6 = new String("Dog");
+		String s7 = s4;
 
 		System.out.println(s4 == s5);
+		System.out.println(s5 == s6);
+		System.out.println(s7 == s4);
 
 	}
 }
