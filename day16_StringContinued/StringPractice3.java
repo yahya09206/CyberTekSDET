@@ -21,6 +21,7 @@ public class StringPractice3 {
 				System.out.println("Word is too short");
 			}
 		}
+		scan.close();
 
 	}
 }
