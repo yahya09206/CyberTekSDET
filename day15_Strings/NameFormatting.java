@@ -9,6 +9,7 @@ public class NameFormatting {
 		System.out.println("Please enter your name");
 		String name = scan.next().trim();
 
+		// My Way
 		String firstLetter = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
 		//String restOfName = name.substring(1).toLowerCase().trim();
 		System.out.println(firstLetter);
