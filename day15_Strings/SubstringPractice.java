@@ -7,5 +7,9 @@ public class SubstringPractice {
 		String tvSeries = sentence.substring(25);
 		System.out.println(tvSeries);
 
+		String sentence2 = "Java is a fun language";
+		String s1 = sentence2.substring(10, 13);
+		System.out.println(s1);
+
 	}
 }
