@@ -16,7 +16,7 @@ public class NameFormatting {
 
 		System.out.println("Enter your last name");
 		String lastName = scan.nextLine().trim();
-		lastName = lastName.substring(0,1).toUpperCase();
+		lastName = lastName.substring(0,1).toUpperCase() + lastName.substring(1).toLowerCase();
 		System.out.println(lastName);
 
 
