@@ -1,27 +1,22 @@
+package day16_StringContinued;
+
 import java.util.Scanner;
+
 public class StringPractice1 {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a string: ");
-		String word = scan.nextLine();
-
-		//using ternary operator
-		// String result = (word.length() == 0)? "String is empty"
-		// 				:(word.length() > 3)? word.substring(word.length() - 3)
-		// 				: word;
+		System.out.println("Enter a string");
+		String string = scan.next();
 
 
-		if(word.length() == 0){
-			System.out.println("String is empty!");
-		}else if(word.length() > 3){
-			System.out.println(word.substring(word.length() - 3));
-		}else {
-			System.out.println(word);
 
-		}
-		// System.out.println(word);
-
-		scan.close();
 	}
 }
+
+/**
+ * 1. write a method that ask user to enter a string
+ * 	if the string is empty, print: string is empty
+ * 	if the string has more than 3 characters, print the last three characters
+ * 	if the string has less than 3 characters, print the string itself
+ * */
