@@ -14,6 +14,11 @@ public class StringMethodsTwo {
 
 		System.out.println("----------------------------------------");
 		String sentence3 = "Python is an easy language";
-		sentence3.replace("Python", "Java");
+		sentence3 = sentence3.replace("Python", "Java");
+		System.out.println(sentence3);
+
+		String sentence4 = "C# is a programming language, I like learning C#, C# is the best";
+		sentence4 = sentence4.replace("C#", "Java");
+		System.out.println(sentence4);
 	}
 }
