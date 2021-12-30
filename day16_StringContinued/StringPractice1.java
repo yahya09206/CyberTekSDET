@@ -8,8 +8,10 @@ public class StringPractice1 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a string");
 		String string = scan.next();
-
-
+		String result = "";
+		if (string.length() < 0){
+			result = "String is empty";
+		}
 
 	}
 }
