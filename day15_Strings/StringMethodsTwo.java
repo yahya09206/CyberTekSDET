@@ -11,5 +11,9 @@ public class StringMethodsTwo {
 		String s2 = "Cybertek School";
 		String name2 = s2.substring(0, 7 + 1);
 		System.out.println(name2);
+
+		System.out.println("----------------------------------------");
+		String sentence3 = "Python is an easy language";
+		sentence3.replace("Python", "Java");
 	}
 }

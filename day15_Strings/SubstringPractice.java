@@ -11,5 +11,8 @@ public class SubstringPractice {
 		String s1 = sentence2.substring(10, 13);
 		System.out.println(s1);
 
+		String s2 = sentence2.substring(14);
+		System.out.println(s2);
+
 	}
 }
