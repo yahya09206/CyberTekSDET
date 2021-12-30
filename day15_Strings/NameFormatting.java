@@ -12,12 +12,11 @@ public class NameFormatting {
 		// My Way
 		String firstLetter = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
 		//String restOfName = name.substring(1).toLowerCase().trim();
-		System.out.println(firstLetter);
 
 		System.out.println("Enter your last name");
 		String lastName = scan.nextLine().trim();
 		lastName = lastName.substring(0,1).toUpperCase() + lastName.substring(1).toLowerCase();
-		System.out.println(lastName);
+		System.out.println(firstLetter + " " + lastName);
 
 
 	}
