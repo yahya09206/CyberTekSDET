@@ -11,11 +11,13 @@ public class StringPractice3 {
 		if (word.length() == 3){
 			if (word.charAt(1) == 'a'){
 				System.out.println("Cool word");
+			}else {
+				System.out.println("Okay word");
 			}
 		}else{
 			if (word.length() > 3){
 				System.out.println("Word is too long");
-			}else if (word.length() < 3){
+			}else {
 				System.out.println("Word is too short");
 			}
 		}
