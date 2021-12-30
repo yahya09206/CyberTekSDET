@@ -11,8 +11,13 @@ public class StringPractice1 {
 		String result = "";
 		if (string.length() < 0){
 			result = "String is empty";
+		}else if(string.length() > 3){
+			result = string.substring()
+		}else {
+			result = string;
 		}
 
+		System.out.println(string);
 	}
 }
 
