@@ -13,12 +13,12 @@ public class StringPractice1 {
 		if (string.length() == 0){
 			result = "String is empty";
 		}else if(string.length() > 3){
-			result = string.substring()
-		}else if (string.length() < 3){
 			result = string.substring(string.length() - 3);
+		}else if (string.length() < 3){
+			result = string;
 		}
 
-		System.out.println(string);
+		System.out.println(result);
 	}
 }
 
