@@ -7,7 +7,7 @@ public class StringPractice1 {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a string");
-		String string = scan.next();
+		String string = scan.nextLine();
 		String result = "";
 
 		if (string.length() == 0){
@@ -19,6 +19,7 @@ public class StringPractice1 {
 		}
 
 		System.out.println(result);
+		scan.close();
 	}
 }
 
