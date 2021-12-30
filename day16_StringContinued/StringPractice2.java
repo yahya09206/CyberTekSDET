@@ -15,5 +15,7 @@ public class StringPractice2 {
 		}else {
 			System.out.println("Too Short");
 		}
+
+		scan.close();
 	}
 }
