@@ -7,12 +7,17 @@ public class NameFormatting {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your name");
-		String name = scan.next().trim();
+		String name = scan.nextLine().trim();
 
 		// My Way
 		String firstLetter = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
 		//String restOfName = name.substring(1).toLowerCase().trim();
 		System.out.println(firstLetter);
+
+		System.out.println("Enter your last name");
+		String lastName = scan.nextLine().trim();
+		lastName = lastName.substring(0,1).toUpperCase();
+		System.out.println(lastName);
 
 
 	}
