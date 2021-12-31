@@ -30,5 +30,10 @@ public class StringMethods {
 		System.out.println(indexOfSecondA);
 		System.out.println(indexOfThirdA);
 		System.out.println(indexOfFourthA);
+
+		System.out.println("---------------------------------------------------------");
+		String s2 = "Hello";
+		boolean r1 = s2.isEmpty();
+		System.out.println("r1 = " + r1);
 	}
 }
