@@ -5,8 +5,10 @@ public class EmailDomain {
 
 		String email = "Cybertek@gmail.com";
 
-		int beginningIndex = email.indexOf("@");
-		String domain = email.substring()
+		int beginningIndex = email.indexOf("@") + 1;
+		int endingIndex = email.indexOf(".");
+		String domain = email.substring(beginningIndex, endingIndex);
+		System.out.println("domain = " + domain);
 
 	}
 }
