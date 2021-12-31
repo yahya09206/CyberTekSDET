@@ -9,8 +9,9 @@ public class StringMethods {
 
 		String sentence = "C# is cool, C# is fun";
 		//sentence = sentence.replace("C#", "Java");
-		sentence = sentence.replaceFirst("C#", "Java");
+		sentence = sentence.replaceFirst(", C#", "Java");
 		System.out.println(sentence);
+
 
 
 
