@@ -15,5 +15,9 @@ public class StringMethods {
 		// char doesn't have a replace method
 //		char ch = 'a';
 //		ch.replace('a');
+
+		String s = "Cat Dog Cat Dog Cat";
+		s = s.replaceFirst("Cat", "Dog");
+		System.out.println(s);
 	}
 }
