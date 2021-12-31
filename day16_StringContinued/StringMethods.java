@@ -19,5 +19,9 @@ public class StringMethods {
 		String s = "Cat Dog Cat Dog Cat";
 		s = s.replaceFirst("Cat", "Dog");
 		System.out.println(s);
+
+		System.out.println("---------------------------------------------------------");
+		String sentence2 = "Java is a cool language";
+		sentence2.indexOf("a");
 	}
 }
