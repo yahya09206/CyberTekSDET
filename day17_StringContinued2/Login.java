@@ -14,7 +14,9 @@ public class Login {
 		System.out.println("Enter password");
 		String password = scanner.next();
 
-		if (userName.equalsIgnoreCase(correctUsername) && password.equalsIgnoreCase(correctPassword)){
+		boolean canLogIn = userName.equalsIgnoreCase(correctUsername) && password.equalsIgnoreCase(correctPassword);
+
+		if (canLogIn){
 			System.out.println("Successfully logged in");
 		}else {
 			System.out.println("Wrong credentials");
