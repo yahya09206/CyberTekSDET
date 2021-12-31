@@ -11,6 +11,12 @@ public class Initial {
 		System.out.println("Enter your last name:");
 		String lastName = scan.next();
 
-		String initial = firstName.substring(0).toUpperCase() + "." + lastName.substring(0).toUpperCase();
+		//String initial = firstName.substring(0,1).toUpperCase() + "." + lastName.substring(0,1).toUpperCase();
+
+		String initial = firstName.charAt(0) + "." + lastName.charAt(0);
+		initial = initial.toUpperCase();
+
+		System.out.println("initial = " + initial);
+		scan.close();
 	}
 }
