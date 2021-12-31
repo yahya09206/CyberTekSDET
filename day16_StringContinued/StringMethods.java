@@ -12,9 +12,8 @@ public class StringMethods {
 		sentence = sentence.replaceFirst(", C#", "Java");
 		System.out.println(sentence);
 
-
-
-
-
+		// char doesn't have a replace method
+//		char ch = 'a';
+//		ch.replace('a');
 	}
 }
