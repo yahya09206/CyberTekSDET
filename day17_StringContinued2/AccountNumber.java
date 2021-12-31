@@ -8,6 +8,24 @@ public class AccountNumber {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter your account number:");
 		String account = scan.next();
+		char firstChar = account.charAt(0);
+		switch (firstChar){
+			case '2': // if the first character of account is 2
+					if (account.length() == 7){
+						System.out.println("Valid Account");
+					}else {
+						System.out.println("Invalid: should be 7 characters long");
+					}
+					break;
+			case '5': // the first character of account is 5
+				if (account.length() == 10){
+					System.out.println("Valid Account");
+				}else {
+					System.out.println("Invalid: it should be 10 characters long");
+				}
+				break;
+
+		}
 
 		/*
 		if (account.length() == 7 || account.length() == 10){
