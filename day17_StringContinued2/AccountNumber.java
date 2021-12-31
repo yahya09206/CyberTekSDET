@@ -9,23 +9,26 @@ public class AccountNumber {
 		System.out.println("Enter your account number:");
 		String account = scan.next();
 		char firstChar = account.charAt(0);
+		String result = "";
 		switch (firstChar){
 			case '2': // if the first character of account is 2
 					if (account.length() == 7){
-						System.out.println("Valid Account");
+						result = "Valid Account";
 					}else {
-						System.out.println("Invalid: should be 7 characters long");
+						result = "Invalid: should be 7 characters long";
 					}
 					break;
 			case '5': // the first character of account is 5
 				if (account.length() == 10){
-					System.out.println("Valid Account");
+					result = "Valid Account";
 				}else {
-					System.out.println("Invalid: it should be 10 characters long");
+					result = "Invalid: it should be 10 characters long";
 				}
 				break;
-
+			default:
+				result = "Invalid: first character needs to be 2 or 5";
 		}
+		System.out.println(result);
 
 		/*
 		if (account.length() == 7 || account.length() == 10){
