@@ -25,8 +25,10 @@ public class StringMethods {
 		int indexOfFirstA = sentence2.indexOf("a");
 		int indexOfSecondA = sentence2.indexOf("a ");
 		int indexOfThirdA = sentence2.lastIndexOf("a");
+		int indexOfFourthA = sentence2.indexOf("an");
 		System.out.println(indexOfFirstA);
 		System.out.println(indexOfSecondA);
 		System.out.println(indexOfThirdA);
+		System.out.println(indexOfFourthA);
 	}
 }
