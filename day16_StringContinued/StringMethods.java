@@ -5,6 +5,13 @@ public class StringMethods {
 
 		String email = "Cybertek@gmail.com";
 		email.replace("yahoo", "gmail");
+		System.out.println(email);
+
+		String sentence = "C# is cool, C# is fun";
+		sentence = sentence.replace("C#", "Java");
+		System.out.println(sentence);
+
+
 
 	}
 }
