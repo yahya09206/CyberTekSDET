@@ -1,3 +1,5 @@
+package day16_StringContinued;
+
 import java.util.Scanner;
 public class StringPractice4 {
 	public static void main(String[] args){
