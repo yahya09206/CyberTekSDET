@@ -10,14 +10,16 @@ public class DigitLetterSpecialChar {
         String word = scan.next();
         char f = word.charAt(0);
 
+        String result = "First character is ";
+
         if (f >= '0' && f <= '9'){
-            System.out.println("First character is a digit");
+            result += "a digit";
         }else if (f >= 'a' && f <= 'z'){
-            System.out.println("First character is a lowercase letter");
+            result += "a lowercase letter";
         }else if (f >= 'A' && f <= 'Z'){
-            System.out.println("First character is a uppercase letter");
+            result += "a uppercase letter";
         }else {
-            System.out.println("Starts with special character");
+            result += "Starts with special character";
         }
 
     }
