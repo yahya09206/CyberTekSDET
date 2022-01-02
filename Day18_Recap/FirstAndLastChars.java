@@ -11,9 +11,9 @@ public class FirstAndLastChars {
         String word2 = scan.next();
 
         if (word1.charAt(word1.length() - 1) == word2.charAt(0)){
-
+            System.out.println(word1 + word2.substring(1));
+        }else {
+            System.out.println(word1 + word2);
         }
-
-
     }
 }
