@@ -10,7 +10,9 @@ public class FirstAndLastChars {
         String word1 = scan.next();
         String word2 = scan.next();
 
+        if (word1.charAt(word1.length() - 1) == word2.charAt(0)){
 
+        }
 
 
     }
