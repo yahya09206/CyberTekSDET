@@ -22,5 +22,11 @@ public class StringMethodsPractice {
         }else {
             System.out.println("Sentence does not have java");
         }
+
+        System.out.println("---------------------------------------------");
+        String sentence2 = "I love Java, Java is cool";
+        boolean isUnique = sentence2.indexOf("Java") == sentence2.lastIndexOf("Java");
+
+        System.out.println("isUnique = " + isUnique);
     }
 }
