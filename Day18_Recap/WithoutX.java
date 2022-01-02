@@ -9,7 +9,7 @@ public class WithoutX {
         System.out.println("Please enter word: ");
         String word = scan.next();
 
-        if (word.startsWith("x")){
+        if (word.toLowerCase().startsWith("x")){
             System.out.println(word.substring(1));
         }else {
             System.out.println(word);
