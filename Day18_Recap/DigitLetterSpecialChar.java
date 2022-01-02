@@ -12,6 +12,8 @@ public class DigitLetterSpecialChar {
 
         if (f >= '0' && f <= '9'){
             System.out.println("First character is a digit");
+        }else if (f >= 'a' && f <= 'z'){
+            System.out.println("First character is a lowercase letter");
         }
 
     }
