@@ -14,5 +14,7 @@ public class WithoutX {
         }else {
             System.out.println(word);
         }
+
+        scan.close();
     }
 }
