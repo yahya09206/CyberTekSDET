@@ -23,5 +23,7 @@ public class FirstAndLastChars {
         }else {
             System.out.println(word1 + word2);
         }
+
+        scan.close();
     }
 }
