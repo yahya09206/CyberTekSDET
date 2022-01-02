@@ -17,7 +17,7 @@ public class WithoutX {
 
         scan.close();
 
-        System.out.println("------------------------------");
+        System.out.println("---------------------------------------------");
         String sentence = "I love Java programming language";
 
         //java or Java ==> has Java
@@ -26,6 +26,16 @@ public class WithoutX {
             System.out.println("Has java");
         }else {
             System.out.println("Does not have java");
+        }
+
+        System.out.println("---------------------------------------------");
+        String s1 = "I love cats and dogs";
+        boolean lovesCats = sentence.toLowerCase().contains("cats");
+
+        if (sentence.toLowerCase().contains("cats")){
+            System.out.println("Person loves cats");
+        }else {
+            System.out.println("Person does not love cats");
         }
     }
 }
