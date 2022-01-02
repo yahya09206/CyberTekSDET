@@ -16,5 +16,16 @@ public class WithoutX {
         }
 
         scan.close();
+
+        System.out.println("------------------------------");
+        String sentence = "I love Java programming language";
+
+        //java or Java ==> has Java
+        //otherwise ==> does not have Java
+        if (sentence.toLowerCase().contains("java")){
+            System.out.println("Has java");
+        }else {
+            System.out.println("Does not have java");
+        }
     }
 }
