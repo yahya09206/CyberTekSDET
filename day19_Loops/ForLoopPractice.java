@@ -29,5 +29,21 @@ public class ForLoopPractice {
                 System.out.print(i + " ");
             }
         }
+
+        System.out.println("----------------------------------------------");
+
+        String odds = "";
+        String even = "";
+
+        for (int i = 0; i < 100; i++) {
+            if (i % 2 == 0){
+                even += i + " ";
+            }else {
+                odds += i + " ";
+            }
+        }
+        System.out.println("even = " + even);
+        System.out.println("odds = " + odds);
+
     }
 }
