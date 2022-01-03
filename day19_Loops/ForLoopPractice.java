@@ -21,5 +21,13 @@ public class ForLoopPractice {
             }
         }
         System.out.println();
+
+        System.out.println("----------------------------------------------");
+
+        for (int i = 0; i < 100; i++) {
+            if (i % 2 == 0){
+                System.out.print(i + " ");
+            }
+        }
     }
 }
