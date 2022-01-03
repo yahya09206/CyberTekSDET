@@ -29,6 +29,11 @@ public class ForLoopPractice3 {
 
         System.out.println("-------------------------------------------");
 
-
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter a number: ");
+            int n = scan.nextInt();
+            sum += n;
+        }
+        System.out.println(sum);
     }
 }
