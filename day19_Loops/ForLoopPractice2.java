@@ -21,5 +21,18 @@ public class ForLoopPractice2 {
             System.out.print(i + " ");
         }
         System.out.println();
+
+        System.out.println("----------------------------------------------");
+        //reverse alphabet
+        for (char i = 'z'; i >= 'a' ; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+//        System.out.println("----------------------------------------------");
+//        for (char i = 1000;  i < 30000; i++) {
+//            System.out.print(i + " ");
+//        }
+
     }
 }
