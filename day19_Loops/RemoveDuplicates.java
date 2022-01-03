@@ -8,6 +8,19 @@ public class RemoveDuplicates {
 
         String result = "";
 
+        for (int i = 0; i <= word.length() - 1; i++){
+            if (word.length() == 5) {
+                if (!result.contains("" + word.charAt(i))) {
+                    result += word.charAt(i);
+                }
+            }else if(word.length() > 5) {
+                result = "Too long";
+            }else {
+                result = "Too short";
+            }
+        }
+        System.out.println(result);
+
 //        if (!result.contains("" + word.charAt(0))){
 //            result += word.charAt(0);
 //        }
@@ -27,12 +40,5 @@ public class RemoveDuplicates {
 //        if (!result.contains("" + word.charAt(4))){
 //            result += word.charAt(4);
 //        }
-
-        for (int i = 0; i <= word.length() - 1; i++){
-            if (!result.contains("" + word.charAt(i))){
-                result += word.charAt(i);
-            }
-        }
-        System.out.println(result);
     }
 }
