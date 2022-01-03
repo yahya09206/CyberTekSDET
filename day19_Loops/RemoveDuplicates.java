@@ -1,10 +1,12 @@
 package day19_Loops;
 
+import java.util.Scanner;
+
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        String word = "abbba";
+        String word = new Scanner(System.in).next();
 
         String result = "";
 
