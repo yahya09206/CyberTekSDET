@@ -6,6 +6,7 @@ public class FactorialNumber {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter number to find factorial");
         int num = scan.nextInt();
         int result = 1;
 
