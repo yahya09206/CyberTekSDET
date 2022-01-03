@@ -1,5 +1,7 @@
 package day19_Loops;
 
+import java.util.Scanner;
+
 public class ForLoopPractice3 {
     public static void main(String[] args) {
 
@@ -15,12 +17,18 @@ public class ForLoopPractice3 {
         System.out.println("* * * * * *");
 
         System.out.println("-------------------------------------------");
-
+        System.out.println("Enter a number");
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
         int sum = 0;
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i <= num; i++) {
             sum += i;
         }
         System.out.println(sum);
+
+        System.out.println("-------------------------------------------");
+
+
     }
 }
