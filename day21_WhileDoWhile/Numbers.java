@@ -12,18 +12,21 @@ public class Numbers {
             System.exit(0);
         }
 
-        String result1 = "Divisble by 15";
-        String result2 = "Divisible by 5";
-        String result3 = "Divisible by 3";
+        String result1 = "Divisble by 15 ";
+        String result2 = "Divisible by 5 ";
+        String result3 = "Divisible by 3 ";
 
         for (int i = 1; i <= n; i++) {
             if (i % 15 == 0){
                 result1 += i + " ";
-            }else if (i % 5 == 0){
+            }else if (i % 5 == 0) {
                 result2 += i + " ";
-        }else if (i % 3 == 0){
+            }else if (i % 3 == 0){
                 result3 += i + " ";
             }
+        }
         System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
     }
 }
