@@ -21,6 +21,7 @@ public class LetterDigitSpecialChar {
                 specialChars += each;
             }
         }
+
         System.out.println("letters = " + letters);
         System.out.println("digits = " + digits);
         System.out.println("specialChars = " + specialChars);
