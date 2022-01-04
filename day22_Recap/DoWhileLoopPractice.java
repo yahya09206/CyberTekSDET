@@ -9,6 +9,5 @@ public class DoWhileLoopPractice {
 			System.out.println(i);
 			i++;
 		}while (i <= 10);
-
 	}
 }
