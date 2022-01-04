@@ -25,8 +25,18 @@ public class Credentials {
 
 				System.out.println("Enter your password");
 				password = scanner.next();
+
+				if (username.equals(correctUsername) && password.equals(correctPassword)){
+					System.out.println("Logged in");
+					break;
+				}
+				if (i == 3){
+					System.out.println("Your account is locked");
+					System.exit(0);
+				}
 			}
 		}
-
+		System.out.println("Hello Cybertek");
+		scanner.close();
 	}
 }
