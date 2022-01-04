@@ -17,8 +17,13 @@ public class Numbers {
         String result3 = "Divisible by 3";
 
         for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
-        }
-        System.out.println("Hello");
+            if (i % 15 == 0){
+                result1 += i + " ";
+            }else if (i % 5 == 0){
+                result2 += i + " ";
+        }else if (i % 3 == 0){
+                result3 += i + " ";
+            }
+        System.out.println(result1);
     }
 }
