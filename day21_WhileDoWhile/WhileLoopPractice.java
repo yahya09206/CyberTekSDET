@@ -11,5 +11,6 @@ public class WhileLoopPractice {
 			sentence = sentence.replaceFirst("Java", " ");
 		}
 
+		System.out.println("countJava = " + countJava);
 	}
 }
