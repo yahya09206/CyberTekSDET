@@ -13,6 +13,18 @@ public class Calculator {
 
 		while (!answer.equals("no")){
 
+			System.out.println("Enter two numbers:");
+			num1 = scan.nextInt();
+			num2 = scan.nextInt();
+
+			System.out.println("Enter a math operator");
+			operator = scan.next().charAt(0);
+
+			if (operator == '-'){
+				System.out.println("Subtraction: " + (num1 - num2));
+			}else if (operator == '+'){
+				System.out.println("Addition: " + (num1 + num2));
+			}
 		}
 	}
 }
