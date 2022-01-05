@@ -10,7 +10,6 @@ public class FrequencyOfACharacter {
 
         for (int i = 0; i <= str.length() - 1; i++) {
             char each = str.charAt(i);
-            System.out.println(each);
             if (each == ch){
                 frequency++;
             }
