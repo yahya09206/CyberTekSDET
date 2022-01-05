@@ -18,7 +18,7 @@ public class SumOfTwoNumbers {
 			System.out.println("Do you want to continue?");
 			answer = scan.next().toLowerCase();
 
-			if ((answer.equals("yes") || answer.equals("no"))){
+			while (!(answer.equals("yes") || answer.equals("no"))){
 				System.out.println("Invalid answer, Please re-enter");
 				System.out.println("Do you want to continue?");
 				answer = scan.next().toLowerCase();
