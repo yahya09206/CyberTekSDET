@@ -33,7 +33,9 @@ public class Calculator {
 			}
 		}
 
-		System.out.println("Do you want to continue?");
-		answer = scan.next();
+		while (!(answer.equals("yes") || answer.equals("no"))){
+			System.out.println("Do you want to continue?");
+			answer = scan.next();
+		}
 	}
 }
