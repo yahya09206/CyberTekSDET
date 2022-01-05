@@ -27,6 +27,11 @@ public class RoomReservation {
 
 			System.out.println("Do you want to reserve another room?");
 			answer = scan.nextLine().toLowerCase();
+
+			while (!(answer.equals("yes") || answer.equals("no"))){
+				System.out.println("Invalid Entry, please re-enter");
+				answer = scan.nextLine().toLowerCase();
+			}
 		}
 
 		System.out.println("Your total price is: " + totalPrice);
