@@ -32,5 +32,8 @@ public class Calculator {
 				System.out.println("Invalid operator");
 			}
 		}
+
+		System.out.println("Do you want to continue?");
+		answer = scan.next();
 	}
 }
