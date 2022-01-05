@@ -7,5 +7,10 @@ public class SumOfTwoNumbers {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter two numbers");
+		int num1 = scan.nextInt();
+		int num2 = scan.nextInt();
+
+		System.out.println("Addition: " + (num1 + num2));
+		System.out.println("Do you want to continue?");
 	}
 }
