@@ -8,7 +8,8 @@ public class Months {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter which month to print");
         int month = scan.nextInt();
-        String[] nameOfMonth = {"January", "February", "March", "April", "May"};
+        String[] nameOfMonth = {"January", "February", "March", "April", "May", "June", "July", "August", "September"
+                , "October", "November", "December"};
 
         System.out.println(nameOfMonth[month]);
 
