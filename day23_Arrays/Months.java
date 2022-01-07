@@ -11,8 +11,10 @@ public class Months {
         String[] nameOfMonth = {"January", "February", "March", "April", "May", "June", "July", "August", "September"
                 , "October", "November", "December"};
 
-        System.out.println(nameOfMonth[month]);
-
-
+        if (month >= 1 && month <= 12){
+            System.out.println(nameOfMonth[month - 1]);
+        }else {
+            System.out.println("Invalid Number");
+        }
     }
 }
