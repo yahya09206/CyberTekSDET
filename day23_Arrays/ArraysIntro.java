@@ -5,5 +5,7 @@ public class ArraysIntro {
 
         String[] group2 = {"Yahya", "Gulistan", "Kadir", "Feruza", "Nazli", "Ahmet", "Igor"};
 
+        System.out.println(group2[1]);
+
     }
 }
