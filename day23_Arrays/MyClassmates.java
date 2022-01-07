@@ -6,7 +6,9 @@ public class MyClassmates {
 		String[] classMates = new String[5];
 		System.out.println("Size:" + classMates.length);
 
-		for (int i = 0; i <= classMates.length; i++) {
+		classMates[0] = "Jimmy";
+
+		for (int i = 0; i <= classMates.length - 1; i++) {
 			System.out.println(classMates[i]);
 		}
 	}
