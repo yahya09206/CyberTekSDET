@@ -7,6 +7,10 @@ public class HighestAndLowestScores {
         String[] names = {"Mike", "Adam", "Tonny", "John", "Ammy"};
 
 
+        for (int i = 0; i <= numbers.length - 1; i++) {
+            System.out.println(numbers[i]);
+            System.out.println(names[i]);
+        }
 
     }
 }
