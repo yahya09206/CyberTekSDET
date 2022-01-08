@@ -44,6 +44,10 @@ public class ArraysUtility {
 		// equals(arr1, arr2): for comparing two arrays
 		int[] num1 = {1,2,3};
 		int[] num2 = {1,2,3};
+
+		int[] num3 = {3,2,1};
+		int[] num4 = {2,3,1};
+
 		System.out.println("Arrays.equals(num1, num2) = " + Arrays.equals(num1, num2));
 
 

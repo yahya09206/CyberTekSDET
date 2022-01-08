@@ -5,14 +5,13 @@ import java.util.Arrays;
 public class ClassMates {
 	public static void main(String[] args){
 
-		String[] classmates = {"Gulistan","Fruza","Ahmet","memet","Muhter","Tamara","Abbos",
-				"Shirin","Robinson","Shirin"};
-		System.out.println(Arrays.toString(classmates));
+		String[] classMates = {"Gulistan", "Feruza", "Ahmet", "Nazli", "Kadir", "Mahmet", "Aykut", "Ahmad", "Tamara",
+				"Abbos"};
 
+		System.out.println(Arrays.toString(classMates));
 
-		for (int i = 0; i <= classmates.length - 1; i++){
-			// print first 3 letters in each name inside of array
-			System.out.println(classmates[i].substring(0, 3));
+		for (int i = 0; i <= classMates.length - 1; i++) {
+			System.out.println("classMates[i].substring(0,4) = " + classMates[i].substring(0, 4));
 		}
 	}
 }
