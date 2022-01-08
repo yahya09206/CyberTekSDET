@@ -10,6 +10,14 @@ public class ArraysUtility {
 
 		System.out.println(Arrays.toString(array));
 
+		String[] array2 = new String[5];
+
+		System.out.println(Arrays.toString(array2));
+
+		int[] nums = new int[5];
+
+		System.out.println(Arrays.toString(nums));
+
 
 	}
 }
