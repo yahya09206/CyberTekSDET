@@ -3,8 +3,8 @@ package day24_ArraysContinued;
 public class Grades {
 	public static void main(String[] args){
 
-		String[] names = {"Anna", "Nancy", "Sarah"};
-		int[] scores = {90, 75, 80};
+		String[] names = {"Anna", "Nancy", "Sarah", "Yuliang", "Wanda", "Jimmy"};
+		int[] scores = {90, 75, 80, 45, 85, 56};
 		char[] grades = new char[names.length];
 		int countA = 0;
 		int countB = 0;
@@ -34,5 +34,11 @@ public class Grades {
 			}
 			System.out.println(names[i] + ": " + scores[i] + ", made " + grades[i]);
 		}
+
+		System.out.println("countA = " + countA);
+		System.out.println("countB = " + countB);
+		System.out.println("countC = " + countC);
+		System.out.println("countD = " + countD);
+		System.out.println("countF = " + countF);
 	}
 }
