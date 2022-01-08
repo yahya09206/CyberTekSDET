@@ -5,6 +5,6 @@ public class Grades {
 
 		String[] names = {"Anna", "Nancy", "Sarah"};
 		int[] scores = {90, 75, 80};
-		String[] grades = new char[names.length];
+		char[] grades = new char[names.length];
 	}
 }
