@@ -36,6 +36,15 @@ public class ArraysUtility {
 		System.out.println("Minimum number: " + numbers[0]);
 		System.out.println("Maximum number: " + numbers[numbers.length - 1]);
 
+		char[] chars = {'z', 'b', 'k', 'a', 'c', 'y', 'x'};
+		System.out.println(Arrays.toString(chars));
+		Arrays.sort(chars);
+		System.out.println(Arrays.toString(chars));
+
+		// equals(arr1, arr2): for comparing two arrays
+		int[] num1 = {1,2,3};
+		int[] num2 = {1,2,3};
+		System.out.println("Arrays.equals(num1, num2) = " + Arrays.equals(num1, num2));
 
 
 	}
