@@ -3,7 +3,9 @@ package day24_ArraysContinued;
 public class StringMethods2 {
 	public static void main(String[] args){
 
-
+		// split()
+		String sentence = "I love learning java programming language";
+		sentence.split(" ");
 	}
 }
 /*
