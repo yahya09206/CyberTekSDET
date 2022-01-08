@@ -11,6 +11,7 @@ public class Grades {
 		int countC = 0;
 		int countD = 0;
 		int countF = 0;
+		int sum = 0;
 
 		for (int i = 0; i <= grades.length - 1; i++) {
 
@@ -35,10 +36,13 @@ public class Grades {
 			System.out.println(names[i] + ": " + scores[i] + ", made " + grades[i]);
 		}
 
+		double avg = sum / grades.length;
+
 		System.out.println("countA = " + countA);
 		System.out.println("countB = " + countB);
 		System.out.println("countC = " + countC);
 		System.out.println("countD = " + countD);
 		System.out.println("countF = " + countF);
+		System.out.println("avg = " + avg);
 	}
 }
