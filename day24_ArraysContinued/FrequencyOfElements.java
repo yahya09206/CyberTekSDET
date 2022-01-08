@@ -17,7 +17,7 @@ public class FrequencyOfElements {
 			}
 
 			if (count == 1){ // check if element is unique
-				System.out.println(element);
+				System.out.print(element + " ");
 			}
 		}
 	}
