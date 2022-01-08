@@ -33,10 +33,11 @@ public class Grades {
 				grades[i] = 'F';
 				countF++;
 			}
+			sum += grades[i];
 			System.out.println(names[i] + ": " + scores[i] + ", made " + grades[i]);
 		}
 
-		double avg = sum / grades.length;
+		double avg = (double) sum / grades.length;
 
 		System.out.println("countA = " + countA);
 		System.out.println("countB = " + countB);
