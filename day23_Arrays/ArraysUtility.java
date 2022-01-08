@@ -8,6 +8,7 @@ public class ArraysUtility {
 		int[] array = {1,2,3,4,5,6};
 		System.out.println(array);
 
+		// toString
 		System.out.println(Arrays.toString(array));
 
 		String[] array2 = new String[5];
@@ -17,6 +18,8 @@ public class ArraysUtility {
 		int[] nums = new int[5];
 
 		System.out.println(Arrays.toString(nums));
+
+		// sort
 
 
 	}
