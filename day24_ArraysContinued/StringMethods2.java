@@ -5,7 +5,11 @@ public class StringMethods2 {
 
 		// split()
 		String sentence = "I love learning java programming language";
-		sentence.split(" ");
+		String[] words = sentence.split(" ");
+
+		for (int i = words.length - 1, j = 0; i >= 0; i--) {
+			System.out.print(words[i] + " ");
+		}
 	}
 }
 /*
