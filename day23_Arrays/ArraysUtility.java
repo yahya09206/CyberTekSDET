@@ -19,7 +19,13 @@ public class ArraysUtility {
 
 		System.out.println(Arrays.toString(nums));
 
-		// sort
+		// sort(): sorts the elements of the array in ascending order
+
+		String[] students = {"Boburbek", "Aysu", "Abbos", "Sabit"};
+
+
+		System.out.println(Arrays.toString(students));
+		Arrays.sort(students);
 
 
 	}
