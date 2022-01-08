@@ -33,6 +33,9 @@ public class ArraysUtility {
 		int[] numbers = {9,10,4,1,3,-1,0,1,2};
 		Arrays.sort(numbers);
 		System.out.println(Arrays.toString(numbers));
+		System.out.println("Minimum number: " + numbers[0]);
+		System.out.println("Maximum number: " + numbers[numbers.length - 1]);
+
 
 
 	}
