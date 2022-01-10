@@ -33,5 +33,8 @@ public class ForEachLoopPractice {
 				countOdd++;
 			}
 		}
+
+		System.out.println(countEven);
+		System.out.println(countOdd);
 	}
 }
