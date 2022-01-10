@@ -1,5 +1,7 @@
 package day24_ArraysContinued;
 
+import java.util.Arrays;
+
 public class StringMethods2 {
 	public static void main(String[] args){
 
@@ -16,6 +18,13 @@ public class StringMethods2 {
 		String email = "James@gmail.com";
 
 		String[] arrays = email.split("@");
+		System.out.println(Arrays.toString(arrays));
+
+		String firstName = arrays[0];
+
+		System.out.println("firstName = " + firstName);
+
+
 	}
 }
 /*
