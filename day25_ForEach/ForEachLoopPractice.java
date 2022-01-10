@@ -26,7 +26,12 @@ public class ForEachLoopPractice {
 		int countOdd = 0,
 				countEven = 0;
 		for (int number : numbers) {
-			
+
+			if (number % 2 == 0){
+				countOdd++;
+			}else {
+				countEven++;
+			}
 		}
 	}
 }
