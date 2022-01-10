@@ -5,18 +5,16 @@ public class UniqueElements {
 
 		String[] words = {"java", "java", "python", "c#"};
 
-		int count = 0;
-
 		for (String each : words) {
+			int count = 0;
 			for (String element : words) {
-				if (element.equals("java")){
+				if (element.equals(each)){
 					count++;
 				}
 			}
-		}
-
-		if (count == 1){
-			System.out.println(each);
+			if (count == 1){
+				System.out.println(each);
+			}
 		}
 	}
 }
