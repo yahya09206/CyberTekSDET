@@ -10,6 +10,12 @@ public class StringMethods2 {
 		for (int i = words.length - 1; i >= 0; i--) {
 			System.out.print(words[i] + " ");
 		}
+
+		System.out.println("---------------------------------------------");
+
+		String email = "James@gmail.com";
+
+		String[] arrays = email.split("@");
 	}
 }
 /*
