@@ -21,7 +21,5 @@ public class Anagram {
 		System.out.println(Arrays.toString(characters1));
 		System.out.println(Arrays.toString(characters2));
 
-
-
 	}
 }
