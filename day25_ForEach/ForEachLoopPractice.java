@@ -28,9 +28,9 @@ public class ForEachLoopPractice {
 		for (int number : numbers) {
 
 			if (number % 2 == 0){
-				countOdd++;
-			}else {
 				countEven++;
+			}else {
+				countOdd++;
 			}
 		}
 	}
