@@ -23,6 +23,11 @@ public class StringMethods2 {
 		String firstName = arrays[0];
 
 		System.out.println("firstName = " + firstName);
+
+		System.out.println("---------------------------------------------");
+		String str = "ABCDE";
+		char[] characters = str.toCharArray();
+		System.out.println(Arrays.toString(characters));
 	}
 }
 /*
