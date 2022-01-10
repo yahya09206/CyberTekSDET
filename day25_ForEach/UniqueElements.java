@@ -7,14 +7,16 @@ public class UniqueElements {
 
 		int count = 0;
 
-		for (String element : words) {
-			if (element.equals("java")){
-				count++;
+		for (String each : words) {
+			for (String element : words) {
+				if (element.equals("java")){
+					count++;
+				}
 			}
 		}
 
 		if (count == 1){
-			System.out.println("java");
+			System.out.println(each);
 		}
 	}
 }
