@@ -23,7 +23,7 @@ public class Merge3Arrays {
 		for (int i = 0; i < arr3.length; i++) {
 			arr4[j++] = arr3[i];
 		}
-
+		Arrays.sort(arr4);
 		System.out.println(Arrays.toString(arr4));
 	}
 }
