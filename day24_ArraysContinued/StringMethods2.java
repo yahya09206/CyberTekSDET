@@ -23,8 +23,6 @@ public class StringMethods2 {
 		String firstName = arrays[0];
 
 		System.out.println("firstName = " + firstName);
-
-
 	}
 }
 /*
