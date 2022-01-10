@@ -1,5 +1,7 @@
 package day25_ForEach;
 
+import java.util.Arrays;
+
 public class Merge2Arrays {
 	public static void main(String[] args){
 
@@ -13,5 +15,6 @@ public class Merge2Arrays {
 			arr3[j++] = arr1[i];
 		}
 
+		System.out.println(Arrays.toString(arr3));
 	}
 }
