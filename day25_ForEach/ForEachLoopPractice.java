@@ -20,5 +20,13 @@ public class ForEachLoopPractice {
 		}
 
 		System.out.println(Arrays.toString(arr3));
+
+		System.out.println("---------------------------------------------");
+		int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+		int countOdd = 0,
+				countEven = 0;
+		for (int number : numbers) {
+			
+		}
 	}
 }
