@@ -8,6 +8,10 @@ public class MiddleThree {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
 
-        if ()
+        if (word.length() % 2 != 0 && word.length() > 5){
+            System.out.println(word.substring(word.length() / 2 - 1, word.length() / 2 + 2));
+        }else {
+            System.out.println("invalid");
+        }
     }
 }
