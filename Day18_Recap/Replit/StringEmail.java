@@ -8,9 +8,10 @@ public class StringEmail {
         Scanner scan = new Scanner(System.in);
         String email = scan.next();
 
-        String firstHalf = email.substring(0, email.indexOf("_"));
-        String secondHalf = email.substring((email.indexOf("_") + 1), email.indexOf("@"));
+
         if (email.contains("_")){
+            String firstHalf = email.substring(0, email.indexOf("_"));
+            String secondHalf = email.substring((email.indexOf("_") + 1), email.indexOf("@"));
             System.out.println(secondHalf + "_" + firstHalf + "@gmail.com");
         }else {
             System.out.println(email);
