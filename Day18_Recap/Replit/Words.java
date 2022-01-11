@@ -9,7 +9,7 @@ public class Words {
         String word1 = s.next();
         String word2 = s.next();
 
-        boolean isTrue = word1.equalsIgnoreCase(word2);
+        boolean isTrue = word1.equals(word2);
 
         if (isTrue){
             System.out.println("word1 equals word2");
