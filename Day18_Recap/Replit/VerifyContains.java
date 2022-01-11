@@ -9,7 +9,14 @@ public class VerifyContains {
         String word = scan.nextLine();
         String sentence = scan.nextLine();
 
+        boolean itContains = sentence.contains(word);
 
+        System.out.println("itContains = " + itContains);
 
+//        if(sentence.contains(word)){
+//            return true;
+//        }else {
+//            return false;
+//        }
     }
 }
