@@ -7,19 +7,18 @@ public class PartyList {
 
         Scanner scan = new Scanner(System.in);
         String list = " ";
-        System.out.println("What is the first guest's name?");
-        String prompt;
-        String countinue = "";
+
+        String countinue = "yes";
 
         while(countinue.equalsIgnoreCase("yes")){
-            System.out.println("Please enter guest name");
-            prompt = scan.next();
+            System.out.println("Please enter guest name:");
+            String prompt = scan.next();
             System.out.println("Do you want to enter new guest name:");
             countinue = scan.next();
             list += prompt + ", ";
 
             if (countinue.equalsIgnoreCase("no")){
-                System.out.println("Guest's list " + list.substring(0, list.length() - 2));
+                System.out.println("Guest's list:" + list.substring(0, list.length() - 2));
             }
         }
     }
