@@ -12,8 +12,15 @@ public class PartyList {
         String countinue = "";
 
         while(countinue.equalsIgnoreCase("yes")){
-            System.out.println("");
-        }
+            System.out.println("Please enter guest name");
+            prompt = scan.next();
+            System.out.println("Do you want to enter new guest name:");
+            countinue = scan.next();
+            list += ", " + prompt;
 
+            if (countinue.equalsIgnoreCase("no")){
+                System.out.println("Guest's list " + list);
+            }
+        }
     }
 }
