@@ -13,7 +13,10 @@ public class CatsAndDogs {
         int tCharCount = 3; // character count of target word we are looking for
 
         for (int i = 0; i <= wordcharCount - tCharCount; i++){
-
+            String currentWord = word.substring(i, i + tCharCount);
+            if (currentWord.equals("cat")){
+                countOfCats++;
+            }
         }
 
     }
