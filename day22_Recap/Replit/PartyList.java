@@ -19,7 +19,7 @@ public class PartyList {
             list += prompt + ", ";
 
             if (countinue.equalsIgnoreCase("no")){
-                System.out.println("Guest's list " + list);
+                System.out.println("Guest's list " + list.substring(0, list.length() - 2));
             }
         }
     }
