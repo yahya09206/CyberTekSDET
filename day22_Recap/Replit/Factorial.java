@@ -9,8 +9,8 @@ public class Factorial {
         int n = scan.nextInt();
         long result = 1L;
 
-        for (int i = 1; i <= n; i++){
-            n *= i;
+        for (int i = n; i >= 1; i--) {
+            result *= i;
         }
 
         System.out.println(result);
