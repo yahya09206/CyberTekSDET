@@ -16,8 +16,12 @@ public class CatsAndDogs {
             String currentWord = word.substring(i, i + tCharCount);
             if (currentWord.equals("cat")){
                 countOfCats++;
+            }else if (currentWord.equals("dog")){
+                countOfDogs++;
             }
         }
+
+        System.out.println(countOfCats == countOfDogs);
 
     }
 }
