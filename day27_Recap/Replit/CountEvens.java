@@ -16,5 +16,7 @@ public class CountEvens {
             }
         }
 
+        System.out.println(count);
+
     }
 }
