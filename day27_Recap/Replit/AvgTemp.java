@@ -13,7 +13,7 @@ public class AvgTemp {
         double sum = 0;
 
         for (int i = 0; i <= temps.length; i++){
-
+            sum += temps[i];
         }
     }
 }
