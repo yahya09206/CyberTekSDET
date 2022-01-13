@@ -1,5 +1,6 @@
 package day27_Recap.Replit;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MakeLast {
@@ -13,7 +14,9 @@ public class MakeLast {
         }
 
         int[] newNums = new int[nums.length * 2];
-        newNums[nums.length - 1] = nums[nums.length - 1];
+        newNums[newNums.length - 1] = nums[nums.length - 1];
+
+        System.out.println(Arrays.toString(newNums));
 
     }
 }
