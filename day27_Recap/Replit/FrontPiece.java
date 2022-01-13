@@ -17,6 +17,8 @@ public class FrontPiece {
             System.out.println(Arrays.toString(num));
         }else {
             int[] newNum = new int[2];
+            newNum[0] = num[0];
+
         }
     }
 }
