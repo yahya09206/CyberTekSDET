@@ -12,8 +12,10 @@ public class AvgTemp {
 
         double sum = 0;
 
-        for (int i = 0; i <= temps.length; i++){
+        for (int i = 0; i <= temps.length - 1; i++){
             sum += temps[i];
         }
+
+        System.out.println(sum);
     }
 }
