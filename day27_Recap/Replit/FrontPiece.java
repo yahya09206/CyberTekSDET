@@ -18,7 +18,8 @@ public class FrontPiece {
         }else {
             int[] newNum = new int[2];
             newNum[0] = num[0];
-
+            newNum[1] = num[1];
+            System.out.println(Arrays.toString(newNum));
         }
     }
 }
