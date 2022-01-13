@@ -13,8 +13,10 @@ public class FrontPiece {
             num[i] = scan.nextInt();
         }
 
-        if (num.length == 2){
+        if (num.length < 2){
             System.out.println(Arrays.toString(num));
+        }else {
+            System.out.println(num[0] + "," + num[1]);
         }
     }
 }
