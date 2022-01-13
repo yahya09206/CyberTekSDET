@@ -17,5 +17,7 @@ public class AvgTemp {
         }
 
         System.out.println(sum);
+        double average = sum / temps.length;
+        System.out.println(average);
     }
 }
