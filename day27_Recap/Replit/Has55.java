@@ -10,8 +10,13 @@ public class Has55 {
 
         String result = "false";
 
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == 5 && nums[i + 1] == 5){
+//        for (int i = 0; i < nums.length - 1; i++) {
+//            if (nums[i] == 5 && nums[i + 1] == 5){
+//                result = "true";
+//            }
+//        }
+        for (int each : nums) {
+            if (each == 5 && (each + 1) == 5){
                 result = "true";
             }
         }
