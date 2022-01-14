@@ -9,7 +9,9 @@ public class ShiftLeft {
         int size = scan.nextInt();
         int[] nums = new int[size];
 
-
-
+        int[] newArr = new int[nums.length];
+        for (int i = 0; i <= nums.length - 1; i++) {
+            nums[i] =
+        }
     }
 }
