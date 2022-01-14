@@ -1,6 +1,5 @@
 package day27_Recap.Replit;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class PrintFirstThree {
@@ -13,6 +12,9 @@ public class PrintFirstThree {
             arr[i] = input.nextLine();
         }
 
-        System.out.println(Arrays.toString(arr));
+        for (int i = 0; i < arr.length; i++) {
+            String eachWord = arr[i];
+            System.out.println("" + eachWord.charAt(0) + eachWord.charAt(1) + eachWord.charAt(2));
+        }
     }
 }
