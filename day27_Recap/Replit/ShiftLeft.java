@@ -9,12 +9,12 @@ public class ShiftLeft {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
         int[] nums = new int[size];
-
+        int[] newArr = new int[nums.length];
         for(int i = 0; i < size; i++){
             nums[i] = scan.nextInt();
+            newArr[newArr.length - 1] = nums[i];
         }
-        int[] newArr = new int[nums.length];
-        newArr[newArr.length] = nums[0];
-        System.out.println(Arrays.toString(nums));
+
+        System.out.println(Arrays.toString(newArr));
     }
 }
