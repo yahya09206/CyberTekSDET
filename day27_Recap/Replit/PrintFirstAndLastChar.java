@@ -6,7 +6,13 @@ public class PrintFirstAndLastChar {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String[] words = {input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine()};
+        String[] words = {input.nextLine(),input.nextLine()};
+
+
+        for (int i = 0; i < words.length; i++) {
+            String eachWord = words[i];
+            System.out.println(eachWord.charAt(i) + eachWord.charAt(eachWord.length() - 1));
+        }
 
     }
 }
