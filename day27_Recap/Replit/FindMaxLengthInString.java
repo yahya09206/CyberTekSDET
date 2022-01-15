@@ -6,18 +6,18 @@ public class FindMaxLengthInString {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String[] words = new String[5];
-        for(int i = 0; i < 5;  i++) {
+        String[] words = new String[2];
+        for(int i = 0; i < 2;  i++) {
 
             words[i] = input.nextLine();
 
         }
 
-        String longest = words[0];
-
-        for (int i = 0; i <= words.length - 1; i++){
-            if (longest.length() > words[i].length()){
-                longest = words[i];
+        String result = "";
+        int j = 0;
+        for (int i = 0; i < words.length; i++){
+            if (longest.length() > words[i].length() - 1){
+                longest[j++] = words[i];
             }
         }
         System.out.println(longest);
