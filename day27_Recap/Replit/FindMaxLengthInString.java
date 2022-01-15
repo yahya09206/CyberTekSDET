@@ -13,11 +13,13 @@ public class FindMaxLengthInString {
 
         }
 
-        String max = words[0];
+        String longest = words[0];
 
-
-
-
-
+        for (int i = 0; i <= words.length - 1; i++){
+            if (longest.length() > words[i].length()){
+                longest = words[i];
+            }
+        }
+        System.out.println(longest);
     }
 }
