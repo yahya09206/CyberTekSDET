@@ -13,6 +13,8 @@ public class Printing03 {
         }
 
 
-
+        for (int i = 0; i < arr.length-2; i++) {
+            System.out.println(arr[i] + ", " + arr[i+1] + ", " + arr[i+2]);
+        }
     }
 }
