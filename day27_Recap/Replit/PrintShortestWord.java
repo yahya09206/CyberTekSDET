@@ -6,12 +6,11 @@ public class PrintShortestWord {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        String[] str = {scan.next(), scan.next(), scan.next(),
-                scan.next(), scan.next(), scan.next()};
+        String[] str = {scan.next(), scan.next()};
 
-        String result = "";
+        String result = str[0];
         for (int i = 0; i < str.length; i++){
-            if (str[i].length() < result.length()){
+            if (result.length() > str[i].length()){
                 result = str[i];
             }
         }
