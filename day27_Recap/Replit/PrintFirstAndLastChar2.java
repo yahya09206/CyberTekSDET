@@ -11,9 +11,9 @@ public class PrintFirstAndLastChar2 {
 
         String[] chars = new String[words.length];
 
-        for (int i = 0; i < words.length - 1; i++) {
+        for (int i = 0; i < words.length; i++) {
             String eachWord = words[i];
-            chars[i] = "" + words[eachWord.charAt(0) + eachWord.charAt(eachWord.length() - 1)];
+            chars[i] = "" + eachWord.charAt(0) + eachWord.charAt(eachWord.length() - 1);
             //System.out.println("" + eachWord.charAt(0) + eachWord.charAt(eachWord.length() - 1));
         }
         System.out.println(Arrays.toString(chars));
