@@ -20,6 +20,6 @@ public class FindMaxLengthInString {
                 result = words[i];
             }
         }
-        System.out.println(longest);
+        System.out.println(result);
     }
 }
