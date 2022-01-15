@@ -16,7 +16,7 @@ public class FindMaxLengthInString {
         String result = "";
         int j = 0;
         for (int i = 0; i < words.length; i++){
-            if (longest.length() > words[i].length() - 1){
+            if (words[i].length() > result.length()){
                 longest[j++] = words[i];
             }
         }
