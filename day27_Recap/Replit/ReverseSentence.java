@@ -8,11 +8,12 @@ public class ReverseSentence {
         Scanner input = new Scanner(System.in);
         String sentence = input.nextLine();
 
-        String[] reverse = sentence.split(" ");
+        String[] str = sentence.split(" ");
+        String reverse = "";
 
-        for (int i = sentence.length() - 1; i >= 0; i++) {
-            reverse += sentence.charAt(i);
+        for (int i = str.length - 1; i >= 0; i--) {
+            reverse += str[i] + " ";
         }
-        System.out.println(reverse);
+        System.out.println(reverse.substring(0,(reverse.length()-1)));
     }
 }
