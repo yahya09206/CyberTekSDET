@@ -15,11 +15,13 @@ public class ArraysAndStrings {
         System.out.println(result);
 
 
-        String[] result2 = new String[str2.length];
-        for (int i = str2.length - 1, j = 0; i >= 0; i--){
-            result2[j++] += str2[i];
+        for (String element : str2) {
+            String reverse = "";
+            for (int i = element.length() - 1; i >= 0; i--){
+
+            }
+
         }
-        System.out.println(result2);
 
     }
 }
