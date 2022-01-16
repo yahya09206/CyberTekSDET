@@ -12,6 +12,7 @@ public class SplitEmail {
 
         if (str.length == 2){
             System.out.println("Email id: " + str[0]);
+            System.out.println("Email domain: " + str[1]);
         }
 
     }
