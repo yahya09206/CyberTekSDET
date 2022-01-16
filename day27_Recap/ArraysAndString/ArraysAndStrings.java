@@ -15,9 +15,9 @@ public class ArraysAndStrings {
         System.out.println(result);
 
 
-        String result2 = "";
-        for (int i = str2.length; i > 0; i--){
-            result2 += "" + str2[i];
+        String[] result2 = new String[str2.length];
+        for (int i = str2.length - 1, j = 0; i >= 0; i--){
+            result2[j++] += str2[i];
         }
         System.out.println(result2);
 
