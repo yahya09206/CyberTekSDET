@@ -7,5 +7,7 @@ public class ReverseSentence {
 
         Scanner input = new Scanner(System.in);
         String sentence = input.nextLine();
+
+        String reverse = "";
     }
 }
