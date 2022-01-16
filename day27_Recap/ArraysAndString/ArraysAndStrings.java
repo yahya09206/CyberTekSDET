@@ -18,10 +18,8 @@ public class ArraysAndStrings {
         for (String element : str2) {
             String reverse = "";
             for (int i = element.length() - 1; i >= 0; i--){
-
+                reverse += element.charAt(i);
             }
-
         }
-
     }
 }
