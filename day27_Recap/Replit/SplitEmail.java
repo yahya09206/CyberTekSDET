@@ -10,5 +10,9 @@ public class SplitEmail {
 
         String[] str = email.split("@");
 
+        if (str.length == 2){
+            System.out.println("Email id: " + str[0]);
+        }
+
     }
 }
