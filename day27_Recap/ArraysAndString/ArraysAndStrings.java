@@ -1,8 +1,12 @@
 package day27_Recap.ArraysAndString;
 
+import java.util.Scanner;
+
 public class ArraysAndStrings {
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
+        String str3 = scan.next();
         String str = "Java is fun";
         String[] str2 = {"Java is fun"};
 
@@ -22,5 +26,9 @@ public class ArraysAndStrings {
             }
             System.out.println(reverse);
         }
+
+        System.out.println("--------------------------------------------------");
+
+
     }
 }
