@@ -13,6 +13,8 @@ public class Anagram {
         String str2 = "heart";
 
         // convert to charArray()
+        char[] char1 = str1.toCharArray();
+        char[] char2 = str2.toCharArray();
 
 
     }
