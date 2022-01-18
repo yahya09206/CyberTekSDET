@@ -8,8 +8,10 @@ public class FirstUniqueCharacter {
     public char firstNonRepeatedChar(String str){
 
 
+        // loop to go thru whole string
         for (int i = 0; i <= str.length() ; i++) {
             int frequency = 0;
+
         }
     }
 }
