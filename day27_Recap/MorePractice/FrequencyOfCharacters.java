@@ -10,6 +10,11 @@ public class FrequencyOfCharacters {
 
         for (int i = 0; i <= str.length() - 1; i++){
             int frequency = 0;
+            for (int j = 0; j <= str.length() - 1 ; j++) {
+                if (str.charAt(i) == str.charAt(j)){
+                    result += str.charAt(i);
+                }
+            }
 
         }
 
