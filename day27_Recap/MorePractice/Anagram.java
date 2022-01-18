@@ -21,6 +21,11 @@ public class Anagram {
         Arrays.sort(char1);
         Arrays.sort(char2);
 
+        String result = "";
+        if (char1.equals(char2)){
+
+        }
+
 
     }
 }
