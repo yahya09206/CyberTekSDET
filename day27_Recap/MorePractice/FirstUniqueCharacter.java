@@ -20,5 +20,6 @@ public class FirstUniqueCharacter {
                 return str.charAt(i);
             }
         }
+        return ' ';
     }
 }
