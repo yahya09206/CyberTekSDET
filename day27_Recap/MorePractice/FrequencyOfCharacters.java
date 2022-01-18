@@ -3,6 +3,7 @@ package day27_Recap.MorePractice;
 public class FrequencyOfCharacters {
     public static void main(String[] args) {
 
+        System.out.println(frequencyOfChars("aaaaabbbcdddeee"));
     }
 
     public static String frequencyOfChars(String str){
@@ -12,8 +13,12 @@ public class FrequencyOfCharacters {
             int frequency = 0;
             for (int j = 0; j <= str.length() - 1 ; j++) {
                 if (str.charAt(i) == str.charAt(j)){
-                    result += str.charAt(i);
+                    frequency++;
+                    result += "" + str.charAt(i);
                 }
+            }
+            if (frequency > 1){
+                System.out.println(frequency);
             }
 
         }
