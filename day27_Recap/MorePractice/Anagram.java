@@ -9,5 +9,11 @@ public class Anagram {
                 same("abc", "abb"); -> false:
      */
 
+        String str1 = "earth";
+        String str2 = "heart";
+
+        // convert to charArray()
+
+
     }
 }
