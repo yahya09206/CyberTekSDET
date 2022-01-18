@@ -1,5 +1,7 @@
 package day27_Recap.MorePractice;
 
+import java.util.Arrays;
+
 public class Anagram {
     public static void main(String[] args) {
 
@@ -15,6 +17,9 @@ public class Anagram {
         // convert to charArray()
         char[] char1 = str1.toCharArray();
         char[] char2 = str2.toCharArray();
+
+        Arrays.sort(char1);
+        Arrays.sort(char2);
 
 
     }
