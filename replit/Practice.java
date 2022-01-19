@@ -23,11 +23,11 @@ public class Practice {
         int n3 = inp.nextInt();
 
         if (n1 > n2 && n1 > n3){
-            System.out.println(n1 + " is bigger");
+            System.out.println("n1 is bigger");
         }else if (n2 > n1 && n2 > n3){
-
+            System.out.println("n2 is bigger");
         }else if (n3 > n1 && n3 > n2){
-
+            System.out.println("n3 is bigger");
         }
     }
 }
