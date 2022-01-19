@@ -29,5 +29,11 @@ public class Practice {
         }else if (n3 > n1 && n3 > n2){
             System.out.println("n3 is bigger");
         }
+
+        System.out.println("-----------------------------------------");
+        System.out.println("Enter your command:");
+        char char1 = inp.next().charAt(0);
+
+
     }
 }
