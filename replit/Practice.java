@@ -21,5 +21,11 @@ public class Practice {
         int n1 = inp.nextInt();
         int n2 = inp.nextInt();
         int n3 = inp.nextInt();
+
+        if (n1 > n2 && n1 > n3){
+
+        }else if (n2 > n1 && n2 > n3){
+
+        }
     }
 }
