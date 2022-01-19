@@ -36,16 +36,16 @@ public class Practice {
 
         switch (char1){
             case 'y':
-                System.out.println("");
+                System.out.println("Your request is being processed");
                 break;
             case 'n':
-                System.out.println("");
+                System.out.println("Thank you anyway for your consideration");
                 break;
             case 'h':
-                System.out.println("");
+                System.out.println("Sorry, no help is current available");
                 break;
             default:
-                System.out.println("");
+                System.out.println("Invalid entry, please try again");
                 break;
         }
 
