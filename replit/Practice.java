@@ -15,5 +15,11 @@ public class Practice {
         }else {
             System.out.println(num + " is negative");
         }
+
+        System.out.println("-----------------------------------------");
+
+        int n1 = inp.nextInt();
+        int n2 = inp.nextInt();
+        int n3 = inp.nextInt();
     }
 }
