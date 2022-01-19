@@ -34,6 +34,21 @@ public class Practice {
         System.out.println("Enter your command:");
         char char1 = inp.next().charAt(0);
 
+        switch (char1){
+            case 'y':
+                System.out.println("");
+                break;
+            case 'n':
+                System.out.println("");
+                break;
+            case 'h':
+                System.out.println("");
+                break;
+            default:
+                System.out.println("");
+                break;
+        }
+
 
     }
 }
