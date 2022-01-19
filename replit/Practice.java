@@ -54,7 +54,7 @@ public class Practice {
         int x = inp.nextInt();
 
 
-        System.out.println((x >= 5) ? x : -x;);
+        System.out.println((x >= 5) ? x : -x);
 
     }
 }
