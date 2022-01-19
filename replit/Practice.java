@@ -53,5 +53,8 @@ public class Practice {
         System.out.println("Enter number:");
         int x = inp.nextInt();
 
+
+        System.out.println((x >= 5) ? x : -x;);
+
     }
 }
