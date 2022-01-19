@@ -49,6 +49,9 @@ public class Practice {
                 break;
         }
 
+        System.out.println("-----------------------------------------");
+        System.out.println("Enter number:");
+        int x = inp.nextInt();
 
     }
 }
