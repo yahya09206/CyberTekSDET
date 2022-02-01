@@ -6,13 +6,14 @@ public class Months {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter which month to print");
-        int month = scan.nextInt();
-        String[] nameOfMonth = {"January", "February", "March", "April", "May", "June", "July", "August", "September"
-                , "October", "November", "December"};
+        String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
+                "November", "December",};
 
-        if (month >= 1 && month <= 12){
-            System.out.println(nameOfMonth[month - 1]);
+        System.out.println("Please choose a number between 1-12");
+        int userMonth = scan.nextInt();
+
+        if (userMonth >= 1 && userMonth <= 12){
+            System.out.println(months[userMonth]);
         }else {
             System.out.println("Invalid Number");
         }

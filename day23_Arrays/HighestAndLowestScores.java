@@ -3,29 +3,22 @@ package day23_Arrays;
 public class HighestAndLowestScores {
     public static void main(String[] args) {
 
-        int[] numbers = {85, 70, 95, 90, 100};
-        String[] names = {"Mike", "Adam", "Tonny", "John", "Ammy"};
-        int highest = numbers[0];
+        int[] grades = {85, 70, 95, 90, 100};
+        String[] names = {"Mike", "Adam", "Tommy", "John", "Ammy"};
+
+        int maxScore = grades[0];
         String maxName = "";
 
-        int minScore = numbers[0];
-        String minName = "";
-
-
-        for (int i = 0; i <= numbers.length - 1; i++) {
+        for (int i = 0; i <= grades.length - 1; i++){
             String eachName = names[i];
-            int eachScore = numbers[i];
-            if (eachScore > highest){
-                highest = eachScore;
+            int eachScore = grades[i];
+            if (eachScore > maxScore){
+                maxScore = eachScore;
                 maxName = eachName;
             }
-
-            if (eachScore < minScore){
-                minScore = eachScore;
-                minName = eachName;
-            }
         }
-        System.out.println(highest + ", " + maxName);
-        System.out.println(minScore + ", " + minName);
+        System.out.println(maxScore);
+        System.out.println(maxName);
+
     }
 }

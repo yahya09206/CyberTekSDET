@@ -5,12 +5,15 @@ import java.util.Scanner;
 public class Days {
     public static void main(String[] args) {
 
-        String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        Scanner scan = new Scanner(System.in);
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        System.out.println("Enter number from 1-7");
+        int num = scan.nextInt();
 
-        System.out.println("Enter a number");
-        int n = new Scanner(System.in).nextInt();
-
-        System.out.println(days[n-1]);
-
+        if (num >= 1 && num <= 7){
+            System.out.println(days[num - 1]);
+        }else {
+            System.out.println("Invalid Number");
+        }
     }
 }

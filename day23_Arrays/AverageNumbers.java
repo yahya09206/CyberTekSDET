@@ -5,19 +5,17 @@ import java.util.Scanner;
 public class AverageNumbers {
 	public static void main(String[] args){
 
-		Scanner scanner = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		System.out.println("How many numbers do you want to enter?");
-		int[] size = new int[scanner.nextInt()];
+		int[] numbers = new int[scan.nextInt()];
 		int sum = 0;
 
-		for (int i = 0; i <= size.length - 1; i++){
-			System.out.println("Enter next number");
-			size[i] = scanner.nextInt();
-			sum += size[i];
+		for (int i = 0; i <= numbers.length - 1; i++){
+			System.out.println("Enter a number");
+			numbers[i] = scan.nextInt();
+			sum += numbers[i];
 		}
-
-		double average = (double) (sum / size.length -1);
-		System.out.println("average = " + average);
-		scanner.close();
+		double avg = (double) sum / numbers.length;
+		System.out.println(avg);
 	}
 }
