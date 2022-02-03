@@ -20,5 +20,7 @@ public class ForEachLoopIntro {
 		for (String each : names) {
 			System.out.println(each);
 		}
+
+
 	}
 }
