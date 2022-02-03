@@ -26,6 +26,14 @@ public class ForEachLoopPractice {
 		int countOdd = 0,
 				countEven = 0;
 
-
+		for (int each : numbers) {
+			if (each % 2 == 0){
+				countEven++;
+			}else {
+				countOdd++;
+			}
+		}
+		System.out.println(countEven);
+		System.out.println(countOdd);
 	}
 }
