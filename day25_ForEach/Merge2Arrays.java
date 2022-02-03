@@ -8,5 +8,9 @@ public class Merge2Arrays {
 
 		int[] arr3 = new int[arr1.length + arr2.length];
 
+		int j = 0;
+
+		for
+
 	}
 }
