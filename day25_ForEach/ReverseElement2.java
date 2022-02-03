@@ -5,5 +5,11 @@ public class ReverseElement2 {
 
 		String[] arr = {"Java", "Python", "C#"};
 		String reverse = "";
+
+		String element = arr[0];
+
+		for (int i = element.length() - 1; i >= 0; i--){
+
+		}
 	}
 }
