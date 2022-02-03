@@ -3,5 +3,14 @@ package day25_ForEach;
 public class ForEachLoopPractice {
 	public static void main(String[] args){
 
+		String[] arr1 = {"A", "B", "C", "D"};
+		String[] arr2 = {"E", "F", "G"};
+
+		String[] arr3 = new String[arr1.length + arr2.length];
+
+		int j = 0;
+		for (String each : arr1) {
+			arr3[j++] = each;
+		}
 	}
 }
