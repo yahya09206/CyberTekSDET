@@ -11,6 +11,7 @@ public class FirstUniqueCharacter {
 
 		for(char each : str.toCharArray()){
 			if (str.indexOf(each) == str.lastIndexOf(each)){
+				count++;
 				System.out.println(each);
 			}
 		}
